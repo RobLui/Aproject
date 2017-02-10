@@ -1,3 +1,3 @@
-# RESERVED FOR THE GAME :)
+# RESERVED FOR THE WEBSITE :)
 
 Map for Thessa & Robbert
