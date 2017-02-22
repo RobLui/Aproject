@@ -1,6 +1,7 @@
 
-Algemeen:
+Algemeen
 ---
+
 Verschillende rollen die op de website moeten kunnen:
 - Admin
   - admin kan toevoegen
@@ -11,7 +12,7 @@ Verschillende rollen die op de website moeten kunnen:
   - Naam, email, wachtwoord, zodat we spam kunnen blokken.
   - Moet kunnen chatten
 
-***
+---
 Thessa
 ---
 
@@ -27,7 +28,7 @@ Thessa
   - Contactpagina
   - Chat (EXTRA)
 
-***
+---
 Robbert
 ---
 
@@ -39,16 +40,18 @@ Robbert
   - Add new event enzo
 
 ---
-  EXTRA
-  ---
+EXTRA
+---
+
 - Chat
  - Als het gaat in de pagina zelf implemente anders pagina apart
  - Op een pagina apart om te beginnen
 
 
 ---
-Vragen
+VRAGEN
 ---
+
 - Wat moet er specifiek op de website terug te vinden zijn over opleidingen?
 - Moeten alle opleidingen hun contactgegevens van alle scholen IN ONZE site zelf steken?? -> Met een db, of mag dit de linken naar de pagina's zijn? (link naar het opleidingsaanbod)
 - Als een student to be niet kan chatten, hoe kan die deze vraag dan wel stellen? Is er een email adres voorzien voor de hulpstudenten? Of kan dit voorzien worden
