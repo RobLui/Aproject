@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 test 124579
 probleem creeeren
+=======
+<<<<<<< HEAD
+test 124 u nummerkes zijn weg?
+=======
+test 124579
+>>>>>>> origin/master
+>>>>>>> origin/master
