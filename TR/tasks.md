@@ -64,3 +64,12 @@ VRAGEN
 - Wat moet er specifiek op de website terug te vinden zijn over opleidingen?
 - Moeten alle opleidingen hun contactgegevens van alle scholen IN ONZE site zelf steken?? -> Met een db, of mag dit de linken naar de pagina's zijn? (link naar het opleidingsaanbod)
 - Als een student to be niet kan chatten, hoe kan die deze vraag dan wel stellen? Is er een email adres voorzien voor de hulpstudenten? Of kan dit voorzien worden
+
+---
+TRELLO
+---
+
+Ons project <br>
+https://trello.com/b/KAJM0Iwv/project-antwerpen <br>
+Uren voeg je hier onderaan toe.. =) 'estimated hours, hours needed' <br>
+https://www.burndownfortrello.com/index.php
