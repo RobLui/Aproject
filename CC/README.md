@@ -2,6 +2,10 @@
 
 Map for Christophe & Cynthia
 
+<<<<<<< HEAD
 aanpassing
 
 aanpassing2
+=======
+CONFLICT
+>>>>>>> origin/master
