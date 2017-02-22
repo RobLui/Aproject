@@ -33,12 +33,20 @@ Robbert
 ---
 
 - Databank backend
-  - 'brain' food
-  - places to study
-  - things to see
-  - Richtingen
-  - Add new event enzo
 
+  - 'brain' food
+    - Adress?
+    - Photo?
+    - Text description
+    - [FOOD](http://www.visitantwerpen.be/en/detail/regional-produce-220367)
+  - Places to study
+    - [STUDY](https://www.gate15.be/nl/home)
+    - [DIFF SCHOOLS](https://www.gate15.be/nl/content/detail/wegwijs/hoger-onderwijs-in-antwerpen)
+  - Things to see
+  - Richtingen
+  - Add new event
+- [Antwerpen "Things To Do" inspiration ](http://www.visitantwerpen.be/en/thema-s-en/kinderen-en)
+- Student guide Antwerp - APP?
 ---
 EXTRA
 ---
