@@ -4,13 +4,13 @@ Algemeen:
 Verschillende rollen die op de website moeten kunnen:
 - Admin
   - admin kan toevoegen
-  - admin kan approven
-- Hulp student (website hulpjes, voorstellen, chatten eventueel)
+  - admin kan approven van voorstellen
+- Hulp student (website hulpjes, voorstellen, chatten if possible)
   - Mogen dingen voorstellen die dan op de website terecht kunnen komen, mits approval van Admin
 - Studenten (moeten kunnen inloggen, maar wel basic proces!)
   - Naam, email, wachtwoord, zodat we spam kunnen blokken.
   - Moet kunnen chatten
--
+
 ***
 Thessa
 ---
@@ -37,11 +37,12 @@ Robbert
   - things to see
   - Richtingen
   - Add new event enzo
+
 ---
   EXTRA
   ---
 - Chat
- - Als het gaat in de pagina zelf implemente anders een pagina apart
+ - Als het gaat in de pagina zelf implemente anders pagina apart
  - Op een pagina apart om te beginnen
 
 
