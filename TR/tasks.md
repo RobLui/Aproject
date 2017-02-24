@@ -70,6 +70,7 @@ VRAGEN
 - Is het effectief een onderdeel van ATYPISCH en of Gate15?
   Of staat het er los van?
 - Moet er een specifiek logo ontworpen worden voor dit project?
+
 ---
 TRELLO
 ---
