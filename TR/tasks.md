@@ -38,16 +38,16 @@ Robbert
     - Adress?
     - Photo?
     - Text description
-    - [FOOD](http://www.visitantwerpen.be/en/detail/regional-produce-220367)
-  - Places to study
+  - Study
     - [STUDY](https://www.gate15.be/nl/home)
     - [DIFF SCHOOLS](https://www.gate15.be/nl/content/detail/wegwijs/hoger-onderwijs-in-antwerpen)
+    - [STUDIE BEGELEIDERS](https://www.kdg.be/contact/)
   - Things to see
   - Richtingen
   - Add new event
 - [Antwerpen "Things To Do" inspiration ](http://www.visitantwerpen.be/en/thema-s-en/kinderen-en)
 - Student guide Antwerp - APP?
-
+- Backend dynamisch content ophalen vanuit website.
 ---
 EXTRA
 ---
