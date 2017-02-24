@@ -64,7 +64,9 @@ VRAGEN
 - Wat moet er specifiek op de website terug te vinden zijn over opleidingen?
 - Moeten alle opleidingen hun contactgegevens van alle scholen IN ONZE site zelf steken?? -> Met een db, of mag dit de linken naar de pagina's zijn? (link naar het opleidingsaanbod)
 - Als een student to be niet kan chatten, hoe kan die deze vraag dan wel stellen? Is er een email adres voorzien voor de hulpstudenten? Of kan dit voorzien worden
-
+- Hoe moet de het project noemen??? ->
+- Is het effectief een onderdeel van ATYPISCH? Of mag het er los van zijn?
+- Moet er een specifiek logo ontworpen worden voor dit project?
 ---
 TRELLO
 ---
