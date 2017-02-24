@@ -27,6 +27,8 @@ Thessa
   - News & events (admin/studenten)
   - Contactpagina
   - Chat (EXTRA)
+- Huisstijl:
+[LOW POLY](https://www.dreamstime.com/stock-illustration-universal-modern-icons-web-mobile-app-polygonal-backgrounds-business-finance-multimedia-hipster-style-low-poly-image57637198)
 
 ---
 Robbert
