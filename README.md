@@ -2,7 +2,7 @@ Cynthia & Christophe
 ---
 
 [VP-TRELLO](https://trello.com/b/zV9mqUTr/vir-antwerpen)<br>
-[VP-GIT](https://github.com/RobLui/Aproject/tree/master/TR)
+[VP-GIT](https://github.com/RobLui/Aproject/tree/master/CC)
 
 Map Thessa & Robbert
 ---
