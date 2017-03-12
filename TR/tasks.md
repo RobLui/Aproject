@@ -93,7 +93,11 @@ o                                                                             | 
 
 ## TRELLO
 
-Ons project<br>
-<https://trello.com/b/KAJM0Iwv/project-antwerpen><br>
+[TRELLO TOTAL](https://trello.com/b/KAJM0Iwv/project-antwerpen)
+
+[TRELLO WEB](https://trello.com/b/z0enGnZ7/web-antwerpen)
+
+[TRELLO VIR](https://trello.com/b/zV9mqUTr/vir-antwerpen)
+
+<https://trello.com/b/z0enGnZ7/web-antwerpen><br>
 Uren voeg je hier onderaan toe.. =) 'estimated hours, hours needed'<br>
-<https://www.burndownfortrello.com/index.php>
