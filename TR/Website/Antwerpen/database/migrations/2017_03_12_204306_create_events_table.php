@@ -1,0 +1,27 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateEventsTable extends Migration
+{
+  // Run the migration
+  public function up()
+  {
+      Schema::create('events', function (Blueprint $table) {
+          $table->increments('id');
+          $table->string('title')->index();
+          $table->string('text')->index();
+          $table->string('posted_by')->index();
+          $table->binary('data'); // BLOB , foto
+          $table->timestamps();
+          $table->softDeletes();
+      });
+  }
+  // Opposite of whet the up()
+  public function down()
+  {
+      Schema::dropIfExists('events');
+  }
+}
