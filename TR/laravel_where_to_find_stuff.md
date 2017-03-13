@@ -120,9 +120,9 @@
 </ul>
 ```
 
-## ROUTE GET & POST HANDLING
+## ROUTE POST HANDLING
 
-**_Step 1_**: Gebruiker klikt op een submit button in een formulier
+**_POST_**: Gebruiker klikt op een submit button in een formulier
 
 ```
 - post wordt getriggerd
