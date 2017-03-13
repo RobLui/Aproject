@@ -35,33 +35,38 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Opdracht Antwerpen  ') }}
-                    </a>
+
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
+                  <!-- Branding Image -->
+                  <ul class="nav navbar-nav">
+                  <li><a class="logo" href="{{ url('/') }}">
+                      {{ config('app.name', 'Opdracht Antwerpen  ') }}
+                  </a>
+                  </li>
                     <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
                         &nbsp;
-                        <li><a href="{{ url('/home') }}">Home</a></li>
-                        @if(auth::user())
+                        <li><a href="{{ url('/home') }}">HOME</a></li>
+                        <li><a href="{{ url('/#') }}">ONTDEK</a></li>
+                        <li><a href="{{ url('/#') }}">INFO</a></li>
+                        <li><a href="{{ url('/#') }}">NIEUWS</a></li>
+                        <li><a href="{{ url('/#') }}">CONTACT</a></li>
+
+                        @if (Auth::guest())
+                            <li><a href="{{ url('/login') }}">Aanmelden</a></li>
+                            <li><a href="{{ url('/register') }}">Registreren</a></li>
+                        @else
+
+                        <!-- @if(auth::user())
                         <li><a href="{{ url('article/add') }}">Add event</a></li>
-                        @endif
-                        <li><a href="{{ url('/#') }}">Brain Food</a></li>
+                        @endif -->
+                        <!-- <li><a href="{{ url('/#') }}">Brain Food</a></li>
                         <li><a href="{{ url('/#') }}">Places to Study</a></li>
                         <li><a href="{{ url('/#') }}">Things to see</a></li>
-                        <li><a href="{{ url('/#') }}">Richtingen</a></li>
-                    </ul>
+                        <li><a href="{{ url('/#') }}">Richtingen</a></li> -->
 
-                    <!-- Right Side Of Navbar -->
-                    <ul class="nav navbar-nav navbar-right">
-                        <!-- Authentication Links -->
-                        @if (Auth::guest())
-                            <li><a href="{{ url('/login') }}">Login</a></li>
-                            <li><a href="{{ url('/register') }}">Register</a></li>
-                        @else
+
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>
