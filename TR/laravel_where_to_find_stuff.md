@@ -100,7 +100,7 @@
   - Met de data die je hier hebt opgehaald kan je in de view gaan werken
 ```
 
-**_Step 2_**: Laat de ophehaalde data zien op de view page
+**_Step 2_**: Laat de opgehaalde data zien op de view page
 
 ```
 
