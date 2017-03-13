@@ -8,22 +8,12 @@ use Illuminate\Http\Request;
 Route::get('/article/add', function () {
     return view('articles/add');
 });
-// ONTDEK
-Route::get('/ontdek', function () {
-    return view('links/ontdek');
-});
-// INFo
-Route::get('/info', function () {
-    return view('links/info');
-});
-// NIEUWS
-Route::get('/nieuws', function () {
-    return view('links/nieuws');
-});
-// CONTACT
-Route::get('/contact', function () {
-    return view('links/contact');
-});
+
+Route::get('/ontdek', 'OntdekController@index');
+Route::get('/info', 'InfoController@index');
+Route::get('/nieuws', 'ArticleController@index');
+Route::get('/contact', 'ContactController@index');
+
 
 Auth::routes();
 
