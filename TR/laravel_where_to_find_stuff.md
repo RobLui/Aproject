@@ -70,3 +70,52 @@
   - bv: als je klikt op contact
   - wordt je via de route naar de controller gestuurd
   - die dan op zijn beurt weer naar de view die bij contact hoort displayed
+
+--------------------------------------------------------------------------------
+
+## DATABASE KOPPELING WERKING
+
+- Article model vind je terug op **Maplocatie** : Antwerpen/app/Article.php
+
+- voorbeeld:
+
+  - public function index(request $req)
+  - {
+
+    - $article = Article::all();
+    - $user->name = $req->name;
+    - return view('index')->withArticles($article)
+
+  - }
+
+**_Step 1_**: Haal data op uit database
+
+```
+- Article:all() haalt alle articles op uit de DATABASE (is gekoppeld met het Article model)
+
+  In dit model zeg je welke data er in de tabel mag worden geschreven etc, in "fillable"
+
+- Hierin kan je zeggen welke tabel er opgehaald moet worden, in dit geval : alle tabellen
+
+  - Met de data die je hier hebt opgehaald kan je in de view gaan werken
+```
+
+**_Step 2_**: Laat de ophehaalde data zien op de view page
+
+```
+
+<ul>
+// check dat we artikels hebben in de db, anders krijgen we een error
+@if(count($articles) > 0)
+
+  // Overloop elk artikel in de database
+  @foreach($articles as $article)
+
+  //Laat bv. elke url zien dat er in het artikel in de database zit en stop deze in een li item
+  <li> $article->url </li>
+
+  @endforeach
+
+@endif
+</ul>
+```
