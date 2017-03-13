@@ -84,11 +84,18 @@
                 </div>
             </div>
         </nav>
-
-        @yield('content')
+      <div class="row">
+        <footer>
+          <div class="copyright">
+            @include('includes.footer')
+          </div>
+        </footer>
+      </div>
     </div>
 
-    <!-- Scripts -->
+      @yield('content')
+
+      <!-- Scripts -->
     <script src="/js/app.js"></script>
 </body>
 </html>
