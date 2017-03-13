@@ -97,7 +97,7 @@
 
 - Hierin kan je zeggen welke tabel er opgehaald moet worden, in dit geval : alle tabellen
 
-  - Met de data die je hier hebt opgehaald kan je in de view gaan werken
+  Met de data die je hier hebt opgehaald kan je in de view gaan werken
 ```
 
 **_Step 2_**: Laat de opgehaalde data zien op de view page
@@ -111,11 +111,30 @@
   // Overloop elk artikel in de database
   @foreach($articles as $article)
 
-  //Laat bv. elke url zien dat er in het artikel in de database zit en stop deze in een li item
-  <li> $article->url </li>
+    //Laat bv. elke url zien dat er in een artikel in de database zit en stop deze in een li
+    <li> $article->url </li>
 
   @endforeach
 
 @endif
 </ul>
+```
+
+## ROUTE GET & POST HANDLING
+
+**_Step 1_**: Gebruiker klikt op een submit button in een formulier
+
+```
+- post wordt getriggerd
+  <form action="{{ url('article/add') }}" method="POST">
+
+- web.config: gaat de post actie sturen naar de controllerfunctie die erbij hoort
+  Route::post('/article/add', 'ArticleController@create');
+
+- ArticleController@create gaat de create functie uitvoeren die in ArticleController staat
+  $articles = new Article; // Maak een nieuw article model aan
+  $articles->title = $request->title; // zet de title gelijk aan de meegekregen title
+  $articles->url = $request->url; // zet de title gelijk aan de meegekregen title
+  $articles->posted_by = Auth::user()->name; // zet de posted_by gelijk aan de ingelogde gebruiker
+  $articles->save(); // Save deze data in de kolom/rij in de database
 ```
