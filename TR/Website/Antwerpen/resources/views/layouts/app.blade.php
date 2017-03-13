@@ -38,13 +38,8 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                   <!-- Branding Image -->
                   <ul class="nav navbar-nav">
-                  <li>
-                    <a href="{{ url('/') }}">
-                      <!-- {{ config('app.name', 'Opdracht Antwerpen  ') }} -->
-                      <img src="http://i.imgur.com/4nhGtlf.png" alt="logo_antwerpen"></>
-                  </a>
-                  </li>
                     <!-- Left Side Of Navbar -->
+                        <li><a href="{{ url('/') }}"><img src="http://i.imgur.com/4nhGtlf.png" alt="logo_antwerpen"></a></li>
                         <li><a href="{{ url('/home') }}">HOME</a></li>
                         <li><a href="{{ url('/ontdek') }}">ONTDEK</a></li>
                         <li><a href="{{ url('/info') }}">INFO</a></li>
