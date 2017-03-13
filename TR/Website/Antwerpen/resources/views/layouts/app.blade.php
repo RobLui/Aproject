@@ -48,10 +48,10 @@
                     <!-- Left Side Of Navbar -->
                         &nbsp;
                         <li><a href="{{ url('/home') }}">HOME</a></li>
-                        <li><a href="{{ url('/#') }}">ONTDEK</a></li>
-                        <li><a href="{{ url('/#') }}">INFO</a></li>
-                        <li><a href="{{ url('/#') }}">NIEUWS</a></li>
-                        <li><a href="{{ url('/#') }}">CONTACT</a></li>
+                        <li><a href="{{ url('/ontdek') }}">ONTDEK</a></li>
+                        <li><a href="{{ url('/info') }}">INFO</a></li>
+                        <li><a href="{{ url('/nieuws') }}">NIEUWS</a></li>
+                        <li><a href="{{ url('/contact') }}">CONTACT</a></li>
 
                         @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Aanmelden</a></li>

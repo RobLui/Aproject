@@ -3,14 +3,26 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Http\Request;
 
-// Simple instruction view, no need for controller right now
-Route::get('/instructies', function () {
-    return view('instructies');
-});
 
 // Simple article view, no need for controller right now
 Route::get('/article/add', function () {
     return view('articles/add');
+});
+// ONTDEK
+Route::get('/ontdek', function () {
+    return view('links/ontdek');
+});
+// INFo
+Route::get('/info', function () {
+    return view('links/info');
+});
+// NIEUWS
+Route::get('/nieuws', function () {
+    return view('links/nieuws');
+});
+// CONTACT
+Route::get('/contact', function () {
+    return view('links/contact');
 });
 
 Auth::routes();
