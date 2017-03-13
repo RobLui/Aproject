@@ -11,7 +11,7 @@ Route::get('/article/add', function () {
 
 Route::get('/ontdek', 'OntdekController@index');
 Route::get('/info', 'InfoController@index');
-Route::get('/nieuws', 'ArticleController@index');
+Route::get('/nieuws', 'nieuwsController@index');
 Route::get('/contact', 'ContactController@index');
 
 

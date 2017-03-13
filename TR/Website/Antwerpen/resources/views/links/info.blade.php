@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<title>Project Antwerpen</title>
+<title>Info</title>
 <div class="container">
 
 </div>
