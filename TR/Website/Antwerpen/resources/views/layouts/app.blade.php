@@ -12,7 +12,9 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <!-- Scripts -->
     <script>
@@ -40,39 +42,25 @@
                   <ul class="nav navbar-nav">
                     <!-- Left Side Of Navbar -->
                         <li><a href="{{ url('/') }}"><img src="http://i.imgur.com/4nhGtlf.png" alt="logo_antwerpen"></a></li>
-                        <li><a href="{{ url('/home') }}">HOME</a></li>
-                        <li><a href="{{ url('/ontdek') }}">ONTDEK</a></li>
-                        <li><a href="{{ url('/info') }}">INFO</a></li>
-                        <li><a href="{{ url('/nieuws') }}">NIEUWS</a></li>
-                        <li><a href="{{ url('/contact') }}">CONTACT</a></li>
+                        <li><a href="{{ url('/home') }}">Home</a></li>
+                        <li><a href="{{ url('/ontdek') }}">Ontdek</a></li>
+                        <li><a href="{{ url('/info') }}">Info</a></li>
+                        <li><a href="{{ url('/nieuws') }}">Nieuws</a></li>
+                        <li><a href="{{ url('/contact') }}">Contact</a></li>
 
                         @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Aanmelden</a></li>
                             <li><a href="{{ url('/register') }}">Registreren</a></li>
                         @else
-
-                        <!-- @if(auth::user())
-                        <li><a href="{{ url('article/add') }}">Add event</a></li>
-                        @endif -->
-                        <!-- <li><a href="{{ url('/#') }}">Brain Food</a></li>
-                        <li><a href="{{ url('/#') }}">Places to Study</a></li>
-                        <li><a href="{{ url('/#') }}">Things to see</a></li>
-                        <li><a href="{{ url('/#') }}">Richtingen</a></li> -->
-
-
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
-
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
                                         <a href="{{ url('/logout') }}"
-                                            onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                            Logout
+                                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout
                                         </a>
-
                                         <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
                                             {{ csrf_field() }}
                                         </form>
