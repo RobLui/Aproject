@@ -263,5 +263,10 @@ panel-heading.x {
 
 .col-md-5 {
     text-align: center;
-    margin-left: 25em;
+    margin-left: 30%;
+}
+
+div.panel-heading {
+    font-size: 1.5em;
+    text-align: center;
 }
