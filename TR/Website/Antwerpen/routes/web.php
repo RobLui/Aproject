@@ -43,14 +43,25 @@ Auth::routes();
   Route::get('/comments/delete/{id}', 'CommentsController@delete');
 
 // RICHTINGEN
-  Route::post('/richtingen/add', 'Infocontroller@create'); // CREATE
-  Route::get('richtingen/edit/{id}', 'InfoController@edit'); // EDIT
-  Route::get('/richtingen/delete/{id}', 'InfoController@delete'); // UPDATE
+  // CREATE richting
+  Route::post('/richtingen/add', 'Infocontroller@create');
+  // EDIT richting
+  Route::get('richtingen/edit/{id}', 'InfoController@edit');
+  // UPDATE richting
+  Route::post('/richtingen/edit/{id}', 'InfoController@update');
+  // DELETE richting
+  Route::get('/richtingen/delete/{id}', 'InfoController@delete');
 
-  Route::post('/richtingen/edit/{id}', 'InfoController@update'); // UPDATE
 
-  Route::post('/nieuws/add', 'nieuwsController@create'); // CREATE
-  Route::post('/nieuws/delete/{id}', 'nieuwsController@delete'); // CREATE
-  Route::get('nieuws/edit/{id}', function () { // vie w
-      return view('nieuws');
+// NIEUWS/EVENTS
+  // CREATE nieuws
+  Route::post('/nieuws/add', 'nieuwsController@create');
+  // EDIT nieuws/event
+  Route::get('nieuws/edit/{id}', function () { // view
+    return view('nieuws');
+  });
+  // DELETE nieuws/event
+  Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
+  Route::get('/nieuws/add}', function () { // view
+    return view('index');
   });

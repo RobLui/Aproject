@@ -1,6 +1,5 @@
 
 <div class="richtingen_center">
-  <div class="col-md-5">
     <div class="panel panel-default">
       <div class="panel-heading x">Voeg een richting toe</div>
         <div class="panel-content">
@@ -30,7 +29,6 @@
               </button>
             </div>
           </div>
-        </div>
       </form>
     </div>
   </div>
