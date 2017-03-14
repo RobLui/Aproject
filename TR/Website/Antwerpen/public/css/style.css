@@ -249,3 +249,19 @@ ul.dropdown-menu {
 panel-heading.x {
     text-align: center;
 }
+
+.richtingen_class {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.richtingen_class li {
+    height: 3em;
+    width: 100%;
+}
+
+.col-md-5 {
+    text-align: center;
+    margin-left: 25em;
+}
