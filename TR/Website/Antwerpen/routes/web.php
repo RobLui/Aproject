@@ -1,8 +1,6 @@
 <?php
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Http\Request;
 
+use Illuminate\Http\Request;
 
 // Simple article view, no need for controller right now
 Route::get('/article/add', function () {
@@ -13,7 +11,6 @@ Route::get('/ontdek', 'OntdekController@index');
 Route::get('/info', 'InfoController@index');
 Route::get('/nieuws', 'nieuwsController@index');
 Route::get('/contact', 'ContactController@index');
-
 
 Auth::routes();
 
@@ -34,23 +31,18 @@ Auth::routes();
   Route::post('/article/delete/{id}', 'ArticleControlsler@delete');
   Route::get('/article/delete/{id}', 'ArticleController@delete');
 
-
 // COMMENTS
   // SHOW COMMENT view
   Route::get('/comments/{id}', 'CommentsController@index');
   // ADD comments
   Route::post('/comments/add/{id}', 'CommentsController@create');
   // EDIT comments
-  Route::get('/comments/edit/{id}','CommentsController@edit');
-  Route::post('/comments/edit/{id}','CommentsController@update');
+  Route::get('/comments/edit/{id}', 'CommentsController@edit');
+  Route::post('/comments/edit/{id}', 'CommentsController@update');
   // DELETE comments
-  Route::get('/comments/delete/{id}','CommentsController@delete');
+  Route::get('/comments/delete/{id}', 'CommentsController@delete');
 
-// VOTES
-  Route::post('/registerVote/{id}','VotesController@create');
-  Route::get('/registerVote/{id}','VotesController@create');
-
-  Route::get('/registerVote/{id}/update','VotesController@update');
-  Route::get('/registerVote/{id}/update','VotesController@update');
-
-  Route::post('/richtingen/add', 'Infocontroller@create');
+// RICHTINGEN
+  Route::post('/richtingen/add', 'Infocontroller@create'); // CREATE
+  Route::get('richtingen/edit/{id}', 'InfoController@edit'); // EDIT
+  Route::post('/richtingen/edit/{id}', 'InfoController@update'); // UPDATE
