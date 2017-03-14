@@ -277,13 +277,13 @@ button.x {
     width: 100%;
 }
 
-.testClass li {}
-
-.testClass .url {
+.rowX {
     float: left;
     display: block;
-    height: 50%;
-    width: 25%;
-    margin: auto;
-    padding: 0;
+    width: 30%;
+    height: 20em;
+    margin-left: 2em;
+    margin-top: 2em;
+    background-color: orange;
+    text-align: center;
 }
