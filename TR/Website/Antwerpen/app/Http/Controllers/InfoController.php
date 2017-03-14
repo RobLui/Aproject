@@ -13,7 +13,10 @@ use Session;
 class InfoController extends Controller
 {
   public function index(){
-    return view('links/info');
+    $richting = Richting::all();
+
+    return view('links/info')
+    ->withRichtingen($richting);
   }
   public function create(Request $request)
   {
@@ -33,6 +36,7 @@ class InfoController extends Controller
           return view('/')
           -> withErrors($request->url . " is not a valid URL");
         }
+
         // No validation error, continue..
         $richtingen = new Richting;
 
@@ -44,7 +48,7 @@ class InfoController extends Controller
 
         Session::flash("success", ($request->title ." was succesfully created"));
         // Save into db
-        return redirect("/info");
+        return redirect("/info")->withRichtingen($richtingen);
         }
         else
         {

@@ -54,4 +54,3 @@ Auth::routes();
   Route::get('/registerVote/{id}/update','VotesController@update');
 
   Route::post('/richtingen/add', 'Infocontroller@create');
-  Route::get('/richtingen/add', 'Infocontroller@create');
