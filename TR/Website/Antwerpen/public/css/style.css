@@ -245,3 +245,7 @@ ul.dropdown-menu {
     width: 1em;
     height: 2em;
 }
+
+panel-heading.x {
+    text-align: center;
+}

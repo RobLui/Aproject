@@ -53,15 +53,5 @@ Auth::routes();
   Route::get('/registerVote/{id}/update','VotesController@update');
   Route::get('/registerVote/{id}/update','VotesController@update');
 
-
-
-
-  // ARTICLES - OLD WORKING FUNCTIONS USING PDO
-    // SHOW EDIT view
-    // Route::get('article/edit/{id}', 'ArticleController@index_edit');
-    // ADD article
-    // Route::post('/article/add', 'ArticleController@Add');
-    // EDIT article
-    // Route::post('article/edit/{id}', 'ArticleController@Edit');
-    // DELETE articles
-    // Route::post('article/delete/{id}', 'ArticleController@Delete');
+  Route::post('/richtingen/add', 'Infocontroller@create');
+  Route::get('/richtingen/add', 'Infocontroller@create');
