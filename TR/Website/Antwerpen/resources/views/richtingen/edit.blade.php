@@ -6,7 +6,7 @@
           <a href="/../info">← Terug naar info</a>
             <br><br>
               <div class="panel panel-default">
-                <div class="panel-heading">Edit richting
+                <div class="panel-heading aanpassen">Aanpassen
                   <!--  Delete article button -->
                   <a href="../delete/{{$richtingen->id}}" class="btn btn-danger btn-xs pull-right" id="first_del" name="first_del">
                     <i class="fa fa-btn fa-trash"></i> delete richting</a>

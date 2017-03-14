@@ -46,3 +46,9 @@ Auth::routes();
   Route::post('/richtingen/add', 'Infocontroller@create'); // CREATE
   Route::get('richtingen/edit/{id}', 'InfoController@edit'); // EDIT
   Route::post('/richtingen/edit/{id}', 'InfoController@update'); // UPDATE
+
+
+  Route::post('/event/add', 'nieuwsController@create'); // CREATE
+  Route::get('richtingen/edit/{id}', function () { // vieuw
+      return view('articles/add');
+  });

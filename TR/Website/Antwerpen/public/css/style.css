@@ -267,6 +267,23 @@ panel-heading.x {
 }
 
 div.panel-heading {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
+}
+
+button.x {
+    background-color: orange;
+    display: block;
+    width: 100%;
+}
+
+.testClass li {}
+
+.testClass .url {
+    float: left;
+    display: block;
+    height: 50%;
+    width: 25%;
+    margin: auto;
+    padding: 0;
 }

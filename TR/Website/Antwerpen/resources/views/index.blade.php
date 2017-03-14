@@ -7,7 +7,7 @@
     <div class="col-md-10 col-md-offset-1">
       @include("common.messages")
       <div class="panel panel-default">
-        <div class="panel-heading">Overview</div>
+        <div class="panel-heading">Home</div>
         <div class="panel-content">
           <ul class="article-overview">
             @if(count($articles) > 0)
