@@ -19,7 +19,7 @@
                   <p>{{$event->text}}</p>
                   @if(isset(Auth::user()->name))
                     @if(Auth::user()->name == $event->posted_by)
-                      <a href="article/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
+                      <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
                     @endif
                   @endif
               </div>

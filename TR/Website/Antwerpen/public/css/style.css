@@ -261,6 +261,15 @@ panel-heading.x {
     width: 100%;
 }
 
+.richtingen_class li {
+    background-color: orange;
+    padding-top: 0.75em;
+    % width: 100%;
+    height: 3em;
+    display: block;
+    margin-top: 1em;
+}
+
 .col-md-5 {
     text-align: center;
     margin-left: 30%;
@@ -287,3 +296,25 @@ button.x {
     background-color: orange;
     text-align: center;
 }
+
+
+/*
+
+.richtingen_class {
+    text-align: center;
+    text-decoration: none;
+    height: 3em;
+    list-style: none;
+}
+
+.richtingen_class li {
+    margin-top: 1em;
+    height: 3em;
+    width: 50%;
+}
+
+.richtingen_class li a:first-child {
+    background-color: orange;
+    display: block;
+    height: 3em;
+}*/

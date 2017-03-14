@@ -45,10 +45,12 @@ Auth::routes();
 // RICHTINGEN
   Route::post('/richtingen/add', 'Infocontroller@create'); // CREATE
   Route::get('richtingen/edit/{id}', 'InfoController@edit'); // EDIT
+  Route::get('/richtingen/delete/{id}', 'InfoController@delete'); // UPDATE
+
   Route::post('/richtingen/edit/{id}', 'InfoController@update'); // UPDATE
 
-
-  Route::post('/event/add', 'nieuwsController@create'); // CREATE
-  Route::get('richtingen/edit/{id}', function () { // vieuw
-      return view('articles/add');
+  Route::post('/nieuws/add', 'nieuwsController@create'); // CREATE
+  Route::post('/nieuws/delete/{id}', 'nieuwsController@delete'); // CREATE
+  Route::get('nieuws/edit/{id}', function () { // vie w
+      return view('nieuws');
   });
