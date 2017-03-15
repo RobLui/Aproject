@@ -2,14 +2,17 @@
 
 --------------------------------------------------------------------------------
 
+## TRELLO
+
+[TRELLO WEB](https://trello.com/b/z0enGnZ7/web-antwerpen) @@@@@ [TRELLO VIR](https://trello.com/b/zV9mqUTr/vir-antwerpen)
+
+--------------------------------------------------------------------------------
+
 ## Thessa
 
 - Wireframes
 
-  - Logo - Favicon (think about it) - Antwerpen zelf?
-  - Home
-
-    - "Download link voor de GAME" CTA
+  - Home - "Download link voor de GAME" CTA (zit in slider verwerkt)
 
   - Ontdek de stad
 
@@ -36,6 +39,7 @@
     - Adress
     - Photo
     - Text description
+    - [BrainFood inspiration](http://www.spottedbylocals.com/antwerp/category/activity/restaurants/)
 
   - Study
 
@@ -47,13 +51,7 @@
 
   - Richtingen
 
-  - New events (CRUD)
-
-- [Antwerpen "Things To Do" inspiration](http://www.visitantwerpen.be/en/thema-s-en/kinderen-en)
-
-- Student guide Antwerp - APP?
-
-- Backend dynamisch content ophalen vanuit website.
+  - News & || events
 
 ## Rollen op de website:
 
@@ -91,13 +89,8 @@ o                                                                             | 
 
 --------------------------------------------------------------------------------
 
-## TRELLO
+## NUTTIGE DINGEN/LINKS
 
-[TRELLO TOTAL](https://trello.com/b/KAJM0Iwv/project-antwerpen)
+- Student guide Antwerp - APP?
 
-[TRELLO WEB](https://trello.com/b/z0enGnZ7/web-antwerpen)
-
-[TRELLO VIR](https://trello.com/b/zV9mqUTr/vir-antwerpen)
-
-<https://trello.com/b/z0enGnZ7/web-antwerpen><br>
-Uren voeg je hier onderaan toe.. =) 'estimated hours, hours needed'<br>
+- [Antwerpen "Things To Do" inspiration](http://www.visitantwerpen.be/en/thema-s-en/kinderen-en)
