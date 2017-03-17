@@ -11,6 +11,8 @@ Route::get('/ontdek', 'OntdekController@index');
 Route::get('/info', 'InfoController@index');
 Route::get('/nieuws', 'nieuwsController@index');
 Route::get('/contact', 'ContactController@index');
+Route::get('info/studieaanbod', 'InfoController@indexRichting');
+
 
 Auth::routes();
 
@@ -44,13 +46,13 @@ Auth::routes();
 
 // RICHTINGEN
   // CREATE richting
-  Route::post('/richtingen/add', 'Infocontroller@create');
+  Route::post('/info/studieaanbod/add', 'Infocontroller@create');
   // EDIT richting
-  Route::get('richtingen/edit/{id}', 'InfoController@edit');
+  Route::get('/info/studieaanbod/edit/{id}', 'InfoController@edit');
   // UPDATE richting
-  Route::post('/richtingen/edit/{id}', 'InfoController@update');
+  Route::post('/info/studieaanbod/edit/{id}', 'InfoController@update');
   // DELETE richting
-  Route::get('/richtingen/delete/{id}', 'InfoController@delete');
+  Route::get('/info/studieaanbod/delete/{id}', 'InfoController@delete');
 
 
 // NIEUWS/EVENTS

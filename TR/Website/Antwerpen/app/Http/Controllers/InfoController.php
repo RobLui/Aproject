@@ -13,11 +13,16 @@ class InfoController extends Controller
 {
     public function index()
     {
+        return view('links/info');
+    }
+    public function indexRichting()
+    {
         $richting = Richting::all();
 
-        return view('links/info')
-    ->withRichtingen($richting);
+        return view('links/richtingen')
+        ->withRichtingen($richting);
     }
+
     public function create(Request $request)
     {
         // Check if the admin is logged in -> only than, richting can be added
