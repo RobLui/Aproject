@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<title>Info</title>
+<title>Richtingen</title>
   <div class="container">
     <div class="panel panel-default">
-      <div class="panel-heading">Info</div>
+      <div class="panel-heading">Richtingen</div>
         <div class="panel-content">
         @include("common.messages")
         <ul class="richtingen_class">
