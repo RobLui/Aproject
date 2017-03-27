@@ -1,23 +1,18 @@
-/*--------------------------HEAD DISPLAY--------------------------*/
+/*-----------------------HEAD DISPLAY-----------------------*/
 
 .head_center {
     margin: 0 auto;
     margin-bottom: 3em;
-    display: block;
     text-align: center;
-    margin-left: 12.5%;
-    width: 75%;
 }
 
 
 /*--------------------------SLIDER--------------------------*/
 
 .slider {
-    background-color: blue;
+    background-color: #0064B4;
     height: 20em;
     display: block;
-    margin-left: 12.5%;
-    width: 75%;
 }
 
 .form-inline {
@@ -176,7 +171,6 @@ button {
 }
 
 .navbar-nav li:first-child img {
-    float: none;
     height: 3.56em;
     width: 72px;
     padding: 0;
@@ -281,17 +275,22 @@ ul.richtingen_class {
 
 /*--------------------------INFO--------------------------*/
 
+.head_center {
+    margin: 0 auto;
+    background-color: orange;
+    display: block;
+    height: 100%;
+}
+
 .mid_container {
     margin-top: 5%;
-    margin-left: 12.5%;
-    width: 75%;
     display: block;
     height: 15em;
     background-color: orange;
 }
 
 .mid_container .left, .mid_container .right {
-    background-color: blue;
+    background-color: #0064B4;
     height: 100%;
     float: left;
     display: block;
@@ -307,20 +306,21 @@ ul.richtingen_class {
 }
 
 .rwpa {
-    width: 75%;
+    width: 90%;
     border: 1px solid pink;
     margin-top: 2em;
-    margin-left: 12.5%;
+    margin-left: 5%;
+    margin-bottom: 100px;
     text-align: center;
     display: block;
 }
 
 .rwpa a {
-    width: 25%;
-    padding-top: 0.5em;
-    height: 3em;
+    width: 30%;
+    padding: 0.5em;
     border: 1px solid black;
     display: block;
+    font-size: relative;
 }
 
 
@@ -341,30 +341,3 @@ ul.richtingen_class {
     color: #FFFFFF;
     font-size: 1em;
 }
-
-
-/*.richtingen_class {
-  text-align: center;
-  text-decoration: none;
-  height: 3em;
-  list-style: none;
-}
-
-.richtingen_class li {
-  margin-top: 1em;
-  height: 3em;
-  width: 50%;
-}
-
-.richtingen_class li a:first-child {
-  background-color: orange;
-  display: block;
-  height: 3em;
-}*/
-
-
-/*
-MARGIN LEFT+RIGHT = 25%
-width container = 75%
-=> 100%
-*/

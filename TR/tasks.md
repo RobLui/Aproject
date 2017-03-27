@@ -57,9 +57,9 @@
 
 Admin                                                                         | Hulp student                                                                 | Studenten
 ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Inloggen             | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Inloggen            | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Inloggen
+![#00ff00](https://placehold.it/15/00ff00/000000?text=+) Inloggen             | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Inloggen            | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Inloggen
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Approven voorstellen | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Voorstellen doen    | o
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) News toevoegen       | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) News voorstellen    | o
+![#00ff00](https://placehold.it/15/00ff00/000000?text=+) News toevoegen       | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) News voorstellen    | o
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Chatten met hulp     | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Chatten met student | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Chatten met hulp
 o                                                                             | ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Chatten met Admin   | o
 
