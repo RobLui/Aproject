@@ -10,6 +10,17 @@
 
 </div>
 
+<div class="mid_container">
+  <div class="left">
+
+  </div>
+
+  <div class="right">
+
+  </div>
+</div>
+
+
 <div class="rwpa">
   <a href="/info/studieaanbod">Richtingen</a>
   <a href="/info/studieaanbod">Werkgelegenheid</a>

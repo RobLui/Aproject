@@ -215,7 +215,7 @@ button.x {
 /*--------------------------- FOOTER ---------------------------*/
 
 .copyright {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     margin: 0;
     padding: 0;
@@ -280,33 +280,80 @@ ul.richtingen_class li, .richtingen_center {
   height: 3em;
 }*/
 
+
+/*
+MARGIN LEFT+RIGHT = 25%
+width container = 75%
+=> 100%
+*/
+
+
+/*--------------------------HEAD DISPLAY--------------------------*/
+
 .head_center {
-    background-color: orange;
     margin: 0 auto;
     margin-bottom: 3em;
     display: block;
     text-align: center;
+    margin-left: 12.5%;
+    width: 75%;
 }
+
+
+/*--------------------------SLIDER--------------------------*/
 
 .slider {
     background-color: blue;
     height: 20em;
-    width: 100%;
     display: block;
+    margin-left: 12.5%;
+    width: 75%;
+}
+
+
+/*--------------------------INFO--------------------------*/
+
+.mid_container {
+    margin-top: 5%;
+    margin-left: 12.5%;
+    width: 75%;
+    display: block;
+    height: 15em;
+    background-color: orange;
+}
+
+.mid_container .left, .mid_container .right {
+    background-color: blue;
+    height: 100%;
+    float: left;
+    display: block;
+    margin-left: 3.5%;
+}
+
+.mid_container .left {
+    width: 50%;
+}
+
+.mid_container .right {
+    width: 40%;
 }
 
 .rwpa {
+    width: 75%;
     border: 1px solid pink;
     margin-top: 2em;
-    margin-left: 3em;
-    width: 90%;
+    margin-left: 12.5%;
     text-align: center;
+    display: block;
 }
 
 .rwpa a {
+    width: 25%;
     padding-top: 0.5em;
+    height: 3em;
     border: 1px solid black;
     display: block;
-    height: 3em;
-    width: 25%;
+}
+
+
 }
