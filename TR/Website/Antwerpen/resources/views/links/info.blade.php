@@ -20,7 +20,6 @@
   </div>
 </div>
 
-
 <div class="rwpa">
   <a href="/info/studieaanbod">Richtingen</a>
   <a href="/info/studieaanbod">Werkgelegenheid</a>
