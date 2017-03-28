@@ -1,0 +1,18 @@
+.animation { visibility:visible; }
+
+.flexslider.loading { background:none; }
+.flexslider .slides li:first-child { display:block; }
+
+#slider .slider-wrapper .nivoSlider img {
+	display:none;
+	position:static;
+	width:100%;
+}
+#slider .slider-wrapper .nivoSlider img:first-child { display:block; }
+
+#slider2 .slider-carousel .flexslider ul li {
+	display:block;
+	float:left;
+}
+
+#slider3 { border-top:1px solid #e0e0e0; }
