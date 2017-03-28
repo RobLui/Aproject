@@ -68,3 +68,7 @@ Auth::routes();
   });
   // DELETE nieuws/event
   Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
+
+
+//INDIVIDUEEL NIEUWSARTIKEL
+Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');

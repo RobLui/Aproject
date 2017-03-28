@@ -35,4 +35,8 @@ class nieuwsController extends Controller
     }
     // INSERT INTO `events`(`id`, `title`, `text`, `posted_by`, `data`, `created_at`, `updated_at`, `deleted_at`)
 
+
+    public function ArtikelIndex(){
+      return view('nieuws/artikel');
+    }
 }

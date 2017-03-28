@@ -322,6 +322,23 @@ ul.richtingen_class {
 }
 
 
+/*--------------------------- ARTIKEL ---------------------------*/
+
+.artikel .mid_container {
+    height: 100%;
+    background-color: pink;
+}
+
+.artikel .mid_container p {
+    padding-top: 10px;
+    margin: 3em;
+}
+
+.artikel .mid_container p:first-child {
+    padding-top: 3em;
+}
+
+
 /*--------------------------- FOOTER ---------------------------*/
 
 .copyright {
@@ -338,4 +355,8 @@ ul.richtingen_class {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFFFFF;
     font-size: 1em;
+}
+
+: 1em;
+
 }
