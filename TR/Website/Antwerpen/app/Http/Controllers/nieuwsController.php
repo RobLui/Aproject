@@ -17,7 +17,7 @@ class nieuwsController extends Controller
         $event = Event::all();
         $user->name = $req->name;
 
-        return view('links/nieuws')
+        return view('nieuws/nieuws')
         ->withEvents($event);
     }
     public function create(request $req)
@@ -31,7 +31,7 @@ class nieuwsController extends Controller
       $events->data = "0";
       $events->save();
 
-      return view("links/nieuws");
+      return view("nieuws/nieuws");
     }
     // INSERT INTO `events`(`id`, `title`, `text`, `posted_by`, `data`, `created_at`, `updated_at`, `deleted_at`)
 

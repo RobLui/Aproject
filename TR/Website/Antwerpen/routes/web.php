@@ -7,6 +7,10 @@ Route::get('/article/add', function () {
     return view('articles/add');
 });
 
+Route::get('/nieuws/add', function () {
+  return view('nieuws/nieuws');
+});
+
 Route::get('/ontdek', 'OntdekController@index');
 Route::get('/info', 'InfoController@index');
 Route::get('/nieuws', 'nieuwsController@index');
@@ -59,11 +63,8 @@ Auth::routes();
   // CREATE nieuws
   Route::post('/nieuws/add', 'nieuwsController@create');
   // EDIT nieuws/event
-  Route::get('nieuws/edit/{id}', function () { // view
-    return view('nieuws');
+  Route::get('niews/edit/{id}', function () { // view
+    return view('nieuws/nieuws');
   });
   // DELETE nieuws/event
   Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
-  Route::get('/nieuws/add}', function () { // view
-    return view('index');
-  });

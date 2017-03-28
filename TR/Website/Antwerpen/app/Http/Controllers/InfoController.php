@@ -19,7 +19,7 @@ class InfoController extends Controller
     {
         $richting = Richting::all();
 
-        return view('links/richtingen')
+        return view('richtingen/richtingen')
         ->withRichtingen($richting);
     }
 
@@ -100,7 +100,7 @@ class InfoController extends Controller
         Session::flash('error', ('Er heeft zich een fout voorgedaan'));
     }
 
-      return redirect('/info')->with(compact('id'));
+      return redirect('/info/studieaanbod')->with(compact('id'));
   }
   // ELOQUENT DELETE
   public function delete(Request $req, $id)
@@ -112,6 +112,6 @@ class InfoController extends Controller
             Session::flash('success', ('De link werd succesvol verwijderd'));
         }
 
-      return redirect('/')->with(compact('id'));
+      return redirect('/info/studieaanbod')->with(compact('id'));
   }
 }

@@ -275,11 +275,9 @@ ul.richtingen_class {
 
 /*--------------------------INFO--------------------------*/
 
-.head_center {
-    margin: 0 auto;
-    background-color: orange;
-    display: block;
-    height: 100%;
+.panel.panel-default h2 {
+    text-align: center;
+    /*background-color: orange;*/
 }
 
 .mid_container {

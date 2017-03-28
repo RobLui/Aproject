@@ -4,7 +4,6 @@
 <title>Info</title>
 <div class="container">
 
-<div class="head_center">
   <div class="panel panel-default">
     <h2>Info</h2>
   </div>
@@ -28,7 +27,6 @@
       <a href="/info/studieaanbod">Antwerpen (LEEFT)</a>
     </div>
   </div>
-<div>
 </div>
 
 @endsection

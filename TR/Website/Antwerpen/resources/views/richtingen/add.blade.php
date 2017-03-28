@@ -3,9 +3,10 @@
     <div class="panel panel-default">
       <div class="panel-heading x">Voeg een richting toe</div>
         <div class="panel-content">
-          <form action="{{ url('richtingen/add') }}" method="POST" class="form-horizontal">
+          <form action="{{ url('info/studieaanbod/add') }}" method="POST" class="form-horizontal">
             {{ csrf_field() }}
-            <!-- article title -->
+
+            <!-- richtingen title -->
             <div class="form-group">
               <label for="titel" class="col-sm-3 control-label">Title</label>
               <div class="col-sm-6">
@@ -21,7 +22,7 @@
               </div>
             </div>
 
-            <!-- Add richtingen Button -->
+            <!-- Add richtingen button -->
             <div class="form-group">
               <div class="col-sm-offset-3 col-sm-6">
                 <button type="submit" class="btn btn-default">
@@ -29,6 +30,7 @@
               </button>
             </div>
           </div>
+
       </form>
     </div>
   </div>
