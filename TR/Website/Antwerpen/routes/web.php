@@ -72,3 +72,6 @@ Auth::routes();
 
 //INDIVIDUEEL NIEUWSARTIKEL
 Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');
+
+//TESTIMONIAL
+Route::get('/testimonial', 'testimonialController@index');

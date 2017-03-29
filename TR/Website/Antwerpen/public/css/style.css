@@ -324,17 +324,17 @@ ul.richtingen_class {
 
 /*--------------------------- ARTIKEL ---------------------------*/
 
-.artikel .mid_container {
+.artikel .mid_container, .testimonial .mid_container {
     height: 100%;
     background-color: pink;
 }
 
-.artikel .mid_container p {
+.artikel .mid_container p, .testimonial .mid_container p {
     padding-top: 10px;
     margin: 3em;
 }
 
-.artikel .mid_container p:first-child {
+.artikel .mid_container p:first-child, .testimonial .mid_container p:first-child {
     padding-top: 3em;
 }
 
