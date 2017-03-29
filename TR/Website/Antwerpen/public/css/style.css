@@ -1,3 +1,14 @@
+/*-----------------------INDEX-----------------------*/
+
+.container.index {
+    /*background-color: orange;*/
+}
+
+.container.index .col-sm-4.item {
+    margin-top: 3em;
+}
+
+
 /*-----------------------HEAD DISPLAY-----------------------*/
 
 .head_center {
@@ -11,7 +22,7 @@
 
 .slider {
     background-color: #0064B4;
-    height: 20em;
+    height: 24em;
     display: block;
 }
 
@@ -358,5 +369,8 @@ ul.richtingen_class {
 }
 
 : 1em;
+
+}
+;
 
 }
