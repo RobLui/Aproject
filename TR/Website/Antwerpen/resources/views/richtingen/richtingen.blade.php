@@ -4,7 +4,8 @@
 <title>Richtingen</title>
   <div class="container">
     <div class="panel panel-default">
-      <div class="panel-heading">Richtingen</div>
+      <h2>Richtingen</h2>
+    </div>
         <div class="panel-content">
         @include("common.messages")
         <ul class="richtingen_class">
