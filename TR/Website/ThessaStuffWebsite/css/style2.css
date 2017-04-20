@@ -253,8 +253,3 @@ input[type=text], select, textarea {
 .headSlider {
     width: 100%;
 }
-
-@font-face {
-    font-family: 'Antwerpen Regular';
-    src: url('D:\2016-2017\Project_antwerpen\git_antwerpen\Aproject\TR\Design') format('truetype');
-}
