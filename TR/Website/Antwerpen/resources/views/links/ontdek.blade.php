@@ -25,7 +25,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 
-
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/style2.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
