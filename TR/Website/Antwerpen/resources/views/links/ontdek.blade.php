@@ -2,26 +2,7 @@
 
 @section('content')
 
-	<!-- Your Basic Site Informations -->
-	<title>Antwerpen - Ontdek de stad</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<meta name="description" content="Antwerpen" />
-	<meta name="keywords" content="Antwerpen, Studenten, A'pen, Studie, Richtingen " />
-	<meta name="author" content="Robbert & Thessa" />
-
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/style2.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-
-</head>
-
+<title>Ontdek de stad</title>
 <body>
 
 <div class="container">
@@ -46,7 +27,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="col-sm-4 item">
 				<!-- 2 -->
 				<li class="fa fa-book fa-3x"></li>
@@ -59,7 +39,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="col-sm-4 item">
 				<!-- 3 -->
 				<li class="fa fa-search fa-3x" aria-hidden="true"></li>
@@ -73,17 +52,8 @@
 				</div>
 			</div>
     </div>
-
-
-
 		</div>
-		<!-- .mainContainer end -->
-
 	</section>
-	<!-- .main-content -->
-
-
-
 </body>
 
 </html>
