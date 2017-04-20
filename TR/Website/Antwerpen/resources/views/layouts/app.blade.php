@@ -8,18 +8,14 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <!-- <title>{{ config('app.name', 'Project Antwerpen') }}</title> -->
-
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
-
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style2.css">
@@ -65,7 +61,6 @@
                         <li><a href="{{ url('/nieuws') }}">Nieuws</a></li>
                         <li><a href="{{ url('/contact') }}">Contact</a></li>
 
-
                         @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Aanmelden</a></li>
                             <li><a href="{{ url('/register') }}">Registreren</a></li>
@@ -96,5 +91,5 @@
       <!-- Scripts -->
     <script src="/js/app.js"></script>
 </body>
-</html>
 @include('includes.footer')
+</html>

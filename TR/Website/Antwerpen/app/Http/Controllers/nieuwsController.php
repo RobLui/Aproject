@@ -20,23 +20,23 @@ class nieuwsController extends Controller
         return view('nieuws/nieuws')
         ->withEvents($event);
     }
+
     public function create(request $req)
     {
       $user = User::all();
-
+      $event = Event::all();
       $events = new Event();
       $events->title = "ThessaRock!";
       $events->text = "ThessaRock Event Upcoming, march 2nd 2019!";
       $events->posted_by = Auth::user()->name;
       $events->data = "0";
       $events->save();
-
-      return view("nieuws/nieuws");
+      return view("nieuws/nieuws")->withEvents($event);
+;
     }
-    // INSERT INTO `events`(`id`, `title`, `text`, `posted_by`, `data`, `created_at`, `updated_at`, `deleted_at`)
 
-
-    public function ArtikelIndex(){
+    public function ArtikelIndex()
+    {
       return view('nieuws/artikel');
     }
 }
