@@ -1,0 +1,15 @@
+- banner
+	-> geinspireerd op app: urban walks
+	-> gebouwen uit antwerpen van spel gebruiken
+	-> op scherm logo van game of menu zetten
+
+- contact weggelaten uit menu
+	-> info staat in footer
+	-> link naar gate15 en site antwerpen
+	-> link naar FB en Playstore/mac voor app 
+
+- low poly 
+	-> stijl doortrekken van game
+	-> in iconen en footer
+
+-app heeft nog geen naam?
