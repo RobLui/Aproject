@@ -3,7 +3,6 @@
 @section('content')
 <title>Info</title>
 <div class="container">
-
   <div class="panel panel-default">
     <h2>Info</h2>
   </div>

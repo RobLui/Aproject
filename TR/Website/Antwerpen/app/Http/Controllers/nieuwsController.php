@@ -15,14 +15,17 @@ class nieuwsController extends Controller
     {
         $user = User::all();
         $event = Event::all();
+        
         $user->name = $req->name;
 
         return view('nieuws/nieuws')
         ->withEvents($event);
     }
+
     public function create(request $req)
     {
       $user = User::all();
+      $event = Event::all();
 
       $events = new Event();
       $events->title = "ThessaRock!";
@@ -31,12 +34,11 @@ class nieuwsController extends Controller
       $events->data = "0";
       $events->save();
 
-      return view("nieuws/nieuws");
+      return view("nieuws/nieuws")->withEvents($event);
     }
-    // INSERT INTO `events`(`id`, `title`, `text`, `posted_by`, `data`, `created_at`, `updated_at`, `deleted_at`)
 
-
-    public function ArtikelIndex(){
+    public function ArtikelIndex()
+    {
       return view('nieuws/artikel');
     }
 }
