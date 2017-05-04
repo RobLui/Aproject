@@ -53,7 +53,7 @@ class InfoController extends Controller
 
             Session::flash('success', ($request->title.' is succesvol geupdated'));
         // Save into db
-        return redirect('/info')->withRichtingen($richtingen);
+        return redirect('/info/studieaanbod')->withRichtingen($richtingen);
         } else {
             return redirect('login');
         }

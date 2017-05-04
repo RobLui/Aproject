@@ -12,7 +12,7 @@
           @if(count($richtingen) > 0)
             @foreach($richtingen as $richting)
             <li>
-              <a href="{{$richting->url}}">{{$richting->title}}</a>
+              <a href="{{$richting->url}}" target="_blank">{{$richting->title}} </a>
               @if(isset(Auth::user()->name))
                 @if(Auth::user()->name == "Admin")
                   <a href="studieaanbod/edit/{{$richting->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
