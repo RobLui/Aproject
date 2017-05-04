@@ -15,7 +15,7 @@ class nieuwsController extends Controller
     {
         $user = User::all();
         $event = Event::all();
-        
+
         $user->name = $req->name;
 
         return view('nieuws/nieuws')
@@ -33,8 +33,12 @@ class nieuwsController extends Controller
       $events->posted_by = Auth::user()->name;
       $events->data = "0";
       $events->save();
-
       return view("nieuws/nieuws")->withEvents($event);
+    }
+
+    public function edit(request $event)
+    {
+      return view("nieuws/artikel")->withEvents($event);
     }
 
     public function ArtikelIndex()

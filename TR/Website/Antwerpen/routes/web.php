@@ -50,7 +50,7 @@ Auth::routes();
 
 // RICHTINGEN
   // CREATE richting
-    Route::post('/info/studieaanbod/add', 'Infocontroller@create');
+  Route::post('/info/studieaanbod/add', 'Infocontroller@create');
   // EDIT richting
   Route::get('/info/studieaanbod/edit/{id}', 'InfoController@edit');
   // UPDATE richting
@@ -58,16 +58,19 @@ Auth::routes();
   // DELETE richting
   Route::get('/info/studieaanbod/delete/{id}', 'InfoController@delete');
 
-
-// NIEUWS/EVENTS
+// NIEUWS / EVENTS
   // CREATE nieuws
   Route::post('/nieuws/add', 'nieuwsController@create');
   // EDIT nieuws/event
-  Route::get('niews/edit/{id}', function () { // view
-    return view('nieuws/nieuws');
-  });
+  // Route::get('nieuws/edit/{id}', function () { // view
+  //   return view('nieuws/nieuws');
+  // });
+  Route::get('/nieuws/edit/{id}', 'nieuwsController@edit');
   // DELETE nieuws/event
   Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
+
+
+
 
 //INDIVIDUEEL NIEUWSARTIKEL
 Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');
