@@ -50,7 +50,7 @@ Auth::routes();
 
 // RICHTINGEN
   // CREATE richting
-  Route::post('/info/studieaanbod/add', 'Infocontroller@create');
+    Route::post('/info/studieaanbod/add', 'Infocontroller@create');
   // EDIT richting
   Route::get('/info/studieaanbod/edit/{id}', 'InfoController@edit');
   // UPDATE richting
@@ -69,9 +69,21 @@ Auth::routes();
   // DELETE nieuws/event
   Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
 
-
 //INDIVIDUEEL NIEUWSARTIKEL
 Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');
 
 //TESTIMONIAL
 Route::get('/testimonial', 'testimonialController@index');
+
+//PLACES
+Route::get('/places_to_eat', function () {
+    return view('places/placesToEat');
+});
+
+Route::get('/places_to_see', function () {
+    return view('places/placesToSee');
+});
+
+Route::get('/places_to_study', function () {
+    return view('places/placesToStudy');
+});
