@@ -69,9 +69,6 @@ Auth::routes();
   // DELETE nieuws/event
   Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
 
-
-
-
 //INDIVIDUEEL NIEUWSARTIKEL
 Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');
 
@@ -91,4 +88,9 @@ Route::get('ontdek/places-to-see', function () {
 // PLACES TO STUDY
 Route::get('ontdek/places-to-study', function () {
     return view('places/placesToStudy');
+});
+
+// ADMIN PANEL
+Route::get('/admin-panel', function () {
+    return view('/admin-panel');
 });

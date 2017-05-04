@@ -27,7 +27,7 @@
   </div>
 
   <div class="col-sm-4 item"> <!-- 3 -->
-      <i class="fa fa-globe"></i>
+    <i class="fa fa-calendar-o" aria-hidden="true"></i>
       <h4>Nieuws en Evenementen</h4>
       <img src="images/contents/300/1.jpg" alt="placeholder">
       <p>Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>

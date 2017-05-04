@@ -204,7 +204,7 @@ button {
 ul.dropdown-menu {
     padding-bottom: 2em;
     padding-left: 1em;
-    width: 1em;
+    width: 3em;
     height: 2em;
 }
 
@@ -880,4 +880,9 @@ input[type=text], select, textarea {
 
 .headSlider {
     width: 100%;
+}
+
+.fa {
+    color: red;
+    background-color: white;
 }
