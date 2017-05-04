@@ -23,7 +23,7 @@
 					<img src="images/contents/300/1.jpg" alt="300">
 					<p>Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					<div class="btn-section">
-						<a href="page_services.html" class="btn-custom"> > meer lezen </a>
+						<a href="ontdek/places-to-eat" class="btn-custom"> > meer lezen </a>
 					</div>
 				</div>
 			</div>
