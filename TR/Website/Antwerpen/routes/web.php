@@ -14,7 +14,7 @@ Route::get('/nieuws/add', function () {
 Route::get('/ontdek', 'OntdekController@index');
 Route::get('/info', 'InfoController@index');
 Route::get('/nieuws', 'nieuwsController@index');
-Route::get('/contact', 'ContactController@index');
+// Route::get('/contact', 'ContactController@index');
 Route::get('info/studieaanbod', 'InfoController@indexRichting');
 
 
@@ -76,14 +76,16 @@ Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');
 Route::get('/testimonial', 'testimonialController@index');
 
 //PLACES
-Route::get('/places_to_eat', function () {
+Route::get('ontdek/places-to-eat', function () {
     return view('places/placesToEat');
 });
 
-Route::get('/places_to_see', function () {
+// PLACES TO SEE
+Route::get('ontdek/places-to-see', function () {
     return view('places/placesToSee');
 });
 
-Route::get('/places_to_study', function () {
+// PLACES TO STUDY
+Route::get('ontdek/places-to-study', function () {
     return view('places/placesToStudy');
 });

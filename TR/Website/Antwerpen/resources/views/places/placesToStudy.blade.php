@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
-<!--<![endif]-->
+@extends('layouts.app')
+
+@section('content')
 
 <head>
 
@@ -30,40 +26,6 @@
 </head>
 
 <body>
-
-    <!-- #header -->
-    <header class="header">
-
-        <!-- .container -->
-        <div class="container">
-
-            <div class="logo">
-                <a href="index.html"><img src="images/a-logo.svg" alt="Logo" /></a>
-            </div>
-
-            <div class="float-right">
-                <form method="get" action="page_search.html">
-                    <input type="text" name="search" placeholder="Zoeken...." />
-                    <input type="submit" name="submit" value="" />
-                </form>
-            </div>
-
-            <ul class="menu">
-                <li><a href="index_2.html">Home</a></li>
-                <li class="current"><a href="#">Ontdek</i></a></li>
-                <li><a href="#">Info </a></li>
-                <li><a href="#">Nieuws</a></li>
-                <li><a href="page_contact.html">Contact</a></li>
-            </ul>
-
-        </div>
-        <!-- .container end -->
-
-
-    </header>
-    <!-- #header end -->
-
-
 
     <!-- #main -->
     <section class="main">
@@ -149,21 +111,6 @@
         <!-- .mainContainer end -->
 
     </section>
-    <!-- .main-content -->
-
-    <!-- #footer -->
-    <section id="footer">
-
-        <!-- .container -->
-        <div class="footerContainer">
-            <p>&copy; 2017 copyrights by <a href="http://RT.com" target="_blank">Robbert & Thessa</a> - All rights reserved.</p>
-        </div>
-        <!-- .container end -->
-
-    </section>
-    <!-- #footer end -->
-
 
 </body>
-
-</html>
+@endsection

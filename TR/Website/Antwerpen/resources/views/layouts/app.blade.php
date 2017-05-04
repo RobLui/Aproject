@@ -60,7 +60,6 @@
                         <li><a href="{{ url('/ontdek') }}">Ontdek</a></li>
                         <li><a href="{{ url('/info') }}">Info</a></li>
                         <li><a href="{{ url('/nieuws') }}">Nieuws</a></li>
-                        <li><a href="{{ url('/contact') }}">Contact</a></li>
 
                         @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Aanmelden</a></li>
