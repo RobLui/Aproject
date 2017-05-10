@@ -17,7 +17,7 @@
 			    <h2>Ontdek de stad</h2>
 			  </div>
 
-			<div class="col-sm-4 ontdek item">
+			<div class="col-sm-4 item">
 				<!--  PLACES TO EAT -->
 				<li class="fa fa-cutlery fa-3x "></li>
 				<h1>Eet plekskes</h1>
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 			<!--  PLACES TO STUDY -->
-			<div class="col-sm-4 ontdek item">
+			<div class="col-sm-4 item">
 				<!-- 2 -->
 				<li class="fa fa-book fa-3x"></li>
 				<h1>Studie plekskes</h1>
@@ -44,7 +44,7 @@
 			</div>
 
 			<!--  PLACES TO SEE -->
-			<div class="col-sm-4 ontdek item">
+			<div class="col-sm-4 item">
 				<!-- 3 -->
 				<li class="fa fa-search fa-3x" aria-hidden="true"></li>
 				<h1>Schoon plekskes</h1>
