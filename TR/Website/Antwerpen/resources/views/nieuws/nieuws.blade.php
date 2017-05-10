@@ -25,6 +25,7 @@
       <div class="row_nieuws">
           <h3>{{$event->title}}</h3>
           <p>{{$event->text}}</p>
+          <img src="#" alt="test" class="block_img">
           @if(isset(Auth::user()->name))
             @if(Auth::user()->name == $event->posted_by)
               <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>

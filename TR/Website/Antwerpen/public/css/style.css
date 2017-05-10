@@ -1,70 +1,3 @@
-/*-----------------------media queries-----------------------*/
-
-
-/*-----------------------media 240 index-----------------------*/
-
-@media (min-width: 240px) {
-    .container {
-        padding: 0;
-        width: 100%;
-    }
-    .homeContainer {
-        border: 4px solid orange;
-        overflow: hidden;
-        clear: both;
-        width: 100%;
-        background-color: orange;
-    }
-    .slider {
-        width: 240px;
-        height: 16em;
-    }
-    .col-sm-4.item {
-        width: 200px;
-        margin: auto;
-        padding-left: 30px;
-        padding-right: 20px;
-    }
-    .footerContainer {
-        width: 240px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-@media (min-width: 320px) {
-    body {
-        width: 320px;
-    }
-    .container {
-        padding: 0;
-    }
-    .homeContainer {
-        /*display: none;*/
-        border: 4px solid orange;
-        overflow: hidden;
-        clear: both;
-        width: 320px;
-        background-color: green;
-    }
-    .slider {
-        width: 320px;
-        height: 16em;
-    }
-    .col-sm-4.item {
-        width: 270px;
-        margin: auto;
-        padding-left: 35px;
-        padding-right: 35px;
-    }
-    .footerContainer {
-        width: 320px;
-        padding-left: 35px;
-        padding-right: 35px;
-    }
-}
-
-
 /*-----------------------INDEX-----------------------*/
 
 .container.index {
@@ -84,7 +17,7 @@
 
 .head_center {
     margin: 0 auto;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     text-align: center;
 }
 
@@ -305,7 +238,7 @@ button.x {
     height: 15em;
     margin-left: 2em;
     margin-bottom: 2em;
-    background-color: orange;
+    /*background-color: orange;*/
     text-align: center;
 }
 
@@ -360,71 +293,6 @@ ul.richtingen_class li, .richtingen_center {
 ul.richtingen_class {
     list-style: none;
     text-align: center;
-}
-
-
-/*--------------------------INFO--------------------------*/
-
-.panel.panel-default h2 {
-    text-align: center;
-    /*background-color: orange;*/
-}
-
-.mid_container {
-    margin-top: 5%;
-    display: block;
-    height: 15em;
-    background-color: orange;
-}
-
-.mid_container .left, .mid_container .right {
-    background-color: #0064B4;
-    height: 100%;
-    float: left;
-    display: block;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.mid_container .left-sq, .mid_container .right-sq {
-    background-color: #0064B4;
-    height: 100%;
-    float: left;
-    display: block;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-}
-
-.mid_container .left-sq, .mid_container .right-sq {
-    width: 45%;
-}
-
-.mid_container .left-sq a, .mid_container .right-sq a {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-}
-
-.mid_container .right, .mid_container .left {
-    width: 40%;
-}
-
-.rwpa {
-    width: 90%;
-    border: 1px solid pink;
-    margin-top: 2em;
-    margin-left: 5%;
-    margin-bottom: 100px;
-    text-align: center;
-    display: block;
-}
-
-.rwpa a {
-    width: 30%;
-    padding: 0.5em;
-    border: 1px solid black;
-    display: block;
-    font-size: relative;
 }
 
 
@@ -979,9 +847,171 @@ input[type=text], select, textarea {
 }
 
 
-/*ROBBERT CURRENTLY WORKING ON*/
+/*-----------------------media queries-----------------------*/
+
+
+/*-----------------------media 240 index-----------------------*/
 
 @media (min-width: 240px) {
+    .container {
+        padding: 0;
+        width: 100%;
+    }
+    .homeContainer {
+        border: 4px solid orange;
+        overflow: hidden;
+        clear: both;
+        width: 100%;
+        margin: auto 0;
+        background-color: orange;
+    }
+    .slider {
+        width: 240px;
+        height: 16em;
+    }
+    .col-sm-4.item {
+        text-align: center;
+        width: 200px;
+        margin: auto;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .footerContainer {
+        width: 240px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 320px) {
+    body {
+        width: 320px;
+    }
+    .container {
+        padding: 0;
+    }
+    .homeContainer {
+        /*display: none;*/
+        border: 4px solid orange;
+        overflow: hidden;
+        clear: both;
+        width: 320px;
+    }
+    .slider {
+        width: 320px;
+        height: 16em;
+    }
+    .col-sm-4.item {
+        width: 100%;
+        margin: auto;
+        padding-left: 35px;
+        padding-right: 35px;
+        background-color: lightblue;
+    }
+    .footerContainer {
+        width: 320px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+
+/*ROBBERT CURRENTLY WORKING ON*/
+
+
+/*-------------------------- INFO --------------------------*/
+
+.rwpa {
+    width: 90%;
+    height: 100%;
+    border: 1px solid pink;
+    margin-top: 2em;
+    margin-left: 5%;
+    text-align: center;
+    display: block;
+}
+
+.rwpa a {
+    padding: 0.5em;
+    border: 1px solid black;
+    display: block;
+    font-size: relative;
+}
+
+.block {
+    height: 15em;
+    display: block;
+}
+
+
+/*-------------------------- NIEUWS --------------------------*/
+
+.block_img {
+    display: block;
+    width: 100%;
+    height: 75%;
+}
+
+.panel.panel-default h2 {
+    text-align: center;
+    padding-top: 0.3em;
+}
+
+.mid_container {
+    display: block;
+    height: 15em;
+    /*background-color: orange;*/
+}
+
+.mid_container .left, .mid_container .right {
+    background-color: #0064B4;
+    height: 50%;
+    float: left;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: orange;
+}
+
+.mid_container .right, .mid_container .left {
+    width: 40%;
+}
+
+
+/*-------------------- ADMIN-PANEl --------------------*/
+
+.mid_container .left-sq, .mid_container .right-sq {
+    background-color: #0064B4;
+    height: 50%;
+    float: left;
+    display: block;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1em;
+}
+
+.mid_container .left-sq, .mid_container .right-sq {
+    width: 45%;
+}
+
+.mid_container .left-sq a, .mid_container .right-sq a {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 35%;
+}
+
+.mid_container p {
+    width: 75%;
+    margin-left: 12.5%;
+    text-align: center;
+}
+
+
+/*-------------------- MEDIA QUERIES --------------------*/
+
+@media (min-width: 240px) {
+    /*ALGEMEEN*/
     .container {
         padding: 0;
         width: 100%;
@@ -991,15 +1021,24 @@ input[type=text], select, textarea {
         margin: 0;
         padding: 0;
     }
+    /*NIEUWS*/
     .row_nieuws {
         width: 100%;
-        height: 8em;
+        /*height: 8em;*/
         margin-bottom: 1em;
         margin-left: 0;
         margin-right: 0;
+        padding-bottom: 4em;
+        display: block;
     }
     .row_nieuws h3 {
         margin-top: 1em;
         font-size: 1em;
+    }
+    .mid_headers {
+        margin: auto 0;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        text-align: center;
     }
 }

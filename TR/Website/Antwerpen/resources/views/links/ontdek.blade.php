@@ -13,7 +13,9 @@
 		<!-- .container -->
 		<div class="mainContainer">
 
-			<h1 class="PTtitel">Ontdek de stad</h1>
+			  <div class="panel panel-default">
+			    <h2>Ontdek de stad</h2>
+			  </div>
 
 			<div class="col-sm-4 item">
 				<!--  PLACES TO EAT -->

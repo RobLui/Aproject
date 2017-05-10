@@ -13,7 +13,13 @@
         <a href="/nieuws">Nieuws &amp Evenementen</a>
       </div>
       <div class="right-sq">
-        <a href="/info/studieaanbod">Opleidingsaanbod</a>
+        <a href="/info/studieaanbod">Richtingen</a>
+      </div>
+      <div class="left-sq">
+        <a href="/approval">Goedkeuren</a>
+      </div>
+      <div class="right-sq">
+        <a href="/info/studieaanbod">Suggesties</a>
       </div>
     </div>
   </div>
