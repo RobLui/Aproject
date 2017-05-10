@@ -58,7 +58,7 @@
         padding-right: 35px;
     }
     .footerContainer {
-        width: 300px;
+        width: 320px;
         padding-left: 35px;
         padding-right: 35px;
     }
@@ -982,6 +982,31 @@ input[type=text], select, textarea {
     }
     .mid-container {
         padding: 0;
+        display: block;
+        height: 100px;
+        width: 100px;
+    }
+    .footer {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
 }
+
+
+/*
+@media (min-width: 320px) {
+    .container {
+        padding: 0;
+        width: 100%;
+    }
+    .mid-container {
+        padding: 0;
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}*/
