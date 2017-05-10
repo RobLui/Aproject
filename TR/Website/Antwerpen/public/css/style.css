@@ -491,8 +491,8 @@ a:hover {
 }
 
 .blok {
-    border: 1px solid black;
-    width: 89%;
+    border: 1px solid grey;
+    width: 100%;
     padding-bottom: 5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -746,11 +746,6 @@ a:hover {
     display: block;
 }
 
-.blok {
-    border: 1px solid black;
-    width: 89%;
-    padding-bottom: 5%;
-}
 
 .columnText {
     padding-left: 5%;
@@ -850,9 +845,15 @@ input[type=text], select, textarea {
 /*-----------------------media queries-----------------------*/
 
 
-/*-----------------------media 240 index-----------------------*/
+/*-----------------------media 240 -----------------------*/
+/*----------------------- index-----------------------*/
+/*-----------------------ontdek -----------------------*/
 
 @media (min-width: 240px) {
+
+  h1{
+    font-size: 22px;
+  }
     .container {
         padding: 0;
         width: 100%;
@@ -863,30 +864,31 @@ input[type=text], select, textarea {
         clear: both;
         width: 100%;
         margin: auto 0;
-        background-color: orange;
+
     }
     .slider {
-        width: 240px;
+        width: 100%;
         height: 16em;
     }
     .col-sm-4.item {
         text-align: center;
-        width: 200px;
+        width: 100%;
         margin: auto;
-        padding-left: 30px;
-        padding-right: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .footerContainer {
-        width: 240px;
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
 @media (min-width: 320px) {
-    body {
-        width: 320px;
-    }
+
+  h1{
+    font-size: 25px;
+  }
     .container {
         padding: 0;
     }
@@ -895,26 +897,127 @@ input[type=text], select, textarea {
         border: 4px solid orange;
         overflow: hidden;
         clear: both;
-        width: 320px;
+        width: 100%;
     }
     .slider {
-        width: 320px;
+        width: 100%;
         height: 16em;
     }
     .col-sm-4.item {
         width: 100%;
         margin: auto;
-        padding-left: 35px;
-        padding-right: 35px;
-        background-color: lightblue;
     }
     .footerContainer {
-        width: 320px;
+        width: 100%;
         padding-left: 35px;
         padding-right: 35px;
     }
 }
 
+@media (min-width: 500px) {
+  h1{
+    font-size: 26px;
+  }
+    .container {
+        padding: 0;
+        width: 100%;
+    }
+    .homeContainer {
+        border: 4px solid orange;
+        overflow: hidden;
+        clear: both;
+        width: 100%;
+        margin: auto 0;
+
+    }
+    .slider {
+        width: 100%;
+        height: 16em;
+    }
+    .col-sm-4.item {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding-left:20%;
+        padding-right: 20%;
+    }
+    .footerContainer {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+
+@media (min-width: 600px) {
+
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+    .homeContainer {
+        /*display: none;*/
+        border: 4px solid orange;
+        overflow: hidden;
+        clear: both;
+        width: 100%;
+    }
+    .slider {
+        width: 100%;
+        height: 24em;
+    }
+
+
+    .ontdek {
+      width: 100%;
+      margin: auto;
+      padding-left: 5%;
+      padding-right: 5%;
+
+    }
+    .footerContainer {
+        width: 100%;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+
+
+
+
+@media (min-width: 1000px) {
+
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+    .homeContainer {
+        /*display: none;*/
+        border: 4px solid orange;
+        overflow: hidden;
+        clear: both;
+        width: 100%;
+    }
+    .slider {
+        width: 100%;
+        height: 24em;
+    }
+    .col-sm-4.item {
+        width: 33%;
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+    .footerContainer {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+}
 
 /*ROBBERT CURRENTLY WORKING ON*/
 
