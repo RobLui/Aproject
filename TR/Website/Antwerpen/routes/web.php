@@ -2,6 +2,9 @@
 
 use Illuminate\Http\Request;
 
+// Routes
+Auth::routes();
+
 // Simple article view, no need for controller right now
 Route::get('/article/add', function () {
     return view('articles/add');
@@ -11,14 +14,11 @@ Route::get('/nieuws/add', function () {
   return view('nieuws/nieuws');
 });
 
+// ALGEMENE LINKS
 Route::get('/ontdek', 'OntdekController@index');
 Route::get('/info', 'InfoController@index');
 Route::get('/nieuws', 'nieuwsController@index');
-// Route::get('/contact', 'ContactController@index');
 Route::get('info/studieaanbod', 'InfoController@indexRichting');
-
-
-Auth::routes();
 
 // HOME & INDEX
   // Article controller showing articles @ index
@@ -75,7 +75,7 @@ Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');
 //TESTIMONIAL
 Route::get('/testimonial', 'testimonialController@index');
 
-//PLACES
+//PLACES TO EAT
 Route::get('ontdek/places-to-eat', function () {
     return view('places/placesToEat');
 });

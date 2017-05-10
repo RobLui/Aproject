@@ -152,6 +152,10 @@ button {
     background-color: #FFFFFF;
 }
 
+li:nth-child(2) {
+    height: 150px;
+}
+
 
 /*--------------------------- NAVBAR CENTER ---------------------------*/
 
@@ -883,6 +887,6 @@ input[type=text], select, textarea {
 }
 
 .fa {
-    color: red;
+    color: blue;
     background-color: white;
 }
