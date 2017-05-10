@@ -22,7 +22,7 @@
 				<li class="fa fa-cutlery fa-3x "></li>
 				<h1>Places to eat</h1>
 				<div class="blok">
-					<img src="images/contents/300/1.jpg" alt="300">
+					<img src="#" alt="300">
 					<p>Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					<div class="btn-section">
 						<a href="ontdek/places-to-eat" class="btn-custom"> > meer lezen </a>

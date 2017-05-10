@@ -924,7 +924,6 @@ input[type=text], select, textarea {
 .rwpa {
     width: 90%;
     height: 100%;
-    border: 1px solid pink;
     margin-top: 2em;
     margin-left: 5%;
     text-align: center;
@@ -934,6 +933,7 @@ input[type=text], select, textarea {
 .rwpa a {
     padding: 0.5em;
     border: 1px solid black;
+    margin-top: 1em;
     display: block;
     font-size: relative;
 }
