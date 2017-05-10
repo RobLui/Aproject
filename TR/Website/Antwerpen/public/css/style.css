@@ -382,14 +382,24 @@ ul.richtingen_class {
     height: 100%;
     float: left;
     display: block;
-    margin-left: 3.5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.mid_container .left {
-    width: 50%;
+.mid_container .left-sq, .mid_container .right-sq {
+    background-color: #0064B4;
+    height: 100%;
+    float: left;
+    display: block;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
-.mid_container .right {
+.mid_container .left-sq, .mid_container .right-sq {
+    width: 45%;
+}
+
+.mid_container .right, .mid_container .left {
     width: 40%;
 }
 
@@ -960,4 +970,18 @@ input[type=text], select, textarea {
 .fa {
     color: red;
     /*background-color: white;*/
+}
+
+
+/*ROBBERT CURRENTLY WORKING ON*/
+
+@media (min-width: 240px) {
+    .container {
+        padding: 0;
+        width: 100%;
+    }
+    .mid-container {
+        padding: 0;
+        width: 100%;
+    }
 }
