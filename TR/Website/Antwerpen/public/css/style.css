@@ -11,6 +11,10 @@
 }
 
 
+
+block_img p{
+  padding-left: 2%;
+}
 /*-----------------------HEAD DISPLAY-----------------------*/
 
 .head_center {
@@ -842,7 +846,7 @@ input[type=text], select, textarea {
 }
 
 .fa {
-    color: red;
+    color: grey;
     /*background-color: white;*/
 }
 
