@@ -21,7 +21,7 @@
           Wij geven je alvast 10 dingen die je zeker niet mag missen!
         </p>
         <div class="btn-section">
-          <a href="page_services.html" class="btn-custom"> > meer </a>
+          <a href="/ontdek" class="btn-custom"> > meer </a>
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@
           Neem zeker en vast een kijkje!
         </p>
         <div class="btn-section">
-            <a href="page_services.html" class="btn-custom"> > meer </a>
+            <a href="/nieuws" class="btn-custom"> > meer </a>
         </div>
     </div>
   </div>
