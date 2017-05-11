@@ -30,12 +30,12 @@
       <div class="rondje">
         <i class="fa fa-info fa-3x"></i>
       </div>
-        <h1>Beschikbare Richtingen</h1>
+        <h1>Richtingen</h1>
         <div class="block_img">
           <img src="images/beschikbareRichtingenIndex.jpg" alt="img">
           <p>Ben je er nog niet helemaal uit wat je wil gaan studeren?
             Vragen over je richting?
-            Geen nood! Hier is een overzicht te vinden van alle scholen en hun aanbod.</p>
+            Geen nood! <br>Hier is een overzicht te vinden van alle scholen en hun aanbod.</p>
           <div class="btn-section">
               <a href="/studieaanbod" class="btn-custom"> > meer </a>
           </div>
@@ -46,7 +46,7 @@
       <div class="rondje">
       <i class="fa fa-paper-plane fa-3x" aria-hidden="true"></i>
       </div>
-      <h1>Nieuws en Evenementen</h1>
+      <h1>Nieuws & Events</h1>
       <div class="block_img">
         <img src="images/NieuwsEnEvenementenIndex.jpg" alt="img">
         <p>Pauzeren hoort nu eenmaal bij studeren.

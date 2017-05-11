@@ -11,7 +11,9 @@
         }
 
         .block_img p {
-            padding: 2%;
+            padding-left: 7%;
+            padding-right: 5%;
+            text-align: left;
         }
         /*-----------------------HEAD DISPLAY-----------------------*/
 
@@ -87,7 +89,7 @@
         }
 
         .navbar-default {
-            background-color: #CF0039;
+            background-color: #D01F38;
         }
 
         a {
@@ -923,6 +925,7 @@ padding-right: 5%;
 
         .block_img {
             border: 1px solid grey;
+            margin-top: 5%;
         }
 
         .panel.panel-default h2 {
@@ -1150,8 +1153,18 @@ padding-right: 5%;
         }
 
         .rondje i {
-            margin-top: 15%;
+            margin-top: 19%;
         }
+
+
+        .btn-custom a {
+          color: red;
+        }
+
+        .btn-section{
+          margin-bottom: 5%;
+        }
+
 
         .slider {
             height: 75%;
@@ -1173,4 +1186,6 @@ padding-right: 5%;
             width: 5em;
             height: 5em;
             margin-left: 40%;
+            margin-bottom: 5%;
+
         }
