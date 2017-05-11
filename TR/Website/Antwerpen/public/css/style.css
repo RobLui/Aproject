@@ -331,6 +331,7 @@
         body {
             font-family: Arial, sans-serif;
             color: #707070;
+            /*color: red;*/
             font-size: 15px;
             line-height: 22px;
             margin: 0;
@@ -561,13 +562,15 @@ padding-right: 5%;
 
         #footer {
             color: #8a8a8a;
+            /*color: #d01f38;*/
             text-align: center;
             margin-top: 5%;
             display: block;
         }
 
         .footerContainer {
-            background-color: #111;
+          /*  background-color: #111;*/
+            background-color: #d01f38;
             bottom: 0;
         }
 
@@ -814,13 +817,15 @@ padding-right: 5%;
         }
 
         #footer {
-            color: #8a8a8a;
+            /*color: #8a8a8a;*/
+            background-color: #d01f38;
             text-align: center;
             margin-top: 5%;
         }
 
         .footerContainer {
-            background-color: #111;
+            /*background-color: #111;*/
+            background-color: #d01f38;
         }
 
         #footer p {
@@ -828,10 +833,11 @@ padding-right: 5%;
             font-size: 12px;
             line-height: 16px;
             text-transform: uppercase;
-            padding: 25px 0px;
+            padding: 10px 0px;
             font-weight: 700;
             margin: 0px;
             width: 100%;
+            color: white;
         }
 
         .headSlider {
@@ -848,6 +854,14 @@ padding-right: 5%;
             /*padding-left: 35px;*/
             /*padding-right: 35px;*/
         }
+
+        .footerImg{
+          width: 100%;
+
+
+        }
+
+
 
         @media (min-width: 0px) {
             body {
@@ -1145,7 +1159,7 @@ padding-right: 5%;
         }
 
         .rondje {
-            margin-left: 35%;
+            margin-left: 37.5%;
         }
 
         .rondje li {
