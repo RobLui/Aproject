@@ -12,7 +12,7 @@
     </div>
     <div class="mid_container">
       <div class="block">
-        <h2 class="mid_headers">Testimonials</h2>
+        <h1 class="mid_headers">Testimonials</h1>
         <p> Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.
         </p>
       </div>

@@ -25,7 +25,7 @@
 				</div>
 				<h1>Eet plekskes</h1>
 				<div class="block_img">
-					<img src="images/threehundred.jpg" alt="300">
+					<img src="images/ontdek/eet_plekskes.jpg" alt="restaurant Antwerpen">
 					<p>Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					<div class="btn-section">
 						<a href="ontdek/places-to-eat" class="btn-custom"> > meer lezen </a>
@@ -41,7 +41,7 @@
 				</div>
 				<h1>Studie plekskes</h1>
 				<div class="block_img">
-					<img src="images/threehundred.jpg" alt="300">
+					<img src="images/ontdek/studie_plekskes.jpg" alt="300">
 					<p class="columnText">Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					<div class="btn-section">
 						<a href="ontdek/places-to-study" class="btn-custom"> >  meer lezen </a>
@@ -57,7 +57,7 @@
 			</div>
 				<h1>Schoon plekskes</h1>
 				<div class="block_img">
-					<img src="images/threehundred.jpg" alt="300">
+					<img src="images/ontdek/schoon_plekskes.jpg" alt="300">
 					<p class="columnText">Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					<div class="btn-section">
 						<a href="ontdek/places-to-see" class="btn-custom"> > meer lezen </a>

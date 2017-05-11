@@ -10,8 +10,8 @@
             margin-top: 3em;
         }
 
-        block_img p {
-            padding-left: 2%;
+        .block_img p {
+            padding: 2%;
         }
         /*-----------------------HEAD DISPLAY-----------------------*/
 
@@ -1145,19 +1145,6 @@ padding-right: 5%;
             /*background-color: orange;*/
         }
 
-        .rondje {
-            display: block;
-            /*background-color: blue;*/
-            border: 1px solid grey;
-            border-radius: 50%;
-            width: 5em;
-            height: 5em;
-        }
-
-        .rondje {
-            margin-left: 37.5%;
-        }
-
         .rondje li {
             margin-top: 20%;
         }
@@ -1168,4 +1155,23 @@ padding-right: 5%;
 
         .slider {
             height: 75%;
+        }
+        /* IMAGES MET PIXELS VOORLOPIG!! */
+
+        .block_img img {
+            height: 300px;
+            display: block;
+        }
+
+        .info {
+            max-width: 100%;
+        }
+
+        .rondje {
+            display: block;
+            border: 1px solid grey;
+            border-radius: 50%;
+            width: 5em;
+            height: 5em;
+            margin-left: 40%;
         }
