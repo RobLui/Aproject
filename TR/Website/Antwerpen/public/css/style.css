@@ -1157,11 +1157,10 @@ padding-right: 5%;
             height: 75%;
         }
         /* IMAGES MET PIXELS VOORLOPIG!! */
-
-        .block_img img {
+        /*.block_img img {
             height: 300px;
             display: block;
-        }
+        }*/
 
         .info {
             max-width: 100%;
