@@ -19,7 +19,7 @@
         <a href="/approval">Goedkeuren</a>
       </div>
       <div class="right-sq">
-        <a href="/info/studieaanbod">Suggesties</a>
+        <a href="/info/studieaanbod">Instellingen</a>
       </div>
     </div>
   </div>

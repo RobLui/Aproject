@@ -21,7 +21,7 @@
 				<!--  PLACES TO EAT -->
 				<li class="fa fa-cutlery fa-3x "></li>
 				<h1>Eet plekskes</h1>
-				<div class="blok">
+				<div class="block_img">
 					<img src="images/threehundred.jpg" alt="300">
 					<p>Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					<div class="btn-section">
@@ -34,7 +34,7 @@
 				<!-- 2 -->
 				<li class="fa fa-book fa-3x"></li>
 				<h1>Studie plekskes</h1>
-				<div class="blok">
+				<div class="block_img">
 					<img src="images/threehundred.jpg" alt="300">
 					<p class="columnText">Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					<div class="btn-section">
@@ -48,7 +48,7 @@
 				<!-- 3 -->
 				<li class="fa fa-search fa-3x" aria-hidden="true"></li>
 				<h1>Schoon plekskes</h1>
-				<div class="blok">
+				<div class="block_img">
 					<img src="images/threehundred.jpg" alt="300">
 					<p class="columnText">Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					<div class="btn-section">
