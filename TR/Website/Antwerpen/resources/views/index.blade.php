@@ -12,7 +12,7 @@
       <i class="fa fa-binoculars fa-3x"></i>
       <h1>Ontdek de stad</h1>
       <div class="block_img">
-        <img src="images/threehundred.jpg" alt="img">
+        <img src="images/ontdekDeStadIndex.jpg" alt="img">
         <p>Nieuw in Antwerpen?
           Wat valt er zoal te doen in ‘t Stad?
           Wij geven je alvast 10 dingen die je zeker niet mag missen!
@@ -27,7 +27,7 @@
       <i class="fa fa-info fa-3x"></i>
         <h1>Beschikbare Richtingen</h1>
         <div class="block_img">
-          <img src="images/threehundred.jpg" alt="img">
+          <img src="images/beschikbareRichtingenIndex.jpg" alt="img">
           <p>Ben je er nog niet helemaal uit wat je wil gaan studeren?
             Vragen over je richting?
             Geen nood! Hier is een overzicht te vinden van alle scholen en hun aanbod.</p>
@@ -41,7 +41,7 @@
       <i class="fa fa-paper-plane fa-3x" aria-hidden="true"></i>
       <h1>Nieuws en Evenementen</h1>
       <div class="block_img">
-        <img src="images/threehundred.jpg" alt="img">
+        <img src="images/NieuwsEnEvenementenIndex.jpg" alt="img">
         <p>Pauzeren hoort nu eenmaal bij studeren.
           Waar gaan feestjes door? Al naar de Stu Day geweest?
           Geïntereseerd in een nieuwe studierichtig?
