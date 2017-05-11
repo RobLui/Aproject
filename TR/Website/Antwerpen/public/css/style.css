@@ -962,12 +962,6 @@ input[type=text], select, textarea {
     padding-top: 0.3em;
 }
 
-.mid_container {
-    display: block;
-    height: 15em;
-    /*background-color: orange;*/
-}
-
 .mid_container .left, .mid_container .right {
     background-color: #0064B4;
     height: 50%;
@@ -1002,13 +996,15 @@ input[type=text], select, textarea {
 .mid_container .left-sq a, .mid_container .right-sq a {
     margin: 0 auto;
     display: block;
-    text-align: center;
+    /*text-align: center;*/
     padding-top: 35%;
 }
 
 .mid_container p {
+    display: block;
+    margin: 0 auto;
     width: 75%;
-    margin-left: 12.5%;
+    /*margin-left: 25%;*/
     text-align: center;
 }
 
@@ -1231,4 +1227,18 @@ h1 {
         padding-left: 5%;
         padding-right: 5%;
     }
+}
+
+.mid_container {
+    display: block;
+    height: 15em;
+    width: 100%;
+    /*background-color: orange;*/
+}
+
+.mid_container p {
+    margin: 0 auto;
+    display: block;
+    width: 75%;
+    /*background-color: orange;*/
 }
