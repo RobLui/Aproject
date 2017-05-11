@@ -26,9 +26,11 @@
 				<h1>Eet plekskes</h1>
 				<div class="block_img">
 					<img src="images/ontdek/eet_plekskes.jpg" alt="restaurant Antwerpen">
-					<p>Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
-					<div class="btn-section">
-						<a href="ontdek/places-to-eat" class="btn-custom"> > meer lezen </a>
+					<div class="block_">
+						<p>Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
+					</div>
+						<div class="btn-section">
+							<a href="ontdek/places-to-eat" class="btn-custom"> > meer lezen </a>
 					</div>
 				</div>
 			</div>

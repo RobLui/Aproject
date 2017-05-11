@@ -23,7 +23,7 @@
     @if(count($events) > 0)
       @foreach($events as $event)
       <div class="row_nieuws">
-          <h3>{{$event->title}}</h3>
+          <h1>{{$event->title}}</h1>
           <p>{{$event->text}}</p>
           <img src="images/lowpoly.jpg" alt="test" class="block_">
           @if(isset(Auth::user()->name))
