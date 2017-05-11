@@ -11,7 +11,9 @@
 }
 
 .block_img p {
-    padding: 2%;
+    padding-left: 7%;
+    padding-right: 5%;
+    text-align: left;
 }
 
 
@@ -91,7 +93,7 @@ body {
 }
 
 .navbar-default {
-    background-color: #CF0039;
+    background-color: #D01F38;
 }
 
 a {
@@ -1181,6 +1183,8 @@ h1 {
     width: 5em;
     height: 5em;
     margin-left: 40%;
+    margin-top: 19%;
+    margin-bottom: 5%;
 }
 
 @media (max-width: 500px) {
@@ -1189,4 +1193,12 @@ h1 {
         height: 75%;
         width: 75%;
     }
+}
+
+.btn-custom a {
+    color: red;
+}
+
+.btn-section {
+    margin-bottom: 5%;
 }
