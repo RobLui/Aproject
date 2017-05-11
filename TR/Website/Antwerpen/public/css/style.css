@@ -27,10 +27,18 @@ block_img p{
 /*--------------------------SLIDER--------------------------*/
 
 .slider {
-    background-color: #0064B4;
-    height: 24em;
+    /*background-color: #0064B4;*/
+    /*height: 5em;*/
+    width:100%;
     display: block;
+    /*top: 0;*/
 }
+
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
 
 .form-inline {
     display: block;
@@ -903,7 +911,7 @@ input[type=text], select, textarea {
     }
     .slider {
         width: 100%;
-        height: 16em;
+        height: 28em;
     }
     .col-sm-4.item {
         width: 100%;
@@ -1159,7 +1167,7 @@ h1 {
     }
     .slider {
         width: 100%;
-        height: 16em;
+
     }
     .col-sm-4.item {
         text-align: center;
@@ -1189,7 +1197,7 @@ h1 {
     }
     .slider {
         width: 100%;
-        height: 24em;
+
     }
     .ontdek {
         width: 100%;
@@ -1218,7 +1226,7 @@ h1 {
     }
     .slider {
         width: 100%;
-        height: 24em;
+        top: 0;
     }
     .col-sm-4.item {
         width: 33%;
@@ -1245,4 +1253,9 @@ h1 {
     display: block;
     width: 75%;
     /*background-color: orange;*/
+}
+
+
+.slider{
+  height: 75%;
 }

@@ -4,7 +4,7 @@
 <title>Home</title>
 <div class="container index">
   <div class="slider">
-
+    <img src="images/sliderMockUp.jpg" alt="sliderMockUp">
   </div>
 
 <div class="homeContainer">
