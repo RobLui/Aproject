@@ -9,7 +9,10 @@
 
 <div class="homeContainer">
     <div class="col-sm-4 item"> <!-- 1 -->
+      <div class="rondje">
       <i class="fa fa-binoculars fa-3x"></i>
+    </div>
+
       <h1>Ontdek de stad</h1>
       <div class="block_img">
         <img src="images/ontdekDeStadIndex.jpg" alt="img">
@@ -24,7 +27,9 @@
     </div>
 
     <div class="col-sm-4 item"> <!-- 2 -->
-      <i class="fa fa-info fa-3x"></i>
+      <div class="rondje">
+        <i class="fa fa-info fa-3x"></i>
+      </div>
         <h1>Beschikbare Richtingen</h1>
         <div class="block_img">
           <img src="images/beschikbareRichtingenIndex.jpg" alt="img">
@@ -38,7 +43,9 @@
     </div>
 
     <div class="col-sm-4 item"> <!-- 3 -->
+      <div class="rondje">
       <i class="fa fa-paper-plane fa-3x" aria-hidden="true"></i>
+      </div>
       <h1>Nieuws en Evenementen</h1>
       <div class="block_img">
         <img src="images/NieuwsEnEvenementenIndex.jpg" alt="img">
