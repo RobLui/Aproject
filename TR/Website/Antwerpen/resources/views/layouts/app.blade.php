@@ -18,7 +18,6 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- Mobile Specific Meta -->
@@ -55,7 +54,7 @@
                   <!-- Branding Image -->
                   <ul class="menu">
                     <!-- Left Side Of Navbar -->
-                        <li><div class="logo"><a href="{{ url('/home') }}"><img src="http://i.imgur.com/4nhGtlf.png" alt="Logo"/></a></div></li>
+                        <li><a href="{{ url('/home') }}"><img src="http://i.imgur.com/4nhGtlf.png" alt="Logo"/></a></li>
                         <li><a href="{{ url('/home') }}">Home</a></li>
                         <li><a href="{{ url('/ontdek') }}">Ontdek</a></li>
                         <li><a href="{{ url('/info') }}">Info</a></li>

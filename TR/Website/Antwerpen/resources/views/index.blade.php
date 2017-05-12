@@ -37,7 +37,7 @@
             Vragen over je richting?
             Geen nood! <br>Hier is een overzicht te vinden van alle scholen en hun aanbod.</p>
           <div class="btn-section">
-              <a href="/studieaanbod" class="btn-custom"> > meer </a>
+              <a href="/info/studieaanbod" class="btn-custom"> > meer </a>
           </div>
         </div>
     </div>
