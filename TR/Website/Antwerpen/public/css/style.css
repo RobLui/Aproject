@@ -694,14 +694,12 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
 .menu li {
     list-style-type: none;
     position: relative;
-    float: left;
 }
 
 .menu>li {
     display: block;
     list-style-type: none;
     position: relative;
-    float: left;
 }
 
 
@@ -709,16 +707,16 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
 
 .menu>li>a {
     font-weight: 700;
-    padding: 10%;
+    /*padding: 10%;*/
     transition: all .3s ease;
-    float: left;
+    /*float: left;*/
+    margin: auto 0;
     text-decoration: none;
     width: 20%;
 }
 
 .menu li {
     margin-top: 2em;
-    margin-left: 8em;
 }
 
 a:hover {
@@ -1001,8 +999,6 @@ input[type=text], select, textarea {
         width: 100%;
         height: 2em;
         text-align: center;
-        padding: 0;
-        margin: 0;
     }
     /*ALGEMEEN*/
     .container {
@@ -1011,7 +1007,7 @@ input[type=text], select, textarea {
     }
     /*NIEUWS*/
     .row_nieuws img {
-        background-color: blue;
+        /*background-color: blue;*/
         width: 100%;
         height: 100%;
         margin-left: 0;
@@ -1030,8 +1026,8 @@ input[type=text], select, textarea {
     .menu li {
         float: left;
         display: block;
-        width: 3em;
-        height: 2em;
+        /*width: 3em;*/
+        /*height: 2em;*/
         text-align: center;
     }
 }
@@ -1201,4 +1197,14 @@ h1 {
 
 .btn-section {
     margin-bottom: 5%;
+}
+
+.navbar .navbar-collapse menu {
+    margin: auto 0;
+}
+
+@media (min-width: 767px) {
+    .menu li {
+        margin-left: 8em;
+    }
 }
