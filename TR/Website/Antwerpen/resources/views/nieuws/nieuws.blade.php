@@ -22,16 +22,17 @@
     @endif
     @if(count($events) > 0)
       @foreach($events as $event)
-      <div class="row_nieuws">
-          <h1>{{$event->title}}</h1>
-          <p>{{$event->text}}</p>
-          <img src="images/lowpoly.jpg" alt="test" class="block_">
-          @if(isset(Auth::user()->name))
-            @if(Auth::user()->name == $event->posted_by)
-              <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
-            @endif
+      <div class="block_img_nieuws">
+      <!-- <div class="row_nieuws"> -->
+        <h1>{{$event->title}}</h1>
+        <p>{{$event->text}}</p>
+        <img src="images/lowpoly.jpg" alt="test">
+        @if(isset(Auth::user()->name))
+          @if(Auth::user()->name == $event->posted_by)
+            <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
           @endif
-        </div>
+        @endif
+      </div>
       @endforeach
     @endif
   </div>

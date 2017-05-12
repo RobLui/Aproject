@@ -76,17 +76,17 @@ Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');
 Route::get('/testimonial', 'testimonialController@index');
 
 //PLACES TO EAT
-Route::get('ontdek/places-to-eat', function () {
+Route::get('ontdek/eet-plekskes', function () {
     return view('places/placesToEat');
 });
 
 // PLACES TO SEE
-Route::get('ontdek/places-to-see', function () {
+Route::get('ontdek/schoon-plekskes', function () {
     return view('places/placesToSee');
 });
 
 // PLACES TO STUDY
-Route::get('ontdek/places-to-study', function () {
+Route::get('ontdek/studie-plekskes', function () {
     return view('places/placesToStudy');
 });
 

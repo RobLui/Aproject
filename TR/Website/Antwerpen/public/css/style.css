@@ -103,7 +103,7 @@ a {
 
 .btn-primary {
     color: #fff;
-    background-color: #0064B4;
+    /*background-color: #0064B4;*/
 }
 
 .edit-btn {
@@ -318,7 +318,7 @@ ul.richtingen_class {
 }
 
 .artikel .mid_container p, .testimonial .mid_container p {
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     margin: 3em;
 }
 
@@ -896,6 +896,7 @@ input[type=text], select, textarea {
     width: 90%;
     height: 100%;
     margin-top: 2em;
+    margin-bottom: 1em;
     margin-left: 5%;
     text-align: center;
     display: block;
@@ -903,34 +904,48 @@ input[type=text], select, textarea {
 
 .rwpa a {
     padding: 0.5em;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     margin-top: 1em;
     display: block;
     font-size: relative;
 }
 
 .block {
-    height: 15em;
+    height: auto;
     display: block;
 }
 
 
 /*-------------------------- NIEUWS --------------------------*/
 
-.block_img img {
-    display: block;
+.block_img img, .block_img_nieuws img {
     width: 100%;
     height: 100%;
+}
+
+.block_img_nieuws img, .block_img_nieuws p, .block_img_nieuws h1, .block_img_nieuws a {
+    margin: 0 auto;
+    display: block;
+    /*width: 75%;*/
+}
+
+.block_img_nieuws a {
+    height: 3em;
+    padding: 0.7em;
+}
+
+.block_img_nieuws h1 {
+    text-align: center;
+}
+
+.block_img {
+    border: 1px solid lightgrey;
 }
 
 .block_ {
     display: block;
     width: 100%;
     height: 100%;
-}
-
-.block_img {
-    border: 1px solid lightgrey;
 }
 
 .panel.panel-default h2 {
@@ -984,6 +999,75 @@ input[type=text], select, textarea {
     text-align: center;
 }
 
+.mid_headers {
+    margin: auto 0;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.mid_container {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    width: 100%;
+    /*background-color: orange;*/
+}
+
+.mid_container p {
+    margin: 0 auto;
+    display: block;
+    width: 75%;
+    /*background-color: orange;*/
+}
+
+.rondje li {
+    margin-top: 20%;
+}
+
+.rondje i {
+    margin-top: 15%;
+}
+
+.slider {
+    height: 75%;
+}
+
+
+/* IMAGES MET PIXELS VOORLOPIG!! */
+
+.info {
+    max-width: 100%;
+}
+
+.rondje {
+    display: block;
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    margin-left: 40%;
+    margin-top: 19%;
+    margin-bottom: 5%;
+}
+
+.btn-custom a {
+    color: red;
+}
+
+.btn-section {
+    margin-bottom: 5%;
+}
+
 
 /*-------------------- MEDIA QUERIES --------------------*/
 
@@ -1000,6 +1084,15 @@ input[type=text], select, textarea {
         height: 100%;
         text-align: center;
     }
+    .menu li {
+        width: 100%;
+    }
+    .navbar .navbar-collapse {
+        margin-left: -2.5em;
+    }
+    .menu li:last-child {
+        margin-bottom: 1em;
+    }
     /*ALGEMEEN*/
     .container {
         padding: 0;
@@ -1007,7 +1100,6 @@ input[type=text], select, textarea {
     }
     /*NIEUWS*/
     .row_nieuws img {
-        /*background-color: blue;*/
         width: 100%;
         height: 100%;
         margin-left: 0;
@@ -1033,23 +1125,11 @@ input[type=text], select, textarea {
         height: 100%;
         text-align: center;
     }
-}
-
-.mid_headers {
-    margin: auto 0;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    text-align: center;
-}
-
-.footer {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    font-size: 2em;
+    .info, .block_img_nieuws {
+        width: 75%;
+        height: auto;
+        margin: 0 auto;
+    }
 }
 
 
@@ -1119,8 +1199,6 @@ h1 {
         margin: 0;
     }
     .homeContainer {
-        /*display: none;*/
-        /*border: 4px solid orange;*/
         overflow: hidden;
         clear: both;
         width: 100%;
@@ -1140,50 +1218,10 @@ h1 {
         padding-left: 5%;
         padding-right: 5%;
     }
-}
-
-.mid_container {
-    display: block;
-    height: 15em;
-    width: 100%;
-    /*background-color: orange;*/
-}
-
-.mid_container p {
-    margin: 0 auto;
-    display: block;
-    width: 75%;
-    /*background-color: orange;*/
-}
-
-.rondje li {
-    margin-top: 20%;
-}
-
-.rondje i {
-    margin-top: 15%;
-}
-
-.slider {
-    height: 75%;
-}
-
-
-/* IMAGES MET PIXELS VOORLOPIG!! */
-
-.info {
-    max-width: 100%;
-}
-
-.rondje {
-    display: block;
-    border: 1px solid grey;
-    border-radius: 50%;
-    width: 5em;
-    height: 5em;
-    margin-left: 40%;
-    margin-top: 19%;
-    margin-bottom: 5%;
+    .info {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 500px) {
@@ -1191,25 +1229,5 @@ h1 {
         margin: auto 0;
         height: 75%;
         width: 75%;
-    }
-}
-
-.btn-custom a {
-    color: red;
-}
-
-.btn-section {
-    margin-bottom: 5%;
-}
-
-@media (max-width: 767px) {
-    .menu li {
-        width: 100%;
-    }
-    .navbar .navbar-collapse {
-        margin-left: -2.5em;
-    }
-    .menu li:last-child {
-        margin-bottom: 1em;
     }
 }

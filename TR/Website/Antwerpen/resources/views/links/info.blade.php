@@ -10,6 +10,13 @@
     <div class="slider">
       <!--  slider placeholder -->
     </div>
+    <div class="rwpa">
+      <a href="/info/studieaanbod" target="blank">Richtingen</a>
+      <a href="#" target="blank">Werkgelegenheid</a>
+      <a href="http://www.belgianrail.be/" target="blank">Pendelaars</a>
+      <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="blank">Antwerpen (LEEFT)</a>
+    </div>
+    <!--  TESTIMONIALS -->
     <div class="mid_container">
       <div class="block">
         <h1 class="mid_headers">Testimonials</h1>
@@ -17,7 +24,11 @@
         </p>
       </div>
     </div>
+    <div class="block_img_nieuws">
+      <img src="images/ontdek/eet_plekskes.jpg" alt="restaurant Antwerpen">
+    </div>
 
+    <!--  STUDEREN IN ANTWERPEN -->
     <div class="mid_container">
       <div class="block">
         <h2 class="mid_headers">Waarom studeren in Antwerpen?</h2>
@@ -25,19 +36,11 @@
         </p>
       </div>
     </div>
-      <!-- <div class="left"> -->
-        <!--  left side placeholder -->
-      <!-- </div> -->
-      <!-- <div class="right"> -->
-        <!--  right side placeholder -->
-      <!-- </div> -->
-
-    <div class="rwpa">
-      <a href="/info/studieaanbod" target="blank">Richtingen</a>
-      <a href="/info/studieaanbod" target="blank">Werkgelegenheid</a>
-      <a href="http://www.belgianrail.be/" target="blank">Pendelaars</a>
-      <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="blank">Antwerpen (LEEFT)</a>
+    <div class="block_img_nieuws">
+      <img src="images/ontdek/eet_plekskes.jpg" alt="restaurant Antwerpen">
     </div>
+
+
   </div>
   </div>
 </div>

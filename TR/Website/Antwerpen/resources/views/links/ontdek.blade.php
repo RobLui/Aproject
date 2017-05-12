@@ -30,7 +30,7 @@
 						<p>Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					</div>
 						<div class="btn-section">
-							<a href="ontdek/places-to-eat" class="btn-custom"> > meer lezen </a>
+							<a href="ontdek/eet-plekskes" class="btn-custom"> > meer lezen </a>
 					</div>
 				</div>
 			</div>
@@ -46,7 +46,7 @@
 					<img src="images/ontdek/studie_plekskes.jpg" alt="300">
 					<p class="columnText">Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					<div class="btn-section">
-						<a href="ontdek/places-to-study" class="btn-custom"> >  meer lezen </a>
+						<a href="ontdek/studie-plekskes" class="btn-custom"> >  meer lezen </a>
 					</div>
 				</div>
 			</div>
@@ -62,7 +62,7 @@
 					<img src="images/ontdek/schoon_plekskes.jpg" alt="300">
 					<p class="columnText">Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
 					<div class="btn-section">
-						<a href="ontdek/places-to-see" class="btn-custom"> > meer lezen </a>
+						<a href="ontdek/schoon-plekskes" class="btn-custom"> > meer lezen </a>
 					</div>
 				</div>
 			</div>
