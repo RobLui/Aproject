@@ -55,7 +55,7 @@
                   <!-- Branding Image -->
                   <ul class="menu">
                     <!-- Left Side Of Navbar -->
-                        <div class="logo"><a href="{{ url('/home') }}"><img src="http://i.imgur.com/4nhGtlf.png" alt="Logo"/></a></div></li>
+                        <li><div class="logo"><a href="{{ url('/home') }}"><img src="http://i.imgur.com/4nhGtlf.png" alt="Logo"/></a></div></li>
                         <li><a href="{{ url('/home') }}">Home</a></li>
                         <li><a href="{{ url('/ontdek') }}">Ontdek</a></li>
                         <li><a href="{{ url('/info') }}">Info</a></li>

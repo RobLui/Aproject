@@ -204,8 +204,8 @@ li:nth-child(2) {
 }
 
 .navbar-nav li:first-child img {
-    height: 3.56em;
-    width: 72px;
+    /*height: 3.56em;
+width: 72px;*/
     padding: 0;
 }
 
@@ -997,7 +997,7 @@ input[type=text], select, textarea {
         float: left;
         display: block;
         width: 100%;
-        height: 2em;
+        height: 100%;
         text-align: center;
     }
     /*ALGEMEEN*/
@@ -1022,12 +1022,15 @@ input[type=text], select, textarea {
 @media (min-width: 768px) {
     .menu li a {
         text-align: center;
+        display: block;
+        width: 7em;
     }
     .menu li {
         float: left;
         display: block;
         /*width: 3em;*/
-        /*height: 2em;*/
+        margin-left: 0.5em;
+        height: 100%;
         text-align: center;
     }
 }
@@ -1199,12 +1202,14 @@ h1 {
     margin-bottom: 5%;
 }
 
-.navbar .navbar-collapse menu {
-    margin: auto 0;
-}
-
-@media (min-width: 767px) {
+@media (max-width: 767px) {
     .menu li {
-        margin-left: 8em;
+        width: 100%;
+    }
+    .navbar .navbar-collapse {
+        margin-left: -2.5em;
+    }
+    .menu li:last-child {
+        margin-bottom: 1em;
     }
 }
