@@ -7,8 +7,9 @@
     <h2>Info</h2>
   </div>
   <div class="info">
+
     <div class="slider">
-      <!--  slider placeholder -->
+      <img src="images/slidermockup.jpg" alt="test">
     </div>
     <div class="rwpa">
       <a href="/info/studieaanbod" target="blank">Richtingen</a>
@@ -16,6 +17,7 @@
       <a href="http://www.belgianrail.be/" target="blank">Pendelaars</a>
       <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="blank">Antwerpen (LEEFT)</a>
     </div>
+
     <!--  TESTIMONIALS -->
     <div class="mid_container">
       <div class="block">
