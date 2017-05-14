@@ -14,10 +14,14 @@
   <div class="panel-content">
     @if(isset(Auth::user()->name))
       @if(Auth::user()->name == "Admin")
-        <form action="/nieuws/add" method="post">
+        <!-- <form action="/nieuws/add" method="post">
           <button type="submit" name="button" class="x">test toevoegen</button><br>
           {{ csrf_field() }}
-        </form>
+        </form> -->
+      <div class="news_m">
+        <a href="/nieuws/add"> Nieuws/Event toevoegen</a>
+      </div>
+      
       @endif
     @endif
     @if(count($events) > 0)

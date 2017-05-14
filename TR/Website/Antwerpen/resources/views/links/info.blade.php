@@ -9,7 +9,7 @@
   <div class="info">
 
     <div class="slider">
-      <img src="images/slidermockup.jpg" alt="test">
+      <img src="/images/slidermockup.jpg" alt="test">
     </div>
     <div class="rwpa">
       <a href="/info/studieaanbod" target="blank">Richtingen</a>

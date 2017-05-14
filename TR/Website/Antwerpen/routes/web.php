@@ -10,10 +10,6 @@ Route::get('/article/add', function () {
     return view('articles/add');
 });
 
-Route::get('/nieuws/add', function () {
-  return view('nieuws/nieuws');
-});
-
 // ALGEMENE LINKS
 Route::get('/ontdek', 'OntdekController@index');
 Route::get('/info', 'InfoController@index');
@@ -60,7 +56,10 @@ Route::get('info/studieaanbod', 'InfoController@indexRichting');
 
 // NIEUWS / EVENTS
   // CREATE nieuws
-  Route::post('/nieuws/add', 'nieuwsController@create');
+  Route::post('/nieuws/add/nieuw', 'nieuwsController@create');
+  Route::get('/nieuws/add', function () {
+    return view('nieuws/add');
+  });
   // EDIT nieuws/event
   // Route::get('nieuws/edit/{id}', function () { // view
   //   return view('nieuws/nieuws');

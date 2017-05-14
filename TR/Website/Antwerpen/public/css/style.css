@@ -142,7 +142,7 @@ button {
 }
 
 .panel-default>.panel-heading {
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
     /*background-color: #0064B4;*/
     border-color: #ddd;
 }
@@ -1040,6 +1040,22 @@ h1 {
     background-color: #D01F38;
 }
 
+.news_m {
+    margin: 0 auto;
+    text-align: center;
+    height: 5em;
+    display: block;
+    background-color: blue;
+    width: 25%;
+}
+
+.news_m a {
+    padding: 1.5em;
+    height: 100%;
+    display: block;
+    width: 100%;
+}
+
 
 /*-------------------- MEDIA QUERIES --------------------*/
 
@@ -1070,10 +1086,6 @@ h1 {
         padding: 0;
         width: 100%;
     }
-    /*NIEUWS*/
-    .block_img_nieuws {
-        margin-bottom: 1em;
-    }
     .block_img_nieuws img {
         height: 75%;
         width: 75%%;
@@ -1081,6 +1093,15 @@ h1 {
     }
     .footerContainer p {
         font-size: 0.7em;
+    }
+    .richtingen_class {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .richtingen_class li {
+        width: 100%;
+        margin-top: 1em;
     }
 }
 
@@ -1202,4 +1223,12 @@ h1 {
 
 .rwpa {
     margin-top: 1em;
+}
+
+
+/*NIEUWS*/
+
+.block_img_nieuws {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
