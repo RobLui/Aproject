@@ -45,7 +45,7 @@ class nieuwsController extends Controller
       $events->posted_by = Auth::user()->name;
       $events->data = "0";
       $events->save();
-      return view("nieuws/nieuws")->withEvents($event);
+      return redirect("/nieuws")->withEvents($event);
     }
 
 // ----------------------- EDIT -----------------------

@@ -35,7 +35,7 @@ Route::get('info/studieaanbod', 'InfoController@indexRichting');
 
 // ----------------------- RICHTINGEN  -----------------------
   // CREATE
-  Route::post('/info/studieaanbod/add', 'Infocontroller@create');
+  Route::post('info/studieaanbod/add', 'InfoController@create');
   // EDIT
   Route::get('/info/studieaanbod/edit/{id}', 'InfoController@edit');
   // UPDATE

@@ -11,10 +11,13 @@ use Session;
 
 class InfoController extends Controller
 {
+  // ----------------------- INDEX  -----------------------
     public function index()
     {
         return view('links/info');
     }
+
+  // ----------------------- RICHTINGEN INDEX  -----------------------
     public function indexRichting()
     {
         $richting = Richting::all();
@@ -23,55 +26,51 @@ class InfoController extends Controller
         ->withRichtingen($richting);
     }
 
+  // ----------------------- CREATE -----------------------
     public function create(Request $request)
     {
         // Check if the admin is logged in -> only than, richting can be added
         if (Auth::check()) {
             // Validation handler
-          $validator = Validator::make($request->all(), [
-          'title' => 'required|max:255',
-          'url' => 'required|max:255',
-        ]);
+          $validator = Validator::make($request->all(),
+          ['title' => 'required|max:255','url' => 'required|max:255',]);
         // Validation error, show errors, check for valid email through regEX
         if ($validator->fails()) {
-            return view('/')
-          ->withErrors($validator);
+            return redirect('/info/studieaanbod')->withErrors($validator);
         }
-            if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $request->url)) {
-                return view('/')
-          ->withErrors($request->url.' is not a valid URL');
-            }
-
+        if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $request->url)) {
+          return redirect('/info/studieaanbod')->withErrors($request->url .' is geen geldige URL');
+        }
         // No validation error, continue..
         $richtingen = new Richting();
-
-            $user = User::all();
+        $user = User::all();
         // $request title & url = get data from both out of the submitted form
         $richtingen->title = $request->title;
-            $richtingen->url = $request->url;
-            $richtingen->save();
+        $richtingen->url = $request->url;
+        $richtingen->save();
 
-            Session::flash('success', ($request->title.' is succesvol geupdated'));
+        Session::flash('success', ($request->title.' is succesvol toegevoegd'));
         // Save into db
         return redirect('/info/studieaanbod')->withRichtingen($richtingen);
         } else {
             return redirect('login');
         }
     }
-  // ELOQUENT EDIT
+
+  // ----------------------- EDIT -----------------------
   public function edit($id)
   {
       $user = User::all();
       if (Auth::check()) {
           $richting = Richting::findOrFail($id);
-
           return view('richtingen/edit')->withRichtingen($richting);
-      } else {
-          return redirect('/info')->withMessage('msg', 'Enkel admin\'s kunnen aanpassingen doen ');
+      }
+      else {
+          return redirect('/info')->withMessage('msg', 'Enkel admins kunnen aanpassingen doen ');
       }
   }
 
-  // ELOQUENT UPDATE
+  // ----------------------- UDPATE -----------------------
   public function update(Request $req, $id)
   {
       $richtingen = Richting::findOrFail($id);
@@ -90,19 +89,21 @@ class InfoController extends Controller
       }
       // Check for valid email through regEX
       if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $req->url)) {
-          return view('/richtingen/edit')
-        ->withRichtingen($richtingen)
-        ->withErrors($req->url.' is geen geldige url');
+          return view('info/studieaanbod')
+          ->withRichtingen($richtingen)
+          ->withErrors($req->url.' is geen geldige url');
       } //if no errors occur, the richting can update
       $richtingen->update($req->all());
         Session::flash('success', ($req->title.' is succesvol geupdate'));
-    } else {
-        Session::flash('error', ('Er heeft zich een fout voorgedaan'));
     }
-
+    else
+    {
+      Session::flash('error', ('Er heeft zich een fout voorgedaan'));
+    }
       return redirect('/info/studieaanbod')->with(compact('id'));
   }
-  // ELOQUENT DELETE
+
+  // ----------------------- DELETE  -----------------------
   public function delete(Request $req, $id)
   {
       $richtingen = Richting::findOrFail($id);

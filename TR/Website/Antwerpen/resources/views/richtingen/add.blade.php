@@ -3,7 +3,7 @@
     <div class="panel panel-default">
       <div class="panel-heading x">Richting toevoegen</div>
         <div class="panel-content">
-          <form action="{{ url('info/studieaanbod/add') }}" method="POST" class="form-horizontal">
+          <form action="{{ url('/info/studieaanbod/add') }}" method="POST" class="form-horizontal">
             {{ csrf_field() }}
 
             <!-- richtingen title -->

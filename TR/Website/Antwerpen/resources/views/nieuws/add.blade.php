@@ -5,10 +5,10 @@
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
-          <a href="..\nieuws">← terug naar nieuws</a>
+          <a href="..\nieuws">← Terug naar nieuws</a>
           <br><br>
             <div class="panel panel-default">
-              <div class="panel-heading">Voeg Nieuws/Events toe</div>
+              <div class="panel-heading">Nieuws & Events</div>
               <br>
                 <div class="panel-content">
                 <!--  display errors and messages -->
@@ -25,14 +25,6 @@
                         <input type="text" name="title" id="title" class="form-control">
                     </div>
                   </div>
-
-                  <!-- URL -->
-                  <!-- <div class="form-group">
-                    <label for="url" class="col-sm-3 control-label">URL</label>
-                    <div class="col-sm-6">
-                        <input type="text" name="url" id="url" class="form-control">
-                    </div>
-                  </div> -->
 
                   <!--  Text news/event -->
                   <div class="form-group">
