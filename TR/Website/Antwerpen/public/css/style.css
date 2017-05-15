@@ -436,8 +436,6 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
 
 /*----- MENU -----*/
 
-
-
 #slider3 .main {
     height: auto;
     clear: both;
@@ -534,7 +532,7 @@ input[type=text], select, textarea {
 
 .footerContainer {
     /*  background-color: #111;*/
-  /*  background-color: #d01f38;*/
+    /*  background-color: #d01f38;*/
     bottom: 0;
 }
 
@@ -584,11 +582,11 @@ a:hover {
     text-decoration: none;
 }
 
- a:active{
-   color: #d01f38;
-   text-decoration: none;
+a:active {
+    color: #d01f38;
+    text-decoration: none;
+}
 
- }
 li.current>a {
     border-bottom: 3px solid red;
 }
@@ -692,8 +690,6 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     margin-top: 2em;
 }
 
-
-
 #slider3 .main {
     height: auto;
     clear: both;
@@ -794,12 +790,7 @@ input[type=text], select, textarea {
     margin-top: 5%;
 }
 
-.footerContentContainer{
-
-
-}
-
-
+.footerContentContainer {}
 
 .footerContainer {
     /*background-color: #111;*/
@@ -833,31 +824,27 @@ input[type=text], select, textarea {
     /*padding-right: 35px;*/
 }
 
-.footerLMR{
-  position: absolute;
-  width: 100%;
-  margin: 0 auto;
-  z-index: 2;
-  margin-top: 13%;
-
-
+.footerLMR {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 2;
+    margin-top: 13%;
 }
 
-.footerLogo{
+.footerLogo {
     margin-left: 5%;
 }
 
-.footerItem{
-  position: relative;
-  float: left;
-  width: 33.3%;
-
+.footerItem {
+    position: relative;
+    float: left;
+    width: 33.3%;
 }
 
-.footerItem a{
-  color: white;
-  font-size: 1.2em;
-
+.footerItem a {
+    color: white;
+    font-size: 1.2em;
 }
 
 .footerImg {
@@ -1139,6 +1126,36 @@ h1 {
         width: 100%;
         margin-top: 1em;
     }
+    ._admin {
+        /*margin: 0 auto;*/
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1em;
+        display: block;
+        float: left;
+        width: 50%;
+        height: 50%;
+        background-color: lightblue;
+        text-align: center;
+    }
+    ._admin a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        padding-top: 2.25em;
+    }
+    .one {
+        margin: 0 auto;
+        width: 14em;
+        height: 14em;
+        display: block;
+        background-color: blue;
+    }
+    .one ._admin {
+        margin: 0 auto;
+        margin-top: 1em;
+        margin-left: 25%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1166,6 +1183,34 @@ h1 {
         margin-bottom: 1em;
         display: block;
         width: 75%;
+    }
+    ._admin {
+        /*margin: 0 auto;*/
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1em;
+        display: block;
+        float: left;
+        width: 12.5em;
+        height: 12.5em;
+        background-color: lightblue;
+        text-align: center;
+    }
+    ._admin a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        padding-top: 5em;
+    }
+    .one {
+        margin: 0 auto;
+        width: 50em;
+        height: 15em;
+        display: block;
+        /*background-color: blue;*/
+    }
+    .one ._admin {
+        margin-left: 15%;
     }
 }
 
