@@ -29,7 +29,7 @@ Route::get('info/studieaanbod', 'InfoController@indexRichting');
   Route::post('nieuws/edit/{id}', 'nieuwsController@update');
   // DELETE
   Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
-  Route::get('/nieus/delete/{id}', 'nieuwsController@delete');
+  Route::get('/nieuws/delete/{id}', 'nieuwsController@delete');
   // INDIVIDUEEL ARTIKEL
   Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');
 
@@ -50,7 +50,7 @@ Route::get('info/studieaanbod', 'InfoController@indexRichting');
   // });
   Route::get('/nieuws/edit/{id}', 'nieuwsController@edit');
   // DELETE nieuws/event
-  Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
+  // Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
 
 
 

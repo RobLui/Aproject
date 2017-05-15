@@ -40,8 +40,8 @@ class nieuwsController extends Controller
       $event = Event::all();
 
       $events = new Event();
-      $events->title = "ThessaRock!";
-      $events->text = "ThessaRock Event Upcoming, march 2nd 2019!";
+      $events->title = $req->title;
+      $events->text = $req->text;
       $events->posted_by = Auth::user()->name;
       $events->data = "0";
       $events->save();
@@ -85,12 +85,25 @@ class nieuwsController extends Controller
         //   ->withErrors($req->url.' is not a valid URL');
         // } //if no errors occur, the article can update
         $event->update($req->all());
-          Session::flash('success', ($req->title.' was succesfully updated'));
-      } else {
-          Session::flash('error_', ("You can't edit an article that isn't yours!"));
+          Session::flash('success', ($req->title.' is bijgewerkt.'));
       }
-        return redirect('/')->with(compact('id'));
+      else {
+          Session::flash('error_', ("Er is iets misgelopen!"));
+      }
+        return redirect('/nieuws')->with(compact('id'));
     }
+
+    // ----------------------- DELETE -----------------------
+    public function delete(Request $req, $id)
+    {
+      $event = Event::findOrFail($id);
+        if (Auth::user()->name == "Admin") {
+            $event->delete($req->all());
+            Session::flash("success", ("Succesvol verwijderd"));
+        }
+      return redirect("/nieuws")->with(compact('id'));
+    }
+
 // ----------------------- ARTIKEL INDEX -----------------------
     public function ArtikelIndex()
     {
