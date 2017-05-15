@@ -8,6 +8,7 @@
     </div>
         <div class="panel-content">
         @include("common.messages")
+
         <ul class="richtingen_class">
           @if(count($richtingen) > 0)
             @foreach($richtingen as $richting)
@@ -27,6 +28,7 @@
           @endif
         @endif
         </ul>
+
       </div>
     </div>
     </div>

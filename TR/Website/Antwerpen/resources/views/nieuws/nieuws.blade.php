@@ -21,13 +21,12 @@
       <div class="news_m">
         <a href="/nieuws/add"> Nieuws/Event toevoegen</a>
       </div>
-      
       @endif
     @endif
+
     @if(count($events) > 0)
       @foreach($events as $event)
       <div class="block_img_nieuws">
-      <!-- <div class="row_nieuws"> -->
         <h1>{{$event->title}}</h1>
         <p>{{$event->text}}</p>
         <img src="images/lowpoly.jpg" alt="test">

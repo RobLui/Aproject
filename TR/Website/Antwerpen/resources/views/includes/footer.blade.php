@@ -1,7 +1,7 @@
 <!-- #footer -->
 <section id="footer">
 
-    <img src="images/footerImg.jpg" alt="footerImg" class="footerImg">
+    <img src="/images/footerImg.jpg" alt="footerImg" class="footerImg">
 
     <!-- .container -->
     <div class="footerContainer">

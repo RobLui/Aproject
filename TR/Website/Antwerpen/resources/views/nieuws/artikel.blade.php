@@ -5,11 +5,19 @@
 <div class="container">
 
   <div class="panel panel-default">
-    <h2>Artikel</h2>
+    <h2>
+      @if(count($news) > 0)
+      <div class="url">&nbsp;
+       @foreach($news as $n)
+         <a href="{{$n->title}}" class="title">{{$n->title}}</a>
+       @endforeach
+      </div>
+      @endif
+    </h2>
   </div>
   <div class="artikel">
     <div class="slider">
-      <!--  slider placeholder -->
+      <img src="/images/slidermockup.jpg" alt="test">
     </div>
     <div class="mid_container">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna enim, malesuada vel porta quis, suscipit sed nisi. Aenean pharetra metus vel feugiat porta. Praesent semper massa sit amet mollis interdum. Donec eget scelerisque odio. Nam pellentesque est rhoncus,</p>

@@ -36,7 +36,7 @@
 
                   <!--  Text news/event -->
                   <div class="form-group">
-                    <label for="url" class="col-sm-3 control-label">Tekst</label>
+                    <label for="text" class="col-sm-3 control-label">Tekst</label>
                     <div class="col-sm-6">
                         <input type="text" name="text" id="text" class="form-control">
                     </div>
@@ -56,5 +56,4 @@
       </div>
     </div>
   </div>
-</div>
 @endsection
