@@ -85,7 +85,7 @@ body {
 }
 
 .navbar-default {
-    background-color: #D01F38;
+    background-color: #ffffff;
 }
 
 a {
@@ -366,7 +366,7 @@ h1, h2, h3 {
 }
 
 a, a:visited {
-    color: #303030;
+    color: #3f3d3e;
     -webkit-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
     -moz-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
     -ms-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
@@ -375,7 +375,7 @@ a, a:visited {
 }
 
 a:hover {
-    color: green;
+    color: #dd2a43;
     text-decoration: none;
 }
 
@@ -436,10 +436,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
 
 /*----- MENU -----*/
 
-a:hover {
-    color: white;
-    text-decoration: none;
-}
+
 
 #slider3 .main {
     height: auto;
@@ -574,7 +571,7 @@ h1, h2, h3 {
 }
 
 a, a:visited {
-    color: #303030;
+    color: #4f4b4b;
     -webkit-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
     -moz-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
     -ms-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
@@ -583,10 +580,15 @@ a, a:visited {
 }
 
 a:hover {
-    color: green;
+    color: #d01f38;
     text-decoration: none;
 }
 
+ a:active{
+   color: #d01f38;
+   text-decoration: none;
+
+ }
 li.current>a {
     border-bottom: 3px solid red;
 }
@@ -690,10 +692,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     margin-top: 2em;
 }
 
-a:hover {
-    color: white;
-    text-decoration: none;
-}
+
 
 #slider3 .main {
     height: auto;
@@ -1037,7 +1036,7 @@ h1 {
 }
 
 .rwpa a:hover {
-    background-color: #D01F38;
+    background-color: #d01f38;
 }
 
 .news_m {
