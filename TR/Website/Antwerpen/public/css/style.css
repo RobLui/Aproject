@@ -814,7 +814,7 @@ input[type=text], select, textarea {
 }
 
 .fa {
-    color: grey;
+    color: white;
     /*background-color: white;*/
 }
 
@@ -829,7 +829,7 @@ input[type=text], select, textarea {
     width: 100%;
     margin: 0 auto;
     z-index: 2;
-    margin-top: 13%;
+    margin-top: 15%;
 }
 
 .footerLogo {
@@ -1042,13 +1042,33 @@ h1 {
 
 .rondje {
     display: block;
-    border: 1px solid grey;
+    /*  border: 1px solid grey;*/
     border-radius: 50%;
     width: 5em;
     height: 5em;
     margin-left: 40%;
     margin-top: 19%;
     margin-bottom: 5%;
+}
+
+.iconL, .iconM, .iconR {
+    position: absolute;
+    z-index: -1;
+}
+
+.iconL {
+    margin-left: -62px;
+    margin-top: -5px;
+}
+
+.iconM {
+    margin-left: -48px;
+    margin-top: -5px;
+}
+
+.iconR {
+    margin-left: -62px;
+    margin-top: -5px;
 }
 
 .btn-custom a {
