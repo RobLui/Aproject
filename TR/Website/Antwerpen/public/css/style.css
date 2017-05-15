@@ -525,7 +525,7 @@ input[type=text], select, textarea {
 }
 
 #footer {
-    color: #8a8a8a;
+    /*color: #8a8a8a;*/
     /*color: #d01f38;*/
     text-align: center;
     margin-top: 5%;
@@ -534,7 +534,7 @@ input[type=text], select, textarea {
 
 .footerContainer {
     /*  background-color: #111;*/
-    background-color: #d01f38;
+  /*  background-color: #d01f38;*/
     bottom: 0;
 }
 
@@ -790,10 +790,16 @@ input[type=text], select, textarea {
 
 #footer {
     /*color: #8a8a8a;*/
-    background-color: #d01f38;
     text-align: center;
     margin-top: 5%;
 }
+
+.footerContentContainer{
+
+
+}
+
+
 
 .footerContainer {
     /*background-color: #111;*/
@@ -827,8 +833,39 @@ input[type=text], select, textarea {
     /*padding-right: 35px;*/
 }
 
+.footerLMR{
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 2;
+  margin-top: 13%;
+
+
+}
+
+.footerLogo{
+    margin-left: 5%;
+}
+
+.footerItem{
+  position: relative;
+  float: left;
+  width: 33.3%;
+
+}
+
+.footerItem a{
+  color: white;
+  font-size: 1.2em;
+
+}
+
 .footerImg {
     width: 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
 
 @media (min-width: 0px) {
