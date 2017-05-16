@@ -4,14 +4,14 @@
 <title>Home</title>
 <div class="container index">
   <div class="slider">
-    <img src="./images/sliderMockUp.jpg" alt="sliderMockUp">
+    <img src="/images/sliderMockUp.jpg" alt="sliderMockUp">
   </div>
 
 <div class="homeContainer">
     <div class="col-sm-4 item"> <!-- 1 -->
       <div class="rondje">
       <i class="fa fa-binoculars fa-3x"></i>
-      <img src="images/L-icon.png" alt="icon" class="iconL">
+      <img src="/images/L-icon.png" alt="icon" class="iconL">
     </div>
 
       <h1>Ontdek de stad</h1>
@@ -30,7 +30,7 @@
     <div class="col-sm-4 item"> <!-- 2 -->
       <div class="rondje">
         <i class="fa fa-info fa-3x"></i>
-        <img src="./images/M-icon.png" alt="icon" class="iconM">
+        <img src="/images/M-icon.png" alt="icon" class="iconM">
       </div>
         <h1>Richtingen</h1>
         <div class="block_img">
@@ -47,11 +47,11 @@
     <div class="col-sm-4 item"> <!-- 3 -->
       <div class="rondje">
       <i class="fa fa-paper-plane fa-3x" aria-hidden="true"></i>
-      <img src="images/R-icon.png" alt="icon" class="iconR">
+      <img src="/images/R-icon.png" alt="icon" class="iconR">
       </div>
       <h1>Nieuws & Events</h1>
       <div class="block_img">
-        <img src="./images/NieuwsEnEvenementenIndex.jpg" alt="img">
+        <img src="/images/NieuwsEnEvenementenIndex.jpg" alt="img">
         <p>Pauzeren hoort nu eenmaal bij studeren.
           Waar gaan feestjes door? Al naar de Stu Day geweest?
           Geïntereseerd in een nieuwe studierichtig?
