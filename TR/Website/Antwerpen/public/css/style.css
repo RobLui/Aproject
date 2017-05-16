@@ -1179,6 +1179,11 @@ h1 {
         margin-top: 1em;
         margin-left: 25%;
     }
+    .panel-default {
+        margin: 0 auto;
+        width: 75%;
+        height: auto;
+    }
 }
 
 ._admin {
@@ -1192,6 +1197,11 @@ h1 {
 }
 
 @media (min-width: 768px) {
+    .panel-default {
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+    }
     .news_m a {
         padding-top: 1.5em;
     }
@@ -1354,4 +1364,11 @@ h1 {
 
 .btn.btn-primary.btn-xs.edit-btn {
     margin-top: 1em;
+}
+
+.col-md-5 {
+    margin: 0 auto !important;
+    width: 100%;
+    height: auto;
+    display: block;
 }
