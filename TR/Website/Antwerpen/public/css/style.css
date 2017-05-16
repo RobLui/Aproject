@@ -876,7 +876,6 @@ input[type=text], select, textarea {
         margin: auto;
         padding-left: 35px;
         padding-right: 35px;
-        /*background-color: lightblue;*/
     }
 }
 
@@ -1088,21 +1087,27 @@ h1 {
     text-align: center;
     height: 5em;
     display: block;
-    background-color: blue;
-    width: 25%;
+    background-image: url("/images/lowpoly.jpg");
+    background-position: center;
+    width: 50%;
 }
 
 .news_m a {
-    padding: 1.5em;
+    margin-top: 1em;
     height: 100%;
-    display: block;
     width: 100%;
+    color: white;
+    display: block;
+    /*padding-top: 1em;*/
 }
 
 
 /*-------------------- MEDIA QUERIES --------------------*/
 
 @media (max-width: 767px) {
+    .news_m a {
+        padding-top: 1em;
+    }
     .menu li a {
         padding: 0;
         margin: 0;
@@ -1187,6 +1192,9 @@ h1 {
 }
 
 @media (min-width: 768px) {
+    .news_m a {
+        padding-top: 1.5em;
+    }
     .menu li a, .menu li img {
         text-align: center;
         display: block;
@@ -1234,7 +1242,6 @@ h1 {
         width: 50em;
         height: 15em;
         display: block;
-        /*background-color: blue;*/
     }
     .one ._admin {
         margin-left: 15%;
@@ -1339,4 +1346,12 @@ h1 {
 .block_img_nieuws {
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+.col-md-10.col-md-offset-1 {
+    margin-top: 2em;
+}
+
+.btn.btn-primary.btn-xs.edit-btn {
+    margin-top: 1em;
 }
