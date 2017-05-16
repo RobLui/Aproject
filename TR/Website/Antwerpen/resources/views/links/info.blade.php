@@ -12,7 +12,7 @@
       <img src="images/sliderMockUp.jpg" alt="test">
     </div>
     <div class="rwpa">
-      <a href="/info/studieaanbod" target="blank">Richtingen</a>
+      <a href="./info/studieaanbod" target="blank">Richtingen</a>
       <a href="#" target="blank">Werkgelegenheid</a>
       <a href="http://www.belgianrail.be/" target="blank">Pendelaars</a>
       <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="blank">Antwerpen (LEEFT)</a>

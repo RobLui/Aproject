@@ -9,7 +9,7 @@ Auth::routes();
 Route::get('/ontdek', 'OntdekController@index');
 Route::get('/info', 'InfoController@index');
 Route::get('/nieuws', 'nieuwsController@index');
-Route::get('info/studieaanbod', 'InfoController@indexRichting');
+Route::get('/info/studieaanbod', 'InfoController@indexRichting');
 
 
 // ----------------------- HOME -----------------------

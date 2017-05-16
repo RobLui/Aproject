@@ -9,8 +9,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Styles -->
-    <link href="/css/app.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet" >
+    <link href="./css/app.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Fonts -->
@@ -18,7 +18,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="./css/font-awesome.min.css"> -->
 
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -91,7 +91,7 @@
     </div>
       @yield('content')
       <!-- Scripts -->
-    <script src="/js/app.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 @include('includes.footer')
 </html>

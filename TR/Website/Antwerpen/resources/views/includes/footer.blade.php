@@ -10,9 +10,9 @@
         </div>
 
         <div class="footerItem">
-          <a href="www.antwerpen.be"><img src="/images/fb.png" alt="facebook"  class="footerLogo"></a>
-          <a href="www.antwerpen.be"><img src="/images/googlePlay.png" alt="googlePlay" class="footerLogo"></a>
-          <a href="www.antwerpen.be"><img src="/images/appleStore.png" alt="appleStore" class="footerLogo"></a>
+          <a href="www.antwerpen.be"><img src="./images/fb.png" alt="facebook"  class="footerLogo"></a>
+          <a href="www.antwerpen.be"><img src="./images/googlePlay.png" alt="googlePlay" class="footerLogo"></a>
+          <a href="www.antwerpen.be"><img src="./images/appleStore.png" alt="appleStore" class="footerLogo"></a>
         </div>
 
         <div class="footerItem">
@@ -21,7 +21,7 @@
 
     </div>
 
-    <img src="/images/footer2.jpg" alt="footerImg" class="footerImg">
+    <img src="./images/footer2.jpg" alt="footerImg" class="footerImg">
 
   </div>
 
