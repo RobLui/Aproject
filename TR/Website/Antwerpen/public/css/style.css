@@ -910,6 +910,9 @@ input[type=text], select, textarea {
 
 .infoHead {
     width: 100%;
+    display: block;
+    height: 100%;
+    margin-bottom: 2em;
 }
 
 
@@ -1015,9 +1018,9 @@ h1 {
 
 .mid_container {
     display: block;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    width: 75%;
 }
 
 .mid_container p {
