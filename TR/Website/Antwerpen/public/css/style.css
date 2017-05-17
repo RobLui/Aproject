@@ -908,13 +908,12 @@ input[type=text], select, textarea {
     display: block;
 }
 
-
-
-.infoHead{
-  width: 100%;
-
+.infoHead {
+    width: 100%;
+    display: block;
+    height: 100%;
+    margin-bottom: 2em;
 }
-
 
 
 /*-------------------------- NIEUWS --------------------------*/
@@ -952,7 +951,6 @@ input[type=text], select, textarea {
 .panel.panel-default h2 {
     text-align: center;
     padding-top: 0.3em;
-
 }
 
 .mid_container .left, .mid_container .right {
@@ -969,15 +967,16 @@ input[type=text], select, textarea {
 }
 
 
+
 .infoRight{
   overflow: hidden;
   padding-left: 3%;
 }
 
-.infoLeft{
-   float:left;
-
+.infoLeft {
+    float: left;
 }
+
 
 /*-------------------- ADMIN-PANEl --------------------*/
 
@@ -1002,7 +1001,6 @@ input[type=text], select, textarea {
     padding-top: 35%;
 }
 
-
 .mid_headers {
     /*margin: auto 0;*/
     padding-bottom: 0.5em;
@@ -1021,9 +1019,9 @@ h1 {
 
 .mid_container {
     display: block;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    width: 75%;
 }
 
 .mid_container p {
@@ -1127,6 +1125,28 @@ h1 {
 
 
 @media (max-width: 767px) {
+    .block, .mid_headers, .infoRight, .infoLeft {
+        margin: 0 auto;
+        padding-top: 1em;
+    }
+    .infoRight, .infoLeft {
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+    }
+    .infoRight p {
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 1em;
+    }
+    .infoRight h1 {
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
     .news_m a {
         padding-top: 1em;
     }

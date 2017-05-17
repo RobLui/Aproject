@@ -14,11 +14,19 @@
                 <!--  display errors and messages -->
                 @include("common.errors")
                 @include("common.messages")
+
+                <!-- <form action="{{ url('nieuws/fileupload') }}" method="post" enctype="multipart/form-data" class="form-horizontal">
+                  {{ csrf_field() }}
+                  Select image to upload:
+                  <input type="file" name="fileToUpload" id="fileToUpload">
+                  <input type="submit" value="Upload Image" name="submit">
+                </form> -->
+
                 <!-- New article Form - /add wordt achter de link bijgevoegd -->
-                <form action="{{ url('nieuws/add/nieuw') }}" method="POST" class="form-horizontal">
+                <form action="{{ url('nieuws/add/nieuw') }}" method="post" enctype="multipart/form-data" class="form-horizontal">
                   {{ csrf_field() }}
 
-                  <!-- article title -->
+                  <!--Titel -->
                   <div class="form-group">
                     <label for="titel" class="col-sm-3 control-label">Titel (max 255 karakters)</label>
                     <div class="col-sm-6">
@@ -26,7 +34,7 @@
                     </div>
                   </div>
 
-                  <!--  Text news/event -->
+                  <!-- Tekt -->
                   <div class="form-group">
                     <label for="text" class="col-sm-3 control-label">Tekst</label>
                     <div class="col-sm-6">
@@ -34,7 +42,15 @@
                     </div>
                   </div>
 
-                <!-- Add article Button -->
+                  <!-- Afbeelding -->
+                  <div class="form-group">
+                    <label for="text" class="col-sm-3 control-label">Afbeelding</label>
+                    <div class="col-sm-6">
+                        <input type="file" name="fileToUpload" id="fileToUpload" class="form-control">
+                    </div>
+                  </div>
+
+                <!-- Submit -->
                 <div class="form-group">
                   <div class="col-sm-offset-3 col-sm-6">
                     <button type="submit" class="btn btn-default">
@@ -42,6 +58,7 @@
                     </button>
                   </div>
                 </div>
+
               </form>
           </div>
         </div>
