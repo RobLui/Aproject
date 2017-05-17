@@ -70,7 +70,7 @@ class nieuwsController extends Controller
           // Validation handler
         $validator = Validator::make($req->all(), [
         'title' => 'required|max:255',
-        'text' => 'required|max:255',
+        'text' => 'required',
         ]);
       // Validation error, show errors
         if ($validator->fails()) {
@@ -108,6 +108,6 @@ class nieuwsController extends Controller
     public function ArtikelIndex()
     {
       $news = Event::all();
-      return view('nieuws/artikel')->withNews($news);
+      return view('niews/artikel')->withNews($news);
     }
 }

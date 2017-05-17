@@ -14,10 +14,6 @@
   <div class="panel-content">
     @if(isset(Auth::user()->name))
       @if(Auth::user()->name == "Admin")
-        <!-- <form action="/nieuws/add" method="post">
-          <button type="submit" name="button" class="x">test toevoegen</button><br>
-          {{ csrf_field() }}
-        </form> -->
       <div class="news_m">
         <a href="/nieuws/add"> Nieuws/Event toevoegen</a>
       </div>

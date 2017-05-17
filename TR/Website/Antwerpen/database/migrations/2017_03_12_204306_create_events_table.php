@@ -12,7 +12,7 @@ class CreateEventsTable extends Migration
       Schema::create('events', function (Blueprint $table) {
           $table->increments('id');
           $table->string('title')->index();
-          $table->string('text')->index();
+          $table->text('text');
           $table->string('posted_by')->index();
           $table->binary('data'); // BLOB , foto
           $table->timestamps();
