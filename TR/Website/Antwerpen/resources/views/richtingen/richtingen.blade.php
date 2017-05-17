@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <title>Richtingen</title>
   <div class="container">
     <div class="panel panel-default">

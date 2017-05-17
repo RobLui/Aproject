@@ -4,6 +4,7 @@
 <title>Info</title>
 <div class="container">
 
+
   <img src="images/infoHead.jpg" alt="infoHead" class="infoHead">
 <!--  <div class="info">-->
 
@@ -20,7 +21,7 @@
             <h1 class="mid_headers">Waarom studeren in Antwerpen?</h1>
             <p>
               Antwerpen is niet de eerste studentenstad die bij je opkomt. Toch is ze niet te onderschatten.
-              Antwerpen is namelijk een Atypische studentenstad. Het is een stad die leeft, ook buiten de schoolperiode.
+              Antwerpen is namelijk een Atypische studentenstad. Het is een stad die bruist van leven, ook buiten de schoolperiode.
 
             </p>
         </div>
