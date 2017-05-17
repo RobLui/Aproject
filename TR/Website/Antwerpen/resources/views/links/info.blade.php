@@ -3,14 +3,31 @@
 @section('content')
 <title>Info</title>
 <div class="container">
-  <div class="panel panel-default">
-    <h2>Info</h2>
-  </div>
-  <div class="info">
 
-    <div class="slider">
-      <img src="images/sliderMockUp.jpg" alt="test">
+  <img src="images/infoHead.jpg" alt="infoHead" class="infoHead">
+<!--  <div class="info">-->
+
+      <!--<div class="slider">
+    <img src="images/infoHead.jpg" alt="test">
+    </div> -->
+
+
+    <!--  STUDEREN IN ANTWERPEN -->
+    <div class="mid_container">
+      <div class="block">
+        <img src="/images/waaromStuderenInAntwerpen.jpg" alt="waaromStuderenInAntwerpen" class="infoLeft">
+        <div class="infoRight">
+            <h1 class="mid_headers">Waarom studeren in Antwerpen?</h1>
+            <p>
+              Antwerpen is niet de eerste studentenstad die bij je opkomt. Toch is ze niet te onderschatten.
+              Antwerpen is namelijk een Atypische studentenstad. Het is een stad die leeft, ook buiten de schoolperiode.
+
+            </p>
+        </div>
+      </div>
     </div>
+
+
     <div class="rwpa">
       <a href="/info/studieaanbod" target="blank">Richtingen</a>
       <a href="#" target="blank">Werkgelegenheid</a>
@@ -18,33 +35,10 @@
       <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="blank">Antwerpen (LEEFT)</a>
     </div>
 
-    <!--  TESTIMONIALS -->
-    <div class="mid_container">
-      <div class="block">
-        <h1 class="mid_headers">Testimonials</h1>
-        <p> Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.
-        </p>
-      </div>
-    </div>
-    <div class="block_img_nieuws">
-      <img src="images/ontdek/eet_plekskes.jpg" alt="restaurant Antwerpen">
-    </div>
-
-    <!--  STUDEREN IN ANTWERPEN -->
-    <div class="mid_container">
-      <div class="block">
-        <h2 class="mid_headers">Waarom studeren in Antwerpen?</h2>
-        <p> Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.
-        </p>
-      </div>
-    </div>
-    <div class="block_img_nieuws">
-      <img src="images/ontdek/eet_plekskes.jpg" alt="restaurant Antwerpen">
-    </div>
 
 
   </div>
-  </div>
-</div>
+<!--  </div>-->
+
 
 @endsection
