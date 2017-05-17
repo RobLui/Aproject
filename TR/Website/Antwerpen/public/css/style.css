@@ -972,6 +972,7 @@ input[type=text], select, textarea {
 
 .infoRight{
   overflow: hidden;
+  padding-left: 5%;
 }
 
 .infoLeft{
@@ -1002,13 +1003,6 @@ input[type=text], select, textarea {
     padding-top: 35%;
 }
 
-.mid_container p {
-    display: block;
-    margin: 0 auto;
-    width: 75%;
-    /*margin-left: 25%;*/
-    text-align: left;
-}
 
 .mid_headers {
     /*margin: auto 0;*/
@@ -1034,9 +1028,10 @@ h1 {
 }
 
 .mid_container p {
-    margin: 0 auto;
     display: block;
     width: 75%;
+    /*margin-left: 25%;*/
+    text-align: left;
 }
 
 .rondje li {
