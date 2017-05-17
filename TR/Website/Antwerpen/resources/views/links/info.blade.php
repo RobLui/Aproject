@@ -23,6 +23,10 @@
               Antwerpen is niet de eerste studentenstad die bij je opkomt. Toch is ze niet te onderschatten.
               Antwerpen is namelijk een Atypische studentenstad. Het is een stad die bruist van leven, ook buiten de schoolperiode.
               Buiten een leuk studerenleven en interessante opleidingen kan je ook nog eens rekenen op ruime werkgelegenheid na het afstuderen.
+              Aangezien Antwerpen ook een 'werk' stad is, zijn er veel job mogelijkheden die je niet verder moet zoeken als de stad waar je al 3 jaar
+              op ontdekking bent geweest. Woon je toch nog buiten de stad? Geen probleem! Antwerpen zit uitstekend in elkaar voor pendelaars!
+              Zo zie je maar, Antwerpen mag dan niet de eerste studentenstad zijn die bij je opkomt, toch kan ze vee voor je betekenen.
+
             </p>
         </div>
       </div>
@@ -45,17 +49,17 @@
           <h3>Antwerpen LEEFT</h3>
           Ken je alle hotspots? Blijf op de hoogte van nieuws en evenmenten door de facebook pagina te volgen!
       </a>
-      <a href="https://www.antwerpen.be/nl/vacatures/overzicht" target="blank">
+      <a href="#" target="blank">
           <h3>Werkgelegenheid</h3>
           Na je studie is er een grotere kans dat je in Antwerpen kan werken aangezien het een atypische studenten stad is.
       </a>
-      <a href="https://www.studentkotweb.be/" target="blank">
+      <a href="http://www.kotweb.be" target="blank">
           <h3>Op Kot</h3>
           Kotweb kent een label toe aan de koten die voldoen aan de kwaliteitseisen die werden
           opgelegd door de stad Antwerpen.
           Neem zeker een kijkje!
       </a>
-      <a href="/ontdek" target="blank">
+      <a href="http://www.kotweb.be" target="blank">
           <h3>Ontdek 't Stad!</h3>
           Antwerpen is een atypische studentenstad met ook een bruisend leven buiten het schooljaar en in weekends.
           Bekijk zeker wat je niet mag missen!

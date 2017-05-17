@@ -14,15 +14,8 @@
                 <!--  display errors and messages -->
                 @include("common.errors")
                 @include("common.messages")
-
-                <!-- <form action="{{ url('nieuws/fileupload') }}" method="post" enctype="multipart/form-data" class="form-horizontal">
-                  {{ csrf_field() }}
-                  Select image to upload:
-                  <input type="file" name="fileToUpload" id="fileToUpload">
-                  <input type="submit" value="Upload Image" name="submit">
-                </form> -->
-
-                <!-- New article Form - /add wordt achter de link bijgevoegd -->
+                
+                <!-- CREATE -->
                 <form action="{{ url('nieuws/add/nieuw') }}" method="post" enctype="multipart/form-data" class="form-horizontal">
                   {{ csrf_field() }}
 
@@ -44,9 +37,9 @@
 
                   <!-- Afbeelding -->
                   <div class="form-group">
-                    <label for="text" class="col-sm-3 control-label">Afbeelding</label>
+                    <label for="file" class="col-sm-3 control-label">Afbeelding</label>
                     <div class="col-sm-6">
-                        <input type="file" name="fileToUpload" id="fileToUpload" class="form-control">
+                        <input type="file" name="afbeelding" id="afbeelding" class="form-control">
                     </div>
                   </div>
 
