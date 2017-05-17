@@ -3,7 +3,7 @@
 @section('content')
         <div class="col-md-5">
           <!--DELETE BUTTON  -->
-          <a href="/../info">← Terug naar nieuws</a>
+          <a href="/../nieuws">← Terug naar nieuws</a>
             <br><br>
               <div class="panel panel-default">
                 <div class="panel-heading aanpassen">Aanpassen

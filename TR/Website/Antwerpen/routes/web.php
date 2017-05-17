@@ -87,3 +87,5 @@ Route::get('ontdek/schoon-plekskes', function () {
 Route::get('ontdek/studie-plekskes', function () {
     return view('places/placesToStudy');
 });
+
+Route::post('nieuws/fileupload', 'ArticleController@upload');
