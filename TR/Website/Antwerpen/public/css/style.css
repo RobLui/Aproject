@@ -909,6 +909,14 @@ input[type=text], select, textarea {
 }
 
 
+
+.infoHead{
+  width: 100%;
+
+}
+
+
+
 /*-------------------------- NIEUWS --------------------------*/
 
 .block_img img, .block_img_nieuws img {
@@ -919,7 +927,7 @@ input[type=text], select, textarea {
 .block_img_nieuws img, .block_img_nieuws p, .block_img_nieuws h1, .block_img_nieuws a, .rwpa, .block {
     margin: 0 auto;
     display: block;
-    width: 75%;
+    width: 90%;
 }
 
 .block_img_nieuws a {
@@ -936,14 +944,16 @@ input[type=text], select, textarea {
 }
 
 .block_ {
-    display: block;
+    /*display: block;*/
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .panel.panel-default h2 {
     text-align: center;
     padding-top: 0.3em;
+
 }
 
 .mid_container .left, .mid_container .right {
@@ -959,6 +969,16 @@ input[type=text], select, textarea {
     width: 40%;
 }
 
+
+.infoRight{
+  overflow: hidden;
+  padding-left: 5%;
+}
+
+.infoLeft{
+   float:left;
+
+}
 
 /*-------------------- ADMIN-PANEl --------------------*/
 
@@ -983,18 +1003,11 @@ input[type=text], select, textarea {
     padding-top: 35%;
 }
 
-.mid_container p {
-    display: block;
-    margin: 0 auto;
-    width: 75%;
-    /*margin-left: 25%;*/
-    text-align: center;
-}
 
 .mid_headers {
-    margin: auto 0;
+    /*margin: auto 0;*/
     padding-bottom: 0.5em;
-    text-align: center;
+    text-align: left;
 }
 
 .footer {
@@ -1015,9 +1028,10 @@ h1 {
 }
 
 .mid_container p {
-    margin: 0 auto;
     display: block;
     width: 75%;
+    /*margin-left: 25%;*/
+    text-align: left;
 }
 
 .rondje li {

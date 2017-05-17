@@ -3,48 +3,75 @@
 @section('content')
 <title>Info</title>
 <div class="container">
-  <div class="panel panel-default">
-    <h2>Info</h2>
-  </div>
-  <div class="info">
 
-    <div class="slider">
-      <img src="images/sliderMockUp.jpg" alt="test">
-    </div>
-    <div class="rwpa">
-      <a href="./info/studieaanbod" target="blank">Richtingen</a>
-      <a href="#" target="blank">Werkgelegenheid</a>
-      <a href="http://www.belgianrail.be/" target="blank">Pendelaars</a>
-      <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="blank">Antwerpen (LEEFT)</a>
-    </div>
 
-    <!--  TESTIMONIALS -->
-    <div class="mid_container">
-      <div class="block">
-        <h1 class="mid_headers">Testimonials</h1>
-        <p> Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.
-        </p>
-      </div>
-    </div>
-    <div class="block_img_nieuws">
-      <img src="images/ontdek/eet_plekskes.jpg" alt="restaurant Antwerpen">
-    </div>
+  <img src="images/infoHead.jpg" alt="infoHead" class="infoHead">
+<!--  <div class="info">-->
+
+      <!--<div class="slider">
+    <img src="images/infoHead.jpg" alt="test">
+    </div> -->
+
 
     <!--  STUDEREN IN ANTWERPEN -->
     <div class="mid_container">
       <div class="block">
-        <h2 class="mid_headers">Waarom studeren in Antwerpen?</h2>
-        <p> Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.
-        </p>
+        <img src="/images/waaromStuderenInAntwerpen.jpg" alt="waaromStuderenInAntwerpen" class="infoLeft">
+        <div class="infoRight">
+            <h1 class="mid_headers">Waarom studeren in Antwerpen?</h1>
+            <p>
+              Antwerpen is niet de eerste studentenstad die bij je opkomt. Toch is ze niet te onderschatten.
+              Antwerpen is namelijk een Atypische studentenstad. Het is een stad die bruist van leven, ook buiten de schoolperiode.
+              Buiten een leuk studerenleven en interessante opleidingen kan je ook nog eens rekenen op ruime werkgelegenheid na het afstuderen.
+              Aangezien Antwerpen ook een 'werk' stad is, zijn er veel job mogelijkheden die je niet verder moet zoeken als de stad waar je al 3 jaar
+              op ontdekking bent geweest. Woon je toch nog buiten de stad? Geen probleem! Antwerpen zit uitstekend in elkaar voor pendelaars!
+              Zo zie je maar, Antwerpen mag dan niet de eerste studentenstad zijn die bij je opkomt, toch kan ze vee voor je betekenen.
+
+            </p>
+        </div>
       </div>
     </div>
-    <div class="block_img_nieuws">
-      <img src="images/ontdek/eet_plekskes.jpg" alt="restaurant Antwerpen">
+
+
+    <div class="rwpa">
+      <a href="/info/studieaanbod" target="blank">
+        <h3>Richting aanbod</h3>
+          Er nog niet uit wat je wil studeren?
+          Klik hier voor een overzicht van scholen en hun richting aanbod
+      </a>
+      <a href="http://www.belgianrail.be/" target="blank">
+        <h3>Pendelaars</h3>
+          Niet van Antwerpen? Welkom Avonturier!
+          Op de website van DeLijn en NMBS
+          kan je kijken hoe je hier snelst geraakt.
+      </a>
+      <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="blank">
+          <h3>Antwerpen LEEFT</h3>
+          Ken je alle hotspots? Blijf op de hoogte van nieuws en evenmenten door de facebook pagina te volgen!
+      </a>
+      <a href="#" target="blank">
+          <h3>Werkgelegenheid</h3>
+          Na je studie is er een grotere kans dat je in Antwerpen kan werken aangezien het een atypische studenten stad is.
+      </a>
+      <a href="http://www.kotweb.be" target="blank">
+          <h3>Op Kot</h3>
+          Kotweb kent een label toe aan de koten die voldoen aan de kwaliteitseisen die werden
+          opgelegd door de stad Antwerpen.
+          Neem zeker een kijkje!
+      </a>
+      <a href="http://www.kotweb.be" target="blank">
+          <h3>Ontdek 't Stad!</h3>
+          Antwerpen is een atypische studentenstad met ook een bruisend leven buiten het schooljaar en in weekends.
+          Bekijk zeker wat je niet mag missen!
+      </a>
+
+
     </div>
 
 
+
   </div>
-  </div>
-</div>
+<!--  </div>-->
+
 
 @endsection
