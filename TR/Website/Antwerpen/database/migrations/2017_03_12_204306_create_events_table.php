@@ -14,7 +14,7 @@ class CreateEventsTable extends Migration
           $table->string('title')->index();
           $table->text('text');
           $table->string('posted_by')->index();
-          $table->binary('data'); // BLOB , foto
+          $table->text('data'); // BLOB , foto
           $table->timestamps();
           $table->softDeletes();
       });

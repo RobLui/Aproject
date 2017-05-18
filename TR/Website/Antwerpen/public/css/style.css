@@ -711,6 +711,11 @@ width: 72px;*/
         padding-bottom: 5%;
     }
 
+    .blok img {
+        height: 100%;
+        width: 100%;
+    }
+
     .columnText {
         padding-left: 5%;
         padding-right: 5%;
@@ -887,7 +892,6 @@ width: 72px;*/
         font-size: relative;
         float: left;
         width: 50%;
-
     }
 
     .block {
@@ -906,6 +910,7 @@ width: 72px;*/
     .block_img img, .block_img_nieuws img {
         width: 100%;
         height: 100%;
+        transform: rotate(180deg);
     }
 
     .block_img_nieuws img, .block_img_nieuws p, .block_img_nieuws h1, .block_img_nieuws a, .block {
@@ -1095,8 +1100,8 @@ width: 72px;*/
         color: white;
     }
 
-    .rwpa a:nth-child(1) h3, .rwpa a:nth-child(4) h3, .rwpa a:nth-child(5) h3{
-      color: #eeeeee;
+    .rwpa a:nth-child(1) h3, .rwpa a:nth-child(4) h3, .rwpa a:nth-child(5) h3 {
+        color: #eeeeee;
     }
 
     .rwpa a:nth-child(2), .rwpa a:nth-child(3), .rwpa a:nth-child(6) {
@@ -1104,10 +1109,10 @@ width: 72px;*/
         color: #d01f38;
     }
 
-    .rwpa a:nth-child(2) h3, .rwpa a:nth-child(3) h3, .rwpa a:nth-child(6) h3{
-      color: #d01f38;
-      font: Antwerpen;    }
-
+    .rwpa a:nth-child(2) h3, .rwpa a:nth-child(3) h3, .rwpa a:nth-child(6) h3 {
+        color: #d01f38;
+        font: Antwerpen;
+    }
 
     .news_m {
         margin: 0 auto;
@@ -1369,7 +1374,6 @@ width: 72px;*/
         }
     }
 
-
     @media (min-width: 1000px) {
         .container {
             padding: 0;
@@ -1404,10 +1408,7 @@ width: 72px;*/
     .rwpa {
         margin-top: 1em;
         overflow: hidden;
-
     }
-
-
     /*NIEUWS*/
 
     .block_img_nieuws {
@@ -1539,35 +1540,6 @@ width: 72px;*/
     @media (max-width: 690px) {
 
 
-      .rwpa{
-        width: 100%;
-      }
-
-      .rwpa a{
-        clear: both;
-        width: 100%;
-        margin: 0 auto;
-      }
-
-      .rwpa a:nth-child(1), .rwpa a:nth-child(3), .rwpa a:nth-child(5) {
-          background-color: #d01f38;
-          color: white;
-      }
-
-      .rwpa a:nth-child(1) h3, .rwpa a:nth-child(3) h3, .rwpa a:nth-child(5) h3{
-        color: #eeeeee;
-      }
-
-      .rwpa a:nth-child(2), .rwpa a:nth-child(4), .rwpa a:nth-child(6) {
-          background-color: #eeeeee;
-          color: #d01f38;
-      }
-
-      .rwpa a:nth-child(2) h3, .rwpa a:nth-child(4) h3, .rwpa a:nth-child(6) h3{
-        color: #d01f38;
-        font: Antwerpen;
-      }
-
       .block{
         width: 95%;
         margin-bottom: 6em;
@@ -1586,6 +1558,32 @@ width: 72px;*/
       background-color: #eee;
       padding: 1.5em;
     }
+
+        .rwpa {
+            width: 100%;
+        }
+        .rwpa a {
+            clear: both;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .rwpa a:nth-child(1), .rwpa a:nth-child(3), .rwpa a:nth-child(5) {
+            background-color: #d01f38;
+            color: white;
+        }
+        .rwpa a:nth-child(1) h3, .rwpa a:nth-child(3) h3, .rwpa a:nth-child(5) h3 {
+            color: #eeeeee;
+        }
+        .rwpa a:nth-child(2), .rwpa a:nth-child(4), .rwpa a:nth-child(6) {
+            background-color: #eeeeee;
+            color: #d01f38;
+        }
+        .rwpa a:nth-child(2) h3, .rwpa a:nth-child(4) h3, .rwpa a:nth-child(6) h3 {
+            color: #d01f38;
+            font: Antwerpen;
+        }
+
+
     .infoLeft{
       width: 100%;
         padding-bottom: 0px;
