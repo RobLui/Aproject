@@ -44,9 +44,9 @@ class nieuwsController extends Controller
       $filename ="";
 
       // getting all of the post data
-      $file = array('afbeelding' => Input::file('afbeelding'));
+      $file = array('data' => Input::file('data'));
       // setting up rules
-      $rules = array('afbeelding' => 'required',); //mimes:jpeg,bmp,png and for max size max:10000
+      $rules = array('data' => 'required',); //mimes:jpeg,bmp,png and for max size max:10000
       // doing the validation, passing post data, rules and the messages
       $validator = Validator::make($file, $rules);
       if ($validator->fails()) {
@@ -55,11 +55,11 @@ class nieuwsController extends Controller
       }
       else {
         // checking file is valid.
-        if (Input::file('afbeelding')->isValid()) {
+        if (Input::file('data')->isValid()) {
           $destinationPath = 'uploads'; // upload path
-          $extension = Input::file('afbeelding')->getClientOriginalExtension(); // getting image extension
+          $extension = Input::file('data')->getClientOriginalExtension(); // getting image extension
           $fileName = rand(11111,99999).'.'.$extension; // renameing image
-          Input::file('afbeelding')->move($destinationPath, $fileName); // uploading file to given path
+          Input::file('data')->move($destinationPath, $fileName); // uploading file to given path
           // Success
           Session::flash('success', 'Upload successfully');
         }
@@ -99,13 +99,41 @@ class nieuwsController extends Controller
     public function update(Request $req, $id)
     {
       $event = Event::findOrFail($id);
-      // Check for admin role
-      if (Auth::user()->name == "Admin") {
+          // Check for admin role
+          if (Auth::user()->name == "Admin") {
+      // FILE UPLOAD
+      $filename ="";
+
+      // getting all of the post data
+      $file = array('data' => Input::file('data'));
+      // setting up rules
+      $rules = array('data' => 'required',); //mimes:jpeg,bmp,png and for max size max:10000
+      // doing the validation, passing post data, rules and the messages
+      $validator = Validator::make($file, $rules);
+      if ($validator->fails()) {
+        // send back to the page with the input data and errors
+        return Redirect::to('/nieuws/add')->withInput()->withErrors($validator);
+      }
+      else {
+        // checking file is valid.
+        if (Input::file('data')->isValid()) {
+          $destinationPath = 'uploads'; // upload path
+          $extension = Input::file('data')->getClientOriginalExtension(); // getting image extension
+          $fileName = rand(11111,99999).'.'.$extension; // renameing image
+          Input::file('data')->move($destinationPath, $fileName); // uploading file to given path
+          // Success
+          Session::flash('success', 'Upload successfully');
+        }
+        else {
+          Session::flash('error', 'uploaded file is not valid');
+        }
+      }
+
+
           // Validation handler
         $validator = Validator::make($req->all(), [
         'title' => 'required|max:255',
         'text' => 'required',
-        'data' => 'required',
         ]);
       // Validation error, show errors
         if ($validator->fails()) {
@@ -113,16 +141,12 @@ class nieuwsController extends Controller
           ->withEvents($event)
           ->withErrors($validator);
         }
-        // Check for valid url through regEX
-        // if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $req->url)) {
-        //     return view('/nieuws/edit')
-        //   ->withEvents($event)
-        //   ->withErrors($req->url.' is not a valid URL');
-        // } //if no errors occur, the article can update
-
-        $event->update($req->all());
+          // dd($fileName);
+          $event->update($req->all());
+          $event->data = $fileName;
+          $event->save();
           // Session::flash('success', ($req->title.' is bijgewerkt.'));
-          Session::flash('success', dd($req->all()));
+          Session::flash('success', "Succesvol aangepast");
       }
       else {
           Session::flash('error_', ("Er is iets misgelopen!"));

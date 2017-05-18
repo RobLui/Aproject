@@ -39,9 +39,9 @@
 
                   <!-- Afbeelding -->
                   <div class="form-group">
-                    <label for="afbeelding" class="col-sm-3 control-label">Afbeelding</label>
+                    <label for="data" class="col-sm-3 control-label">Afbeelding</label>
                     <div class="col-sm-6">
-                        <input type="file" name="afbeelding" id="afbeelding" class="form-control">
+                        <input type="file" name="data" id="data" class="form-control">
                     </div>
                   </div>
 

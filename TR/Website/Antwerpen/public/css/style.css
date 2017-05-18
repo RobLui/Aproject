@@ -11,8 +11,6 @@
     .menu ol, .menu ul {
         margin: 0px
     }
-
-
     /*-----------------------HEAD DISPLAY-----------------------*/
 
     .head_center {
@@ -920,8 +918,9 @@ width: 72px;*/
     }
 
     .rwpa {
-      width: 75%;
+        width: 75%;
     }
+
     .block_img_nieuws a {
         height: 3em;
         padding: 0.7em;
@@ -1134,19 +1133,15 @@ width: 72px;*/
     }
     /*-------------------- MEDIA QUERIES --------------------*/
 
-
     @media (max-width: 767px) {
-      .mid_container{
-        margin-top: 2em;
-      }
+        .mid_container {
+            margin-top: 2em;
+        }
     }
-
-
 
     @media (max-width: 767px) {
         .block, .mid_headers, .infoRight, .infoLeft {
             margin: 0 auto;
-
         }
         .infoRight, .infoLeft {
             margin: 0 auto;
@@ -1157,7 +1152,6 @@ width: 72px;*/
             height: 100%;
             width: 90%;
             margin: 0 auto;
-
         }
         .infoRight h1 {
             text-align: center;
@@ -1432,56 +1426,44 @@ width: 72px;*/
         display: block;
     }
 
-
-
     @media (max-width:1777px) {
-
-      .mid_container{
-        width: 75%;
-      }
-      .block {
-        margin: 0 auto;
-        width: 100%;
-        margin-bottom: 6em;
-
-      }
-
+        .mid_container {
+            width: 75%;
+        }
+        .block {
+            margin: 0 auto;
+            width: 100%;
+            margin-bottom: 6em;
+        }
         .infoRight {
             margin: 0 auto;
             width: 50%;
         }
-
         .infoLeft {
             width: 50%;
             padding-bottom: 5em;
         }
-
-        .infoRight h1{
-          margin-top: 0;
+        .infoRight h1 {
+            margin-top: 0;
         }
-
     }
 
     @media (max-width:1240px) {
         .block, .mid_headers, .infoRight, .infoLeft {
             margin: 0 auto;
         }
-
-        .mid_container{
-          width: 75%;
+        .mid_container {
+            width: 75%;
         }
-
-        .block{
-          margin-bottom: 6em;
-          height: 100%;
+        .block {
+            margin-bottom: 6em;
+            height: 100%;
         }
-
         .infoLeft {
-          width: 60%;
-          height: 100%;
-          padding-bottom: 5em;
+            width: 60%;
+            height: 100%;
+            padding-bottom: 5em;
         }
-
         .infoRight {
             margin: 0 auto;
             width: 40%;
@@ -1492,12 +1474,10 @@ width: 72px;*/
             padding-bottom: 1.5em;
             padding-top: 0;
         }
-
         .infoRight p {
             height: 100%;
             width: 90%;
             margin: 0 auto;
-
         }
         .infoRight h1 {
             text-align: center;
@@ -1505,7 +1485,6 @@ width: 72px;*/
             width: 100%;
             margin: 0 auto;
             display: block;
-
         }
         .rwpa a {
             margin: 0 auto;
@@ -1515,50 +1494,37 @@ width: 72px;*/
         }
     }
 
-
-
-
-
     @media (max-width: 1092px) {
-
-    .block{
-      margin-bottom: 6em;
+        .block {
+            margin-bottom: 6em;
+        }
+        .infoLeft {
+            width: 100%;
+            padding-bottom: 0px;
+        }
+        .infoRight {
+            width: 100%;
+            background-color: #eee;
+            padding: 1.5em;
+        }
     }
-
-    .infoLeft{
-      width: 100%;
-      padding-bottom: 0px;
-    }
-
-    .infoRight{
-      width: 100%;
-      background-color: #eee;
-      padding: 1.5em;
-    }
-}
 
     @media (max-width: 690px) {
-
-
-      .block{
-        width: 95%;
-        margin-bottom: 6em;
-      }
-
-      .mid_container{
+        .block {
             width: 95%;
-      }
-
-      .mid_headers {
-        font-size: 2em;
-      }
-
-    .infoRight{
-      width: 100%;
-      background-color: #eee;
-      padding: 1.5em;
-    }
-
+            margin-bottom: 6em;
+        }
+        .mid_container {
+            width: 95%;
+        }
+        .mid_headers {
+            font-size: 2em;
+        }
+        .infoRight {
+            width: 100%;
+            background-color: #eee;
+            padding: 1.5em;
+        }
         .rwpa {
             width: 100%;
         }
@@ -1582,26 +1548,17 @@ width: 72px;*/
             color: #d01f38;
             font: Antwerpen;
         }
-
-
-    .infoLeft{
-      width: 100%;
-        padding-bottom: 0px;
-
+        .infoLeft {
+            width: 100%;
+            padding-bottom: 0px;
+        }
     }
-
-    }
-
 
     @media (max-width: 525px) {
-      .mid_container, .block{
-        width: 100%;
-    }
-
-    .infoRight p{
-      width: 85%%;
-
-    }
-
-
+        .mid_container, .block {
+            width: 100%;
         }
+        .infoRight p {
+            width: 85%%;
+        }
+    }

@@ -19,8 +19,8 @@
           @include("common.messages")
 
           <!-- Edit -->
+          {!! Form::open(array('url'=>'nieuws/edit/' . $events->id,'method'=>'POST', 'files'=>true, 'class'=>'form-horizontal')) !!}
 
-          <form action="../edit/{{$events->id}}" method="POST" class="form-horizontal">
           {{ csrf_field() }}
 
           <!-- TITEL -->
@@ -51,7 +51,7 @@
           <div class="form-group">
             <label for="data" class="col-sm-3 control-label">Afbeelding</label>
             <div class="col-sm-6">
-                <input type="file" name="data" id="data" class="form-control" value="{{$events->data}}">
+                <input type="file" name="data" id="data" class="form-control" value="uploads/{{$events->data}}">
             </div>
           </div>
 
@@ -65,7 +65,7 @@
               </div>
           </div>
 
-        </form>
+        {!! Form::close() !!}
 
           </div>
         </div>
