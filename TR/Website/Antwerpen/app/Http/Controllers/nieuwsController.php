@@ -9,6 +9,9 @@ use App\Article;
 use App\Comment;
 use Auth;
 
+use Illuminate\Support\Facades\Input;
+use Redirect;
+
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Session;
@@ -36,6 +39,39 @@ class nieuwsController extends Controller
 // ----------------------- CREATE -----------------------
     public function create(request $req)
     {
+
+      // FILE UPLOAD
+
+      // getting all of the post data
+      $file = array('afbeelding' => Input::file('afbeelding'));
+      // setting up rules
+      $rules = array('afbeelding' => 'required',); //mimes:jpeg,bmp,png and for max size max:10000
+      // doing the validation, passing post data, rules and the messages
+      $validator = Validator::make($file, $rules);
+      if ($validator->fails()) {
+        // send back to the page with the input data and errors
+        return Redirect::to('/nieuws/add')->withInput()->withErrors($validator);
+      }
+      else {
+        // checking file is valid.
+        if (Input::file('afbeelding')->isValid()) {
+          $destinationPath = 'uploads'; // upload path
+          $extension = Input::file('afbeelding')->getClientOriginalExtension(); // getting image extension
+          $fileName = rand(11111,99999).'.'.$extension; // renameing image
+          Input::file('afbeelding')->move($destinationPath, $fileName); // uploading file to given path
+          // sending back with message
+          Session::flash('success', 'Upload successfully');
+          return Redirect::to('/nieuws');
+        }
+        else {
+          // sending back with error message.
+          Session::flash('error', 'uploaded file is not valid');
+          return Redirect::to('/nieuws/add');
+        }
+      }
+
+      // END FILE UPLOAD
+
       $user = User::all();
       $event = Event::all();
 

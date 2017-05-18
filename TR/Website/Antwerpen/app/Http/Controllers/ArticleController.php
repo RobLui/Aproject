@@ -9,6 +9,9 @@ use App\User;
 use App\Article;
 use App\Comment;
 use Session;
+use Input;
+use Redirect;
+use Request;
 
 class ArticleController extends Controller
 {
@@ -38,12 +41,12 @@ class ArticleController extends Controller
             ]);
             // Validatie error handling
             if ($validator->fails()) {
-                return view('/artcles/add')->withErrors($validator);
+                return view('/articles/add')->withErrors($validator);
             }
             if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $request->url)) {
                 return view('/articles/add')->withErrors($request->url.' is not a valid URL');
             }
-            upload();
+
             // No validation error, continue..
             $articles = new Article();
             $user = User::all();

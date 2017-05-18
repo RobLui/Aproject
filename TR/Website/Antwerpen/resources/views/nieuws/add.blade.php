@@ -14,9 +14,10 @@
                 <!--  display errors and messages -->
                 @include("common.errors")
                 @include("common.messages")
-                
+
                 <!-- CREATE -->
-                <form action="{{ url('nieuws/add/nieuw') }}" method="post" enctype="multipart/form-data" class="form-horizontal">
+                {!! Form::open(array('url'=>'nieuws/add/nieuw','method'=>'POST', 'files'=>true, 'class'=>'form-horizontal')) !!}
+                <!-- <form action="{{ url('nieuws/add/nieuw') }}" method="post" class="form-horizontal"> -->
                   {{ csrf_field() }}
 
                   <!--Titel -->
@@ -37,7 +38,7 @@
 
                   <!-- Afbeelding -->
                   <div class="form-group">
-                    <label for="file" class="col-sm-3 control-label">Afbeelding</label>
+                    <label for="afbeelding" class="col-sm-3 control-label">Afbeelding</label>
                     <div class="col-sm-6">
                         <input type="file" name="afbeelding" id="afbeelding" class="form-control">
                     </div>
@@ -51,8 +52,9 @@
                     </button>
                   </div>
                 </div>
+                {!! Form::close() !!}
 
-              </form>
+              <!-- </form> -->
           </div>
         </div>
       </div>
