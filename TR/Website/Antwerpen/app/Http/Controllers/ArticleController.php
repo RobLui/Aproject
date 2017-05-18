@@ -9,9 +9,6 @@ use App\User;
 use App\Article;
 use App\Comment;
 use Session;
-use Input;
-use Redirect;
-use Request;
 
 class ArticleController extends Controller
 {

@@ -7,6 +7,12 @@
         padding-right: 5%;
         text-align: left;
     }
+
+    .menu ol, .menu ul {
+        margin: 0px
+    }
+
+
     /*-----------------------HEAD DISPLAY-----------------------*/
 
     .head_center {
@@ -647,6 +653,8 @@ width: 72px;*/
         font-size: 1em;
         text-transform: uppercase;
         display: block;
+        overflow: hidden;
+        margin: 0px;
     }
 
     .menu li {
@@ -865,11 +873,10 @@ width: 72px;*/
     /*-------------------------- INFO --------------------------*/
 
     .rwpa {
-        width: 90%;
         height: 100%;
         margin-top: 2em;
         margin-bottom: 1em;
-        margin-left: 5%;
+        margin: 0 auto;
         text-align: center;
         display: block;
     }
@@ -901,12 +908,15 @@ width: 72px;*/
         height: 100%;
     }
 
-    .block_img_nieuws img, .block_img_nieuws p, .block_img_nieuws h1, .block_img_nieuws a, .rwpa, .block {
+    .block_img_nieuws img, .block_img_nieuws p, .block_img_nieuws h1, .block_img_nieuws a, .block {
         margin: 0 auto;
         display: block;
-        width: 75%;
+        width: 100%;
     }
 
+    .rwpa {
+      width: 75%;
+    }
     .block_img_nieuws a {
         height: 3em;
         padding: 0.7em;
@@ -956,10 +966,13 @@ width: 72px;*/
     .infoRight {
         overflow: hidden;
         padding-left: 5%;
+        width: 50%;
     }
 
     .infoLeft {
         float: left;
+        /*padding-bottom: 5em;*/
+        width: 50%;
     }
     /*-------------------- ADMIN-PANEl --------------------*/
 
@@ -988,6 +1001,7 @@ width: 72px;*/
         /*margin: auto 0;*/
         padding-bottom: 0.5em;
         text-align: left;
+        color: #d01f38;
     }
 
     .footer {
@@ -1005,14 +1019,14 @@ width: 72px;*/
         margin: 0 auto;
         margin-bottom: 5em;
         width: 75%;
+        margin-top: 5em;
     }
 
     .mid_container p {
         display: block;
-        width: 75%;
+        /*width: 75%;*/
         /*margin-left: 25%;*/
         text-align: left;
-        margin-bottom: 8em;
     }
 
     .rondje li {
@@ -1115,10 +1129,19 @@ width: 72px;*/
     }
     /*-------------------- MEDIA QUERIES --------------------*/
 
+
+    @media (max-width: 767px) {
+      .mid_container{
+        margin-top: 2em;
+      }
+    }
+
+
+
     @media (max-width: 767px) {
         .block, .mid_headers, .infoRight, .infoLeft {
             margin: 0 auto;
-            padding-top: 1em;
+
         }
         .infoRight, .infoLeft {
             margin: 0 auto;
@@ -1129,7 +1152,7 @@ width: 72px;*/
             height: 100%;
             width: 90%;
             margin: 0 auto;
-            padding-bottom: 1em;
+
         }
         .infoRight h1 {
             text-align: center;
@@ -1380,6 +1403,7 @@ width: 72px;*/
 
     .rwpa {
         margin-top: 1em;
+        overflow: hidden;
 
     }
 
@@ -1407,21 +1431,72 @@ width: 72px;*/
         display: block;
     }
 
+
+
+    @media (max-width:1777px) {
+
+      .mid_container{
+        width: 75%;
+      }
+      .block {
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 6em;
+
+      }
+
+        .infoRight {
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        .infoLeft {
+            width: 50%;
+            padding-bottom: 5em;
+        }
+
+        .infoRight h1{
+          margin-top: 0;
+        }
+
+    }
+
     @media (max-width:1240px) {
         .block, .mid_headers, .infoRight, .infoLeft {
             margin: 0 auto;
-            padding-top: 1em;
         }
-        .infoRight, .infoLeft {
+
+        .mid_container{
+          width: 75%;
+        }
+
+        .block{
+          margin-bottom: 6em;
+          height: 100%;
+        }
+
+        .infoLeft {
+          width: 60%;
+          height: 100%;
+          padding-bottom: 5em;
+        }
+
+        .infoRight {
             margin: 0 auto;
-            width: 100%;
+            width: 40%;
             display: block;
+            /*background-color: #eee;*/
+            padding-left: 1.5em;
+            padding-right: 1.5em;
+            padding-bottom: 1.5em;
+            padding-top: 0;
         }
+
         .infoRight p {
             height: 100%;
             width: 90%;
             margin: 0 auto;
-            padding-bottom: 1em;
+
         }
         .infoRight h1 {
             text-align: center;
@@ -1429,33 +1504,37 @@ width: 72px;*/
             width: 100%;
             margin: 0 auto;
             display: block;
+
         }
         .rwpa a {
             margin: 0 auto;
             width: 50%;
-            /*margin-top: 1em;*/
             display: block;
             font-size: relative;
         }
     }
 
-    @media (max-width:1777px) {
-        .mid_container {
-            margin: 0 auto;
-            width: 90%;
-        }
-        .block {
-            margin: 0 auto;
-            width: 75%;
-        }
-        .infoRight {
-            margin: 0 auto;
-            width: 40%;
-        }
-        .infoRight p {
-            margin-bottom: 6em;
-        }
+
+
+
+
+    @media (max-width: 1092px) {
+
+    .block{
+      margin-bottom: 6em;
     }
+
+    .infoLeft{
+      width: 100%;
+      padding-bottom: 0px;
+    }
+
+    .infoRight{
+      width: 100%;
+      background-color: #eee;
+      padding: 1.5em;
+    }
+}
 
     @media (max-width: 690px) {
 
@@ -1486,7 +1565,45 @@ width: 72px;*/
 
       .rwpa a:nth-child(2) h3, .rwpa a:nth-child(4) h3, .rwpa a:nth-child(6) h3{
         color: #d01f38;
-        font: Antwerpen;    }
+        font: Antwerpen;
+      }
 
+      .block{
+        width: 95%;
+        margin-bottom: 6em;
+      }
+
+      .mid_container{
+            width: 95%;
+      }
+
+      .mid_headers {
+        font-size: 2em;
+      }
+
+    .infoRight{
+      width: 100%;
+      background-color: #eee;
+      padding: 1.5em;
+    }
+    .infoLeft{
+      width: 100%;
+        padding-bottom: 0px;
 
     }
+
+    }
+
+
+    @media (max-width: 525px) {
+      .mid_container, .block{
+        width: 100%;
+    }
+
+    .infoRight p{
+      width: 85%%;
+
+    }
+
+
+        }

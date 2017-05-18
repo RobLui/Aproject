@@ -22,7 +22,7 @@
             <p>
               Antwerpen is niet de eerste studentenstad die bij je opkomt. Toch is ze niet te onderschatten.
               Antwerpen is namelijk een Atypische studentenstad. Het is een stad die bruist van leven, ook buiten de schoolperiode.
-              Buiten een leuk studerenleven en interessante opleidingen kan je ook nog eens rekenen op ruime werkgelegenheid na het afstuderen.
+              Buiten een leuk studentenleven en interessante opleidingen kan je ook nog eens rekenen op ruime werkgelegenheid na het afstuderen.
             </p>
         </div>
       </div>
@@ -32,8 +32,8 @@
     <div class="rwpa">
       <a href="/info/studieaanbod" target="blank">
         <h3>Richting aanbod</h3>
-          Er nog niet uit wat je wil studeren?
-          Klik hier voor een overzicht van scholen en hun richting aanbod
+          Er nog niet helemaal uit wat je wil studeren?
+          Klik hier voor een volledig overzicht van scholen en hun richting aanbod!
       </a>
       <a href="http://www.belgianrail.be/" target="blank">
         <h3>Pendelaars</h3>
