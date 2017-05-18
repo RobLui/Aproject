@@ -1412,3 +1412,21 @@ width: 72px;*/
             font-size: relative;
         }
     }
+
+    @media (max-width:1777px) {
+        .mid_container {
+            margin: 0 auto;
+            width: 90%;
+        }
+        .block {
+            margin: 0 auto;
+            width: 75%;
+        }
+        .infoRight {
+            margin: 0 auto;
+            width: 40%;
+        }
+        .infoRight p {
+            margin-bottom: 6em;
+        }
+    }
