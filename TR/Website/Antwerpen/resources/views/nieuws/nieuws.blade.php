@@ -25,7 +25,7 @@
       <div class="block_img_nieuws">
         <h1>{{$event->title}}</h1>
         <p>{{$event->text}}</p>
-        <img src="images/lowpoly.jpg" alt="test">
+        <img src="/uploads/{{$event->data}}" alt="{{$event->data}}">
         @if(isset(Auth::user()->name))
           @if(Auth::user()->name == $event->posted_by)
             <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>

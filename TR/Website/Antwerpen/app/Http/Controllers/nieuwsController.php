@@ -41,6 +41,7 @@ class nieuwsController extends Controller
     {
 
       // FILE UPLOAD
+      $filename ="";
 
       // getting all of the post data
       $file = array('afbeelding' => Input::file('afbeelding'));
@@ -59,14 +60,11 @@ class nieuwsController extends Controller
           $extension = Input::file('afbeelding')->getClientOriginalExtension(); // getting image extension
           $fileName = rand(11111,99999).'.'.$extension; // renameing image
           Input::file('afbeelding')->move($destinationPath, $fileName); // uploading file to given path
-          // sending back with message
+          // Success
           Session::flash('success', 'Upload successfully');
-          return Redirect::to('/nieuws');
         }
         else {
-          // sending back with error message.
           Session::flash('error', 'uploaded file is not valid');
-          return Redirect::to('/nieuws/add');
         }
       }
 
@@ -79,7 +77,7 @@ class nieuwsController extends Controller
       $events->title = $req->title;
       $events->text = $req->text;
       $events->posted_by = Auth::user()->name;
-      $events->data = "0";
+      $events->data = $fileName;
       $events->save();
       return redirect("/nieuws")->withEvents($event);
     }
