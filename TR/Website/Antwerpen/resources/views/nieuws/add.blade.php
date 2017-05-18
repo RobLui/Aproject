@@ -23,7 +23,7 @@
 
                   <!--Titel -->
                   <div class="form-group">
-                    <label for="titel" class="col-sm-3 control-label">Titel (max 255 karakters)</label>
+                    <label for="titel" class="col-sm-3 control-label">Titel ( max 255 karakters)</label>
                     <div class="col-sm-6">
                         <input type="text" name="title" id="title" class="form-control">
                     </div>
