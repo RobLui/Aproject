@@ -1309,7 +1309,7 @@
             }
 
             a:focus, a:hover {
-                color: red;
+                color: #3f3d3e;
                 text-decoration: underline
             }
 
@@ -3511,15 +3511,15 @@
 
             .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
                 text-decoration: none;
-                color: #262626;
-                background-color: #f5f5f5
+                color: #3f3d3e;
+                background-color: white;
             }
 
             .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
                 color: #fff;
                 text-decoration: none;
                 outline: 0;
-                background-color: red;
+                background-color: #3f3d3e;
             }
 
             .dropdown-menu>.disabled>a, .dropdown-menu>.disabled>a:focus, .dropdown-menu>.disabled>a:hover {
@@ -3872,7 +3872,7 @@
 
             .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
                 background-color: #eee;
-                border-color: red
+                border-color: #3f3d3e
             }
 
             .nav .nav-divider {
@@ -3908,7 +3908,7 @@
 
             .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
                 color: #555;
-                background-color: #f5f8fa;
+                background-color: #3f3d3e;
                 border: 1px solid #ddd;
                 border-bottom-color: transparent;
                 cursor: default
@@ -3932,7 +3932,7 @@
 
             .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
                 color: #fff;
-                background-color: red
+                background-color: #3f3d3e
             }
 
             .nav-stacked>li+li {
@@ -4354,8 +4354,8 @@
             }
 
             .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-                color: #555;
-                background-color: #eee
+                color: white;
+                background-color: #3f3d3e
             }
 
             .navbar-default .navbar-nav>.disabled>a, .navbar-default .navbar-nav>.disabled>a:focus, .navbar-default .navbar-nav>.disabled>a:hover {

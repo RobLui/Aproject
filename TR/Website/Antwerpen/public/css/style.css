@@ -361,7 +361,7 @@ width: 72px;*/
     }
 
     a:hover {
-        color: #dd2a43;
+        color: #3f3d3e;
         text-decoration: none;
     }
 
@@ -564,6 +564,7 @@ width: 72px;*/
     a:hover {
         color: #d01f38;
         text-decoration: none;
+        background-color: transparant;
     }
 
     a:active {
@@ -572,7 +573,7 @@ width: 72px;*/
     }
 
     li.current>a {
-        border-bottom: 3px solid red;
+        border-bottom: 3px solid #3f3d3e;
     }
 
     textarea {
