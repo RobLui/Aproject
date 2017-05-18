@@ -17,7 +17,8 @@
 
                 <!-- CREATE -->
                 {!! Form::open(array('url'=>'nieuws/add/nieuw','method'=>'POST', 'files'=>true, 'class'=>'form-horizontal')) !!}
-                <!-- <form action="{{ url('nieuws/add/nieuw') }}" method="post" class="form-horizontal"> -->
+
+                  <!--  Token field -->
                   {{ csrf_field() }}
 
                   <!--Titel -->

@@ -105,6 +105,7 @@ class nieuwsController extends Controller
         $validator = Validator::make($req->all(), [
         'title' => 'required|max:255',
         'text' => 'required',
+        'data' => 'required',
         ]);
       // Validation error, show errors
         if ($validator->fails()) {
@@ -118,8 +119,10 @@ class nieuwsController extends Controller
         //   ->withEvents($event)
         //   ->withErrors($req->url.' is not a valid URL');
         // } //if no errors occur, the article can update
+
         $event->update($req->all());
-          Session::flash('success', ($req->title.' is bijgewerkt.'));
+          // Session::flash('success', ($req->title.' is bijgewerkt.'));
+          Session::flash('success', dd($req->all()));
       }
       else {
           Session::flash('error_', ("Er is iets misgelopen!"));
