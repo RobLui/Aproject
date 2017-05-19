@@ -23,19 +23,22 @@ class nieuwsController extends Controller
     public function index(request $req){
       ini_set("allow_url_fopen", 1);
       $json = file_get_contents('https://www.gate15.be/srv/content/d/content-type/10/start/0/limit/10/excluded_tags/trots');
-      // $obj = json_decode($json,true);
-      $obj = json_decode($json);
+
+      // json_encode.. de true maakt er een associatieve array van
+      $obj = json_decode(json_encode($json),true);
+      // var_dump($obj);
+
       // dd($obj->data);   // Geeft een lijst terug van objecten, waarin andere objecten zitten verwerkt
       // dd($obj->data[0]); // id
       // typeName
-      dd( $obj->data );
+
       $user = User::all();
       $event = Event::all();
       $user->name = $req->name;
 
       return view('nieuws/nieuws')
       ->withEvents($event)
-      ->withNieuws($obj->data);
+      ->withNieuws($obj);
     }
 
 // ----------------------- ADD INDEX -----------------------
@@ -178,15 +181,5 @@ class nieuwsController extends Controller
       $news = Event::all();
       return view('niews/artikel')->withNews($news);
     }
-
-public function get_nieuws_gate15(){
-  ini_set("allow_url_fopen", 1);
-  $json = file_get_contents('https://www.gate15.be/srv/content/d/content-type/10/start/0/limit/10/excluded_tags/trots');
-  $obj = json_decode($json);
-  dd($obj->data);   // Geeft een lijst terug van objecten, waarin andere objecten zitten verwerkt
-  // id
-  // typeName
-  //
-}
 
 }

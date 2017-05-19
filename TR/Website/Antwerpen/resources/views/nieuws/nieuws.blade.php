@@ -36,14 +36,6 @@
     </div>
       @endforeach
     @endif
-
-    @if(count($nieuws) > 0)
-      @foreach($nieuws as $n)
-      <div>
-        {{$n}}
-      </div>
-      @endforeach
-    @endif
   </div>
 </div>
 
