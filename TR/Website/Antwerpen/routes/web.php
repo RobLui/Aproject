@@ -69,6 +69,8 @@ Route::get('/admin-panel', function () {
 
 
 
+// ERROR
+Route::get('/404', 'errorController@index');
 
 
 
