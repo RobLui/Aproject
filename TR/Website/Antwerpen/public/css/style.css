@@ -1280,6 +1280,15 @@ width: 72px;*/
             margin-left: 0.5em;
             height: 100%;
             text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .menu {
+            padding: 0;
+        }
+        .menu li:nth-child(2) a, .menu li:nth-child(3) a, .menu li:nth-child(4) a, .menu li:nth-child(5) a, .menu li:nth-child(6) a {
+            padding-top: 2.5em;
+            padding-bottom: 2.5em;
         }
         .info, .block_img_nieuws {
             width: 75%;
@@ -1317,17 +1326,6 @@ width: 72px;*/
         }
         .one ._admin {
             margin-left: 15%;
-        }
-        .menu {
-            padding: 0;
-        }
-        .menu li {
-            padding: 0;
-            margin: 0;
-        }
-        .menu li:nth-child(2) a, .menu li:nth-child(3) a, .menu li:nth-child(4) a, .menu li:nth-child(5) a, .menu li:nth-child(6) a {
-            padding-top: 2.5em;
-            padding-bottom: 2.5em;
         }
     }
     /* THESSA */
