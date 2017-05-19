@@ -142,8 +142,6 @@
     }
 
     .panel-default>.panel-heading {
-        /*color: #FFFFFF;*/
-        /*background-color: #0064B4;*/
         border-color: #ddd;
     }
 
@@ -157,7 +155,6 @@
     /* Admin toggle / logout*/
 
     .dropdown-menu, .dropdown-toggle {
-        /*background-color: orange;*/
         height: 100%;
         width: auto;
     }
@@ -278,7 +275,7 @@ width: 72px;*/
 
     .richtingen_class li {
         padding-top: 0.75em;
-        height: 3em;
+        /*height: 3em;*/
     }
 
     .copyright {
@@ -291,8 +288,8 @@ width: 72px;*/
     }
 
     ul.richtingen_class li, .richtingen_center {
+        margin: 0 auto;
         width: 75%;
-        margin-left: 10%;
         margin-bottom: 2.5%;
         font-size: 1em;
     }
@@ -1577,4 +1574,16 @@ width: 72px;*/
         .infoRight p {
             width: 85%%;
         }
+    }
+
+    .richtingen_class {
+        margin: 0 auto;
+        width: 50%;
+        display: block;
+    }
+
+    .richtingen_class img {
+        height: 100%;
+        width: 100%;
+        /*transform: rotate(180deg);*/
     }

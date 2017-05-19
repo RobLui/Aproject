@@ -7,7 +7,12 @@ use Auth;
 use App\User;
 use App\Richting;
 use Illuminate\Support\Facades\Validator;
-use Session;
+
+use Illuminate\Support\Facades\Input;
+use Redirect;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Session;
 
 class InfoController extends Controller
 {
@@ -36,27 +41,27 @@ class InfoController extends Controller
           $filename ="";
 
           // getting all of the post data
-          $file = array('data' => Input::file('data'));
+          $file = array('afbeelding' => Input::file('afbeelding'));
           // setting up rules
-          $rules = array('data' => 'required',); //mimes:jpeg,bmp,png and for max size max:10000
+          $rules = array('afbeelding' => 'required',); //mimes:jpeg,bmp,png and for max size max:10000
           // doing the validation, passing post data, rules and the messages
           $validator = Validator::make($file, $rules);
           if ($validator->fails()) {
             // send back to the page with the input data and errors
-            return Redirect::to('/nieuws/add')->withInput()->withErrors($validator);
+            return Redirect::to('/info/studieaanbod')->withInput()->withErrors($validator);
           }
           else {
             // checking file is valid.
-            if (Input::file('data')->isValid()) {
+            if (Input::file('afbeelding')->isValid()) {
               $destinationPath = 'uploads'; // upload path
-              $extension = Input::file('data')->getClientOriginalExtension(); // getting image extension
+              $extension = Input::file('afbeelding')->getClientOriginalExtension(); // getting image extension
               $fileName = rand(11111,99999).'.'.$extension; // renameing image
-              Input::file('data')->move($destinationPath, $fileName); // uploading file to given path
+              Input::file('afbeelding')->move($destinationPath, $fileName); // uploading file to given path
               // Success
-              Session::flash('success', 'Upload successfully');
+              Session::flash('success', 'Upload succesvol');
             }
             else {
-              Session::flash('error', 'uploaded file is not valid');
+              Session::flash('error', 'Het geuploade bestand is geen geldige afbeelding');
             }
           }
 
@@ -103,8 +108,36 @@ class InfoController extends Controller
   public function update(Request $req, $id)
   {
       $richtingen = Richting::findOrFail($id);
-    // Check if the user is logged in -> only than, a richting can be updated
+
+    // Check if the user is logged in-> only than, a richting can be updated
     if (Auth::user()->name == 'Admin') {
+
+      $filename ="";
+
+      // getting all of the post data
+      $file = array('afbeelding' => Input::file('afbeelding'));
+      // setting up rules
+      $rules = array('afbeelding' => 'required',); //mimes:jpeg,bmp,png and for max size max:10000
+      // doing the validation, passing post data, rules and the messages
+      $validator = Validator::make($file, $rules);
+      if ($validator->fails()) {
+        // send back to the page with the input data and errors
+        return Redirect::back()->withInput()->withErrors($validator);
+      }
+      else {
+        // checking file is valid.
+        if (Input::file('afbeelding')->isValid()) {
+          $destinationPath = 'uploads'; // upload path
+          $extension = Input::file('afbeelding')->getClientOriginalExtension(); // getting image extension
+          $fileName = rand(11111,99999).'.'.$extension; // renameing image
+          Input::file('afbeelding')->move($destinationPath, $fileName); // uploading file to given path
+          // Success
+          Session::flash('success', 'Upload successfully');
+        }
+        else {
+          Session::flash('error', 'uploaded file is not valid');
+        }
+      }
         // Validation handler
       $validator = Validator::make($req->all(), [
       'title' => 'required|max:255',
@@ -112,24 +145,24 @@ class InfoController extends Controller
       ]);
     // Validation error, show errors
       if ($validator->fails()) {
-          return view('/richtingen/edit')
-        ->withRichtingen($richtingen)
-        ->withErrors($validator);
+          return view('/richtingen/edit')->withRichtingen($richtingen)->withErrors($validator);
       }
       // Check for valid email through regEX
-      if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $req->url)) {
-          return view('info/studieaanbod')
-          ->withRichtingen($richtingen)
-          ->withErrors($req->url.' is geen geldige url');
-      } //if no errors occur, the richting can update
+      if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $req->url))
+      {
+        return view('info/studieaanbod')->withRichtingen($richtingen)->withErrors($req->url.' is geen geldige url');
+      }
+      //if no errors occur, the richting can update
       $richtingen->update($req->all());
-        Session::flash('success', ($req->title.' is succesvol geupdate'));
+      $richtingen->afbeelding = $fileName;
+      $richtingen->save();
+      Session::flash('success', ($req->title.' is succesvol geupdate'));
     }
-    else
-    {
-      Session::flash('error', ('Er heeft zich een fout voorgedaan'));
-    }
-      return redirect('/info/studieaanbod')->with(compact('id'));
+      else //Admin is niet ingelogd
+      {
+        Session::flash('error', ('Er heeft zich een fout voorgedaan'));
+      }
+        return redirect('/info/studieaanbod')->with(compact('id'));
   }
 
   // ----------------------- DELETE  -----------------------

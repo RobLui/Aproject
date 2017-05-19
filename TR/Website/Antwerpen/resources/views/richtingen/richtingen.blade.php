@@ -15,20 +15,21 @@
             @foreach($richtingen as $richting)
             <li>
               <a href="{{$richting->url}}" target="_blank">{{$richting->title}} </a>
+              <img src="/uploads/{{$richting->afbeelding}}" alt="{{$richting->afbeelding}}">
               @if(isset(Auth::user()->name))
                 @if(Auth::user()->name == "Admin")
-                  <a href="studieaanbod/edit/{{$richting->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
+                 <a href="studieaanbod/edit/{{$richting->id}}" class="btn btn-primary btn-xs edit-btn">aanpassen</a>
                 @endif
               @endif
             </li>
             @endforeach
           @endif
+        </ul>
         @if(isset(Auth::user()->name))
           @if(Auth::user()->name == "Admin")
             @include('richtingen.add')
           @endif
         @endif
-        </ul>
 
       </div>
     </div>

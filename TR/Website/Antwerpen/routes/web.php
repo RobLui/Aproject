@@ -13,10 +13,9 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
 
 
 // ----------------------- HOME -----------------------
-  // HOME & INDEX
-    // Home controllers
-    Route::get('/', 'ArticleController@index');
-    Route::get('/home', 'ArticleController@index');
+  // HOME & INDEX - home controllers
+  Route::get('/', 'ArticleController@index');
+  Route::get('/home', 'ArticleController@index');
 
 // ----------------------- NIEUWS -----------------------
   // INDEX ADD
@@ -52,28 +51,13 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
   // DELETE nieuws/event
   // Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
 
-
-
-
-
-
-//TESTIMONIAL
-Route::get('/testimonial', 'testimonialController@index');
-
-
 // ADMIN PANEL
 Route::get('/admin-panel', function () {
     return view('/admin-panel');
 });
 
-
-
-
 // ERROR
 Route::get('/404', 'errorController@index');
-
-
-
 
 //PLACES TO EAT
 Route::get('ontdek/eet-plekskes', function () {
@@ -91,3 +75,6 @@ Route::get('ontdek/studie-plekskes', function () {
 });
 
 Route::post('nieuws/fileupload', 'ArticleController@upload');
+
+// //TESTIMONIAL
+// Route::get('/testimonial', 'testimonialController@index');
