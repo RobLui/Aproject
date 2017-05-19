@@ -92,6 +92,7 @@
       @yield('content')
       <!-- Scripts -->
     <script src="/js/app.js"></script>
+    <script src="/js/slider.js"></script>
 </body>
 @include('includes.footer')
 </html>
