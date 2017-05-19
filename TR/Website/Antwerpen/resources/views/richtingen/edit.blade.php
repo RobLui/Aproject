@@ -23,20 +23,30 @@
                 <form action="../edit/{{$richtingen->id}}" method="POST" class="form-horizontal">
                     {{ csrf_field() }}
                     <input type="hidden" name="_token" value="{{ csrf_token() }}"> <!-- mismatch token error fix -->
-                    <!-- richting title -->
+
+                    <!-- TITEL -->
                     <div class="form-group">
-                      <label for="titel" class="col-sm-3 control-label">Title (max 255 chars)</label>
+                      <label for="titel" class="col-sm-3 control-label">Title (max 255 karakters)</label>
                       <div class="col-sm-6">
                           <input type="text" name="title" id="title" class="form-control" value="{{$richtingen->title}}">
                       </div>
                     </div>
-                    <!-- richtingen url -->
+                    <!-- URL -->
                     <div class="form-group">
                       <label for="url" class="col-sm-3 control-label">URL</label>
                       <div class="col-sm-6">
                           <input type="text" name="url" id="url" class="form-control" value="{{$richtingen->url}}">
                       </div>
                     </div>
+
+                    <!-- IMAGE FILE -->
+                    <div class="form-group">
+                      <label for="data" class="col-sm-3 control-label">Afbeelding</label>
+                      <div class="col-sm-6">
+                        <input type="file" name="data" id="data" class="form-control" value="{{$richtingen->afbeelding}}">
+                      </div>
+                    </div>
+
                     <!-- Edit richtingen Button -->
                     <div class="form-group">
                         <div class="col-sm-offset-3 col-sm-6">

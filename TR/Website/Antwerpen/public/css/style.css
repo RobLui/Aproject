@@ -903,11 +903,18 @@ width: 72px;*/
         height: 100%;
         margin-bottom: 2em;
     }
+
+    .infoHead img {
+        top: 0;
+    }
     /*-------------------------- NIEUWS --------------------------*/
 
     .block_img img, .block_img_nieuws img {
         width: 100%;
         height: 100%;
+    }
+
+    .block_img_nieuws img {
         transform: rotate(180deg);
     }
 

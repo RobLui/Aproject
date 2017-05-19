@@ -3,7 +3,9 @@
     <div class="panel panel-default">
       <div class="panel-heading x">Richting toevoegen</div>
         <div class="panel-content">
-          <form action="{{ url('/info/studieaanbod/add') }}" method="POST" class="form-horizontal">
+          <!-- CREATE -->
+          {!! Form::open(array('url'=>'/info/studieaanbod/add','method'=>'POST', 'files'=>true, 'class'=>'form-horizontal')) !!}
+
             {{ csrf_field() }}
 
             <!-- richtingen title -->
@@ -22,6 +24,15 @@
               </div>
             </div>
 
+
+            <!-- AFBEELDING -->
+            <div class="form-group">
+              <label for="afbeelding" class="col-sm-3 control-label">Afbeelding</label>
+              <div class="col-sm-6">
+                  <input type="file" name="afbeelding" id="afbeelding" class="form-control">
+              </div>
+            </div>
+
             <!-- Add richtingen button -->
             <div class="form-group">
               <div class="col-sm-offset-3 col-sm-6">
@@ -31,7 +42,7 @@
             </div>
           </div>
 
-      </form>
+          {!! Form::close() !!}
     </div>
   </div>
 </div>

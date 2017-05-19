@@ -12,7 +12,7 @@ class CreateRichtingenTable extends Migration
       Schema::create('richtings', function (Blueprint $table) {
           $table->increments('id');
           $table->string('title')->index();
-          $table->string('url')->index();
+          $table->string('url')->index();                    $table->text('afbeelding');
           $table->timestamps();
           $table->softDeletes();
       });

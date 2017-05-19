@@ -39,14 +39,6 @@
             </div>
           </div>
 
-          <!-- IMAGE TXT -->
-          <!-- <div class="form-group">
-            <label for="data" class="col-sm-3 control-label">Afbeelding</label>
-            <div class="col-sm-6">
-                <input type="text" name="data" id="data" class="form-control" value="{{$events->data}}">
-            </div>
-          </div> -->
-
           <!-- IMAGE FILE -->
           <div class="form-group">
             <label for="data" class="col-sm-3 control-label">Afbeelding</label>

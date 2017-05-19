@@ -31,6 +31,35 @@ class InfoController extends Controller
     {
         // Check if the admin is logged in -> only than, richting can be added
         if (Auth::check()) {
+
+          // FILE UPLOAD
+          $filename ="";
+
+          // getting all of the post data
+          $file = array('data' => Input::file('data'));
+          // setting up rules
+          $rules = array('data' => 'required',); //mimes:jpeg,bmp,png and for max size max:10000
+          // doing the validation, passing post data, rules and the messages
+          $validator = Validator::make($file, $rules);
+          if ($validator->fails()) {
+            // send back to the page with the input data and errors
+            return Redirect::to('/nieuws/add')->withInput()->withErrors($validator);
+          }
+          else {
+            // checking file is valid.
+            if (Input::file('data')->isValid()) {
+              $destinationPath = 'uploads'; // upload path
+              $extension = Input::file('data')->getClientOriginalExtension(); // getting image extension
+              $fileName = rand(11111,99999).'.'.$extension; // renameing image
+              Input::file('data')->move($destinationPath, $fileName); // uploading file to given path
+              // Success
+              Session::flash('success', 'Upload successfully');
+            }
+            else {
+              Session::flash('error', 'uploaded file is not valid');
+            }
+          }
+
             // Validation handler
           $validator = Validator::make($request->all(),
           ['title' => 'required|max:255','url' => 'required|max:255',]);
@@ -44,9 +73,9 @@ class InfoController extends Controller
         // No validation error, continue..
         $richtingen = new Richting();
         $user = User::all();
-        // $request title & url = get data from both out of the submitted form
         $richtingen->title = $request->title;
         $richtingen->url = $request->url;
+        $richtingen->afbeelding = $fileName;
         $richtingen->save();
 
         Session::flash('success', ($request->title.' is succesvol toegevoegd'));
