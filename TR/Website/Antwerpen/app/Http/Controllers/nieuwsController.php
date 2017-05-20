@@ -139,24 +139,23 @@ class nieuwsController extends Controller
         }
       }
 
-
           // Validation handler
         $validator = Validator::make($req->all(), [
         'title' => 'required|max:255',
         'text' => 'required',
         ]);
-      // Validation error, show errors
+        // Validation error, show errors
         if ($validator->fails()) {
             return view('/nieuws/edit')
           ->withEvents($event)
           ->withErrors($validator);
         }
-          // dd($fileName);
-          $event->update($req->all());
-          $event->data = $fileName;
-          $event->save();
-          // Session::flash('success', ($req->title.' is bijgewerkt.'));
-          Session::flash('success', "Succesvol aangepast");
+        // dd($fileName);
+        $event->update($req->all());
+        $event->data = $fileName;
+        $event->save();
+        // Session::flash('success', ($req->title.' is bijgewerkt.'));
+        Session::flash('success', "Succesvol aangepast");
       }
       else {
           Session::flash('error_', ("Er is iets misgelopen!"));
