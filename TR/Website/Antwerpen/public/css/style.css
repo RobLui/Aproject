@@ -1676,19 +1676,12 @@ width: 72px;*/
     @media(max-width: 1199px) {
         img.slide_img {
             height: 25em;
-            width: 100%:
-        }
-    }
-
-    @media(max-width:768px) {
-        img.slide_img {
-            height: 17.5em;
         }
     }
 
     @media(max-width:420px) {
         img.slide_img {
-            height: 10.5em;
+            height: 11.5em;
         }
     }
 
