@@ -1174,6 +1174,11 @@ width: 72px;*/
             margin: 0;
             text-align: center;
         }
+
+        .menu li a:visited {
+            text-decoration: underline;
+        }
+
         .menu li {
             float: left;
             display: block;
