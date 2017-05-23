@@ -33,7 +33,7 @@
 							Wil je graag zien waar je lekker kan gaan eten? <br> Ontdek nu onze tips.
 						</p>
 					</div>
-						<div class="btn-section">
+						<div class="btn-section_">
 							<a href="ontdek/eet-plekskes" class="btn-custom"> > meer lezen </a>
 					</div>
 				</div>
@@ -53,7 +53,7 @@
 						Ben je het beu om op een witte muur te kijken?
 						Dit zijn de leukste plaatsen om te studeren.
 					</p>
-					<div class="btn-section">
+					<div class="btn-section_">
 						<a href="ontdek/studie-plekskes" class="btn-custom"> >  meer lezen </a>
 					</div>
 				</div>
@@ -65,7 +65,7 @@
 				<div class="rondje">
 				<li class="fa fa-search fa-3x" aria-hidden="true"></li>
 			</div>
-				<h1>Schoon plekskes</h1>
+				<h1>Toffe plekskes</h1>
 				<div class="block_img">
 					<img src="images/ontdek/schoon_plekskes.jpg" alt="300">
 					<p class="columnText">
@@ -73,7 +73,7 @@
 						Kom daarom zeker eens van achter je bureau en neem een kijkje in het mooie antwerpen!
 						Wij hebben alvast een paar top plekjes uitgelicht voor jou!
 					</p>
-					<div class="btn-section">
+					<div class="btn-section_">
 						<a href="ontdek/schoon-plekskes" class="btn-custom"> > meer lezen </a>
 					</div>
 				</div>

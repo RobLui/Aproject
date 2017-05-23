@@ -33,16 +33,16 @@
         <!-- .container -->
         <div class="mainContainer">
 
-            <h1 class="PTtitel">Schoon Plekskes</h1>
+            <h1 class="PTtitel">Toffe Plekskes</h1>
 
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="blok">
-                    <img src="images/contents/300/1.jpg" alt="300">
-                    <h4>Sightseeing place 1</h4>
-                    <p>Vestibulum porta tristique porttitor donec at <br> velit ac nunc blandit mollis donec ornare quis<br> lorem eu iaculis curabitur scelerisque tincidunt <br> lorem quis rhoncus.</p>
+                    <img src="images/escapeRoom.png" alt="300">
+                    <h4>Escape rooms</h4>
+                    <p>Zin in een avontuur waarbij je raadsels moet oplossen en naar hints zoeken om binnen de tijd van 1 uur uit een kamer moet geraken? In Antwerpen kan je op 7 locaties terecht voor het spelen van een escape game. Hier kan je ontsnappen uit 19 escape rooms. </p>
                     <div class="btn-section">
-                        <a href="page_services.html" class="btn-custom"> > Link naar see Place </a>
+                        <a href="https://www.escapegamesbelgium.be/cities/antwerpen" class="btn-custom"> > Link naar see Place </a>
                     </div>
                 </div>
             </div>

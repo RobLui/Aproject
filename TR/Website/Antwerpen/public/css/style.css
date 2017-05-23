@@ -511,7 +511,7 @@ width: 72px;*/
         /*color: #8a8a8a;*/
         /*color: #d01f38;*/
         text-align: center;
-        margin-top: 5%;
+      /*  margin-top: 5%;*/
         display: block;
     }
 
@@ -704,6 +704,8 @@ width: 72px;*/
         border: 1px solid black;
         width: 100%;
         padding-bottom: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .blok img {
@@ -778,7 +780,7 @@ width: 72px;*/
     #footer {
         /*color: #8a8a8a;*/
         text-align: center;
-        margin-top: 5%;
+        /*margin-top: 5%;*/
     }
 
     .footerContentContainer {}
@@ -955,7 +957,7 @@ width: 72px;*/
 
     .panel.panel-default h2 {
         text-align: center;
-        padding-top: 0.3em;
+        padding-top: 1em;
     }
 
     .mid_container .left, .mid_container .right {
@@ -1061,7 +1063,7 @@ width: 72px;*/
         width: 5em;
         height: 5em;
         margin-left: 40%;
-        margin-top: 19%;
+        margin-top: 5%;
         margin-bottom: 5%;
     }
 
@@ -1089,7 +1091,7 @@ width: 72px;*/
         color: red;
     }
 
-    .btn-section {
+    .btn-section_ {
         margin-bottom: 5%;
     }
 
