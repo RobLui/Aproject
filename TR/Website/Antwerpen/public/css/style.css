@@ -1400,10 +1400,14 @@ width: 72px;*/
     @media (min-width: 1500px) {
         .col-sm-4.item {
             width: 33%;
-            height: 40em;
             margin: auto;
             padding-left: 5%;
             padding-right: 5%;
+            height: 48em;
+        }
+        .block_img {
+            height: 100%;
+            padding-bottom: 2em;
         }
     }
 

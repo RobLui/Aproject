@@ -23,21 +23,14 @@ class nieuwsController extends Controller
     public function index(request $req){
 
       ini_set("allow_url_fopen", 1);
+
+      // Datasource
       $json = file_get_contents('https://www.gate15.be/srv/content/d/content-type/10/start/0/limit/10/excluded_tags/trots');
-
-      // json_encode.. de true maakt er een associatieve array van
-      // $obj = json_decode(json_encode($json,true));
+      // Source van de data decoded
       $obj = json_decode($json,true);
-      // var_dump($obj);
-
-      // dd($obj->data);   // Geeft een lijst terug van objecten, waarin andere objecten zitten verwerkt
-      // typeName
 
       $obj_data = $obj["data"]; // geeft array[10 items] terug
-      // dd($obj_data[0]["snippets"][0]["body"]["file"][0]["src"]);
-      // $obj_title = $obj_data[0]["title"]; // geeft de titel van een bepaalde array item terug
-      // dd($obj_title);
-      // dd($obj_data);
+      // dd($obj_data); // Om te testen
 
       $user = User::all();
       $event = Event::all();
