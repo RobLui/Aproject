@@ -74,7 +74,7 @@
 						Wij hebben alvast een paar top plekjes uitgelicht voor jou!
 					</p>
 					<div class="btn-section_">
-						<a href="ontdek/schoon-plekskes" class="btn-custom"> > meer lezen </a>
+						<a href="ontdek/toffe-plekskes" class="btn-custom"> > meer lezen </a>
 					</div>
 				</div>
 			</div>

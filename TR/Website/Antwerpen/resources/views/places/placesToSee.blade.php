@@ -38,7 +38,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="blok">
-                    <img src="images/toffePlekskes/escapeRoom.png" alt="escape Room">
+                    <img src="/images/toffePlekskes/escapeRoom.png" alt="escape Room">
                     <h4>Escape Rooms</h4>
                     <p>Zin in een avontuur waarbij je raadsels moet oplossen en naar hints moet zoeken om binnen de tijd uit een kamer moet geraken? <br>
                       In Antwerpen kan je op 7 locaties (met in totaal 19 rooms) terecht voor het spelen van een escape game. </p>
@@ -51,7 +51,7 @@
             <div class="col-sm-4 item">
                 <!-- 2 -->
                 <div class="blok">
-                    <img src="images/toffePlekskes/kerstmarktAntwerpen.jpg" alt="kerstmarkt Antwerpen">
+                    <img src="/images/toffePlekskes/kerstmarktAntwerpen.jpg" alt="kerstmarkt Antwerpen">
                     <h4>Kerstmarkt</h4>
                     <p class="columnText">
                       Glühwein, smoutebollen, jeneverkes en een schaatske plaatsen op de ijspiste. Als dat geen kerstsfeer is!
@@ -65,7 +65,7 @@
             <div class="col-sm-4 item">
                 <!-- 3 -->
                 <div class="blok">
-                    <img src="images/toffePlekskes/MASpanorama.jpg" alt="MAS panorama">
+                    <img src="/images/toffePlekskes/MASpanorama.jpg" alt="MAS panorama">
                     <h4>Panorama terras @ MAS</h4>
                     <p class="columnText">
                       Antwerpen is natuurlijk geweldig om vanaf straatniveau te bekijken.
@@ -82,7 +82,7 @@
             <div class="col-sm-4 item">
                 <!-- 4 -->
                 <div class="blok">
-                    <img src="images/toffePlekskes/Vlaeykensgang.jpg" alt="Vlaeykensgang">
+                    <img src="/images/toffePlekskes/Vlaeykensgang.jpg" alt="Vlaeykensgang">
                     <h4>Vlaeykensgang</h4>
                     <p class="columnText">
                       Een verstopt pareltje! Je loopt er zo voorbij als je het niet weet zijn.
@@ -98,7 +98,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="blok">
-                    <img src="images/contents/300/1.jpg" alt="300">
+                    <img src="/images/contents/300/1.jpg" alt="300">
                     <h4>Sightseeing place 5</h4>
                     <p class="columnText">Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
                     <div class="btn-section">
@@ -110,7 +110,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="blok">
-                    <img src="images/contents/300/1.jpg" alt="300">
+                    <img src="/images/contents/300/1.jpg" alt="300">
                     <h4>Sightseeing place 6</h4>
                     <p class="columnText">Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
                     <div class="btn-section">

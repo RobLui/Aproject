@@ -65,7 +65,7 @@ Route::get('ontdek/eet-plekskes', function () {
 });
 
 // PLACES TO SEE
-Route::get('ontdek/schoon-plekskes', function () {
+Route::get('ontdek/toffe-plekskes', function () {
     return view('places/placesToSee');
 });
 
