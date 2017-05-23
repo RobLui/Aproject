@@ -1397,6 +1397,16 @@ width: 72px;*/
         }
     }
 
+    @media (min-width: 1500px) {
+        .col-sm-4.item {
+            width: 33%;
+            height: 40em;
+            margin: auto;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    }
+
     @media (min-width: 1000px) {
         .container {
             padding: 0;
@@ -1413,6 +1423,7 @@ width: 72px;*/
         }
         .col-sm-4.item {
             width: 33%;
+            height: 47.5em;
             margin: auto;
             padding-left: 5%;
             padding-right: 5%;
@@ -1453,6 +1464,16 @@ width: 72px;*/
         width: 100%;
         height: auto;
         display: block;
+    }
+
+    @media (min-width: 1500px) {
+        .col-sm-4.item {
+            width: 33%;
+            height: 40em;
+            margin: auto;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
     }
 
     @media (max-width:1777px) {
