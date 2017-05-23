@@ -878,8 +878,12 @@ width: 72px;*/
         .col-sm-4.item {
             width: 100%;
             margin: auto;
-            /*padding-left: 35px;*/
-            /*padding-right: 35px;*/
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+        .nieuws .col-sm-4.item {
+            width: 100%;
+            margin: 0 auto;
         }
     }
     /*ROBBERT CURRENTLY WORKING ON*/
@@ -1398,12 +1402,15 @@ width: 72px;*/
     }
 
     @media (min-width: 1500px) {
+        .nieuws.col-sm-4.item {
+            width: 33%;
+            margin: auto;
+        }
         .col-sm-4.item {
             width: 33%;
             margin: auto;
             padding-left: 5%;
             padding-right: 5%;
-            height: 48em;
         }
         .block_img {
             height: 100%;
@@ -1427,10 +1434,11 @@ width: 72px;*/
         }
         .col-sm-4.item {
             width: 33%;
-            height: 47.5em;
             margin: auto;
-            padding-left: 5%;
-            padding-right: 5%;
+        }
+        .homeContainer .block_img {
+            /* Hier aanpassen als het niet goed is @ index/home */
+            height: 30em;
         }
         .footerContainer {
             width: 100%;
@@ -1471,9 +1479,9 @@ width: 72px;*/
     }
 
     @media (min-width: 1500px) {
-        .col-sm-4.item {
+        .nieuws .col-sm-4.item {
             width: 33%;
-            height: 40em;
+            height: 42.5em;
             margin: auto;
             padding-left: 5%;
             padding-right: 5%;
@@ -1723,13 +1731,14 @@ width: 72px;*/
     }
 
     .block_img img {
-        max-height: 12.5em;
+        max-height: 15em;
     }
 
     .block_img h1 {
         padding-top: 0.5em;
         width: 90%;
         margin: 0 auto;
+        font-size: 150%;
     }
 
     .block_img p {

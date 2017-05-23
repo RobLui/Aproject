@@ -4,14 +4,7 @@
 <title>Info</title>
 <div class="container">
 
-
   <img src="images/infoHead.jpg" alt="infoHead" class="infoHead">
-<!--  <div class="info">-->
-
-      <!--<div class="slider">
-    <img src="images/infoHead.jpg" alt="test">
-    </div> -->
-
 
     <!--  STUDEREN IN ANTWERPEN -->
     <div class="mid_container">
@@ -28,7 +21,6 @@
       </div>
     </div>
 
-
     <div class="rwpa">
       <a href="/info/studieaanbod" target="blank">
         <h3>Richting aanbod</h3>
@@ -38,16 +30,16 @@
       <a href="http://www.belgianrail.be/" target="blank">
         <h3>Pendelaars</h3>
           Niet van Antwerpen? Welkom Avonturier!
-          Op de website van DeLijn en NMBS
+          Op de website van De Lijn en NMBS
           kan je kijken hoe je hier snelst geraakt.
       </a>
       <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="blank">
           <h3>Antwerpen LEEFT</h3>
-          Ken je alle hotspots? Blijf op de hoogte van nieuws en evenmenten door de facebook pagina te volgen!
+          Ken je alle hotspots? Blijf op de hoogte van nieuws en evenementen door de facebook pagina te volgen!
       </a>
       <a href="https://www.antwerpen.be/nl/vacatures/overzicht" target="blank">
           <h3>Werkgelegenheid</h3>
-          Na je studie is er een grotere kans dat je in Antwerpen kan werken aangezien het een atypische studenten stad is.
+          Na je studie is er een grotere kans dat je in Antwerpen kan werken aangezien het een atypische studentenstad is.
       </a>
       <a href="https://www.studentkotweb.be/" target="blank">
           <h3>Op Kot</h3>
@@ -60,14 +52,7 @@
           Antwerpen is een atypische studentenstad met ook een bruisend leven buiten het schooljaar en in weekends.
           Bekijk zeker wat je niet mag missen!
       </a>
-
-
     </div>
-
-
-
   </div>
-<!--  </div>-->
-
 
 @endsection

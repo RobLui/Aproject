@@ -4,6 +4,7 @@
 <title>Nieuws</title>
 
 <div class="container">
+
   <div class="row">
     @include("common.messages")
     <div class="panel panel-default">
@@ -22,16 +23,18 @@
 
     @if(count($events) > 0)
       @foreach($events as $event)
-      <div class="col-sm-4 item">
-        <div class="block_img">
-          <img src="/uploads/{{$event->data}}" alt="{{$event->data}}">
-          <h1>{{$event->title}}</h1>
-          <p>{{$event->text}}</p>
-          @if(isset(Auth::user()->name))
-            @if(Auth::user()->name == $event->posted_by)
-              <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
+      <div class="nieuws">
+        <div class="col-sm-4 item">
+          <div class="block_img">
+            <img src="/uploads/{{$event->data}}" alt="{{$event->data}}">
+            <h1>{{$event->title}}</h1>
+            <p>{{$event->text}}</p>
+            @if(isset(Auth::user()->name))
+              @if(Auth::user()->name == $event->posted_by)
+                <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
+              @endif
             @endif
-          @endif
+          </div>
         </div>
       </div>
       @endforeach
@@ -40,17 +43,19 @@
     @if(count($data) > 0)
     <?php $i = 0; ?>
       @foreach($data as $s)
-      <div class="col-sm-4 item">
-        <div class="block_img">
-          <img src='{{$data[$i]["snippets"][0]["body"]["file"][0]["src"]}}' alt="image">
-          <h1>{{$data[0]["title"]}}</h1>
-          <?= $data[$i]["snippets"][1]["body"]["text"]?> <!--  Dit moet zo gedaan worden want met blade stuff displayed hij de <p> tags nog...-->
+      <div class="nieuws">
+        <div class="col-sm-4 item">
+          <div class="block_img">
+            <img src='{{$data[$i]["snippets"][0]["body"]["file"][0]["src"]}}' alt="image">
+            <h1>{{$data[0]["title"]}}</h1>
+            <?= $data[$i]["snippets"][1]["body"]["text"]?> <!--  Dit moet zo gedaan worden want met blade stuff displayed hij de <p> tags nog...-->
+          </div>
         </div>
       </div>
       <?php $i++; ?>
       @endforeach
     @endif
   </div>
-
 </div>
+
 @endsection
