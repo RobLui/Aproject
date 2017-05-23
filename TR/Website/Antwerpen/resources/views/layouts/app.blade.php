@@ -28,6 +28,17 @@
       <meta name="keywords" content="Antwerpen, Studenten, A'pen, Studie, Richtingen " />
       <meta name="author" content="Robbert & Thessa" />
 
+
+
+
+    <!-- Favicon -->
+       <link rel="icon" href="./public/favicon.ico" type="image/x-icon">
+
+
+
+
+
+
     <!-- Scripts -->
     <script>
         window.Laravel = <?php echo json_encode([
