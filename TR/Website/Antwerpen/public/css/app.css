@@ -1304,12 +1304,12 @@
             }
 
             a {
-                color: grey;
+                color: #d01f38;
                 text-decoration: none
             }
 
             a:focus, a:hover {
-                color: #3f3d3e;
+                color: #ff2847;
                 text-decoration: underline
             }
 
@@ -6496,3 +6496,5 @@
                     display: none!important
                 }
             }
+
+      

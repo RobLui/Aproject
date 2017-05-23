@@ -49,7 +49,7 @@
             </div>
 
             <div class="col-sm-4 item">
-                <!-- 1 -->
+                <!-- 2 -->
                 <div class="blok">
                     <img src="images/toffePlekskes/kerstmarktAntwerpen.jpg" alt="kerstmarkt Antwerpen">
                     <h4>Kerstmarkt</h4>
@@ -63,7 +63,7 @@
             </div>
 
             <div class="col-sm-4 item">
-                <!-- 1 -->
+                <!-- 3 -->
                 <div class="blok">
                     <img src="images/toffePlekskes/MASpanorama.jpg" alt="MAS panorama">
                     <h4>Panorama terras @ MAS</h4>
@@ -80,7 +80,7 @@
             </div>
 
             <div class="col-sm-4 item">
-                <!-- 1 -->
+                <!-- 4 -->
                 <div class="blok">
                     <img src="images/toffePlekskes/Vlaeykensgang.jpg" alt="Vlaeykensgang">
                     <h4>Vlaeykensgang</h4>
@@ -88,7 +88,6 @@
                       Een verstopt pareltje! Je loopt er zo voorbij als je het niet weet zijn.
                       Neem je vrienden eens mee op stap door Antwerpen en verras ze met een wandeling door de Vlaeykensgang.
                       <br>Reis even terug naar het verleden en geniet van een terrasje.
-
                     </p>
                     <div class="btn-section">
                         <a href="https://www.tripadvisor.com/Attraction_Review-g188636-d311276-Reviews-Vlaeykensgang-Antwerp_Antwerp_Province.htmll" class="btn-custom"> + Vind het pareltje hier </a>
