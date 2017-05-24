@@ -55,15 +55,25 @@
                     <!-- Left Side Of Navbar -->
                     <li><a href="{{ url('/home') }}"><img src="http://i.imgur.com/4nhGtlf.png" alt="Logo"/></a></li>
                     <div class="nav_top">
-                    <li><a href="{{ url('/home') }}">Home</a></li>
-                    <li><a href="{{ url('/ontdek') }}">Ontdek</a></li>
-                    <li><a href="{{ url('/info') }}">Info</a></li>
-                    <li><a href="{{ url('/nieuws') }}">Nieuws</a></li>
 
-                    @if (Auth::guest())
-                      <li><a href="{{ url('/login') }}">Aanmelden</a></li>
-                    @else
+                      <!-- HOME -->
+                      <li><a href="{{ url('/home') }}">Home</a></li>
 
+                      <!-- ONTDEK -->
+                      <li><a href="{{ url('/ontdek') }}">Ontdek</a></li>
+
+                      <!-- INFO -->
+                      <li><a href="{{ url('/info') }}">Info</a></li>
+
+                      <!-- NIEUWS -->
+                      <li><a href="{{ url('/nieuws') }}">Nieuws</a></li>
+
+                      <!-- AANMELDEN -->
+                      @if (Auth::guest())
+                        <li><a href="{{ url('/login') }}">Aanmelden</a></li>
+                      @else
+
+                      <!-- LOGOUT & ADMIN PANEL -->
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                             {{ Auth::user()->name }} <span class="caret"></span>
