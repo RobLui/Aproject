@@ -96,7 +96,6 @@ a {
 
 .btn-primary {
     color: #fff;
-    /*background-color: #0064B4;*/
 }
 
 .edit-btn {
@@ -196,8 +195,6 @@ li:nth-child(2) {
 }
 
 .navbar-nav li:first-child img {
-    /*height: 3.56em;
-width: 72px;*/
     padding: 0;
 }
 
@@ -268,7 +265,7 @@ button.x {
     }
 }
 
-+
+
 /*--------------------------- RICHTINGEN ---------------------------*/
 
 .richtingen_class {
@@ -283,7 +280,6 @@ button.x {
 
 .richtingen_class li {
     padding-top: 0.75em;
-    /*height: 3em;*/
 }
 
 .copyright {
@@ -316,7 +312,6 @@ ul.richtingen_class {
 }
 
 .artikel .mid_container p, .testimonial .mid_container p {
-    /*padding-top: 10px;*/
     margin: 3em;
 }
 
@@ -360,7 +355,6 @@ h1, h2, h3 {
     color: #3f3d3e;
     font-family: Lato, Arial, sans-serif;
     font-weight: 400;
-    text-rendering: auto;
     margin-top: 0px;
 }
 
@@ -522,16 +516,11 @@ input[type=text], select, textarea {
 }
 
 #footer {
-    /*color: #8a8a8a;*/
-    /*color: #d01f38;*/
     text-align: center;
-    /*  margin-top: 5%;*/
     display: block;
 }
 
 .footerContainer {
-    /*  background-color: #111;*/
-    /*  background-color: #d01f38;*/
     bottom: 0;
 }
 
@@ -563,7 +552,6 @@ h1, h2 {
     color: #d01f38;
     font-family: Lato, Arial, sans-serif;
     font-weight: 400;
-    text-rendering: auto;
     margin-top: 0px;
 }
 
@@ -575,7 +563,6 @@ h3 {
     color: grey;
     font-family: Lato, Arial, sans-serif;
     font-weight: 400;
-    text-rendering: auto;
     margin-top: 0px;
 }
 
@@ -595,7 +582,6 @@ a:visited {
 a:hover {
     color: #ff2847;
     text-decoration: none;
-    background-color: transparant;
 }
 
 a:active {
@@ -668,7 +654,6 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
 }
 
 .menu>li>a {
-    /*font-weight: 700;*/
     transition: all .3s ease;
     text-decoration: none;
     color: grey;
@@ -811,15 +796,12 @@ input[type=text], select, textarea {
 }
 
 #footer {
-    /*color: #8a8a8a;*/
     text-align: center;
-    /*margin-top: 5%;*/
 }
 
 .footerContentContainer {}
 
 .footerContainer {
-    /*background-color: #111;*/
     background-color: #d01f38;
 }
 
@@ -896,7 +878,6 @@ input[type=text], select, textarea {
     }
     .col-sm-4.item {
         width: 100%;
-        margin: auto;
         padding-left: 35px;
         padding-right: 35px;
     }
@@ -924,7 +905,6 @@ input[type=text], select, textarea {
 .rwpa a {
     padding: 2em;
     display: block;
-    font-size: relative;
     float: left;
     width: 50%;
 }
@@ -989,7 +969,6 @@ input[type=text], select, textarea {
 }
 
 .block_ {
-    /*display: block;*/
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -1021,7 +1000,6 @@ input[type=text], select, textarea {
 
 .infoLeft {
     float: left;
-    /*padding-bottom: 5em;*/
     width: 50%;
 }
 
@@ -1045,12 +1023,10 @@ input[type=text], select, textarea {
 .mid_container .left-sq a, .mid_container .right-sq a {
     margin: 0 auto;
     display: block;
-    /*text-align: center;*/
     padding-top: 35%;
 }
 
 .mid_headers {
-    /*margin: auto 0;*/
     padding-bottom: 0.5em;
     text-align: left;
     color: #d01f38;
@@ -1173,7 +1149,6 @@ h1 {
     width: 100%;
     color: white;
     display: block;
-    /*padding-top: 1em;*/
 }
 
 
@@ -1220,12 +1195,9 @@ h1 {
     .menu li {
         float: left;
         display: block;
-        width: 100 %;
+        width: 100%;
         height: 100%;
         text-align: center;
-    }
-    .menu li {
-        width: 100%;
     }
     .navbar .navbar-collapse {
         margin-left: -2.5em;
@@ -1240,7 +1212,7 @@ h1 {
     }
     .block_img_nieuws img {
         height: 75%;
-        width: 75%%;
+        width: 75%;
         display: block;
     }
     .footerContainer p {
@@ -1276,7 +1248,6 @@ h1 {
         width: 14em;
         height: 14em;
         display: block;
-        /*background-color: blue;*/
     }
     .one ._admin {
         margin: 0 auto;
@@ -1327,11 +1298,6 @@ h1 {
     }
     .menu {
         padding: 0;
-    }
-    .menu li:nth-child(2) a, .menu li:nth-child(3) a, .menu li:nth-child(4) a, .menu li:nth-child(5) a, .menu li:nth-child(6) a.dropdown-toggle {
-        /*padding-top: 2.5em;*/
-        /*HIER*/
-        /*padding-bottom: 2.5em;*/
     }
     .nav_top {
         padding-top: 2.5em;
@@ -1399,7 +1365,6 @@ h1 {
     .col-sm-4.item {
         text-align: center;
         width: 100%;
-        margin: auto;
         padding-left: 20%;
         padding-right: 20%;
     }
@@ -1425,7 +1390,6 @@ h1 {
     }
     .ontdek {
         width: 100%;
-        margin: auto;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -1439,11 +1403,9 @@ h1 {
 @media (min-width: 1500px) {
     .nieuws.col-sm-4.item {
         width: 33%;
-        margin: auto;
     }
     .col-sm-4.item {
         width: 33%;
-        margin: auto;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -1469,11 +1431,6 @@ h1 {
     }
     .col-sm-4.item {
         margin: 0 auto;
-    }
-    .homeContainer .block_img {
-        /* Hier aanpassen als het niet goed is @ index/home */
-        /*height: 30em;*/
-        /*float: left;*/
     }
     .footerContainer {
         width: 100%;
@@ -1519,7 +1476,6 @@ h1 {
     .nieuws .col-sm-4.item {
         width: 33%;
         height: 42.5em;
-        margin: auto;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -1567,7 +1523,6 @@ h1 {
         margin: 0 auto;
         width: 40%;
         display: block;
-        /*background-color: #eee;*/
         padding-left: 1.5em;
         padding-right: 1.5em;
         padding-bottom: 1.5em;
@@ -1589,7 +1544,6 @@ h1 {
         margin: 0 auto;
         width: 50%;
         display: block;
-        font-size: relative;
     }
 }
 
@@ -1739,7 +1693,6 @@ h1 {
 @media(min-width: 1200px) {
     img.slide_img {
         height: 45em;
-        width: 100%:
     }
 }
 
@@ -1764,7 +1717,6 @@ h1 {
 .richtingen_class img {
     height: 100%;
     width: 100%;
-    /*transform: rotate(180deg);*/
 }
 
 .block_img img {
@@ -1792,7 +1744,6 @@ h1 {
 }
 
 .richtingen .col-sm-4.item .block_img {
-    /*background-color: blue;*/
     height: 30em;
 }
 
