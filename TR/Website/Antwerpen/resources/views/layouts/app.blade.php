@@ -50,20 +50,20 @@
                     <div class="nav_top">
 
                       <!-- HOME -->
-                      <li><a href="{{ url('/home') }}">Home</a></li>
+                      <li class='{{ Request::is('home') ? 'active' : "" }}'><a href="{{ url('/home') }}">Home</a></li>
 
                       <!-- ONTDEK -->
-                      <li><a href="{{ url('/ontdek') }}">Ontdek</a></li>
+                      <li class='{{ Request::is('ontdek') ? 'active' : "" }}'><a href="{{ url('/ontdek') }}">Ontdek</a></li>
 
                       <!-- INFO -->
-                      <li><a href="{{ url('/info') }}">Info</a></li>
+                      <li class='{{ Request::is('info') ? 'active' : "" }}'><a href="{{ url('/info') }}">Info</a></li>
 
                       <!-- NIEUWS -->
-                      <li><a href="{{ url('/nieuws') }}">Nieuws</a></li>
+                      <li class='{{ Request::is('nieuws') ? 'active' : "" }}'><a href="{{ url('/nieuws') }}">Nieuws</a></li>
 
                       <!-- AANMELDEN -->
                       @if (Auth::guest())
-                        <li><a href="{{ url('/login') }}">Aanmelden</a></li>
+                        <li ><a href="{{ url('/login') }}">Aanmelden</a></li>
                       @else
 
                       <!-- LOGOUT & ADMIN PANEL -->

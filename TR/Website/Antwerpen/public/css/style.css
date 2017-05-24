@@ -1322,7 +1322,7 @@ h1 {
 }
 
 .nav_top li a {
-    color: #707070 !important;
+    color: #707070;
     font-weight: 700;
 }
 
@@ -1740,4 +1740,8 @@ h1 {
 
 li.dropdown.open {
     margin-bottom: 5em;
+}
+
+.active a {
+    color: red !important;
 }
