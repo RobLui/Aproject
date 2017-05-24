@@ -1049,8 +1049,6 @@ width: 72px;*/
 
     .mid_container p {
         display: block;
-        /*width: 75%;*/
-        /*margin-left: 25%;*/
         text-align: left;
     }
 
@@ -1065,7 +1063,6 @@ width: 72px;*/
     .slider {
         height: 75%;
     }
-    /* IMAGES MET PIXELS VOORLOPIG!! */
 
     .info {
         max-width: 100%;
@@ -1073,11 +1070,10 @@ width: 72px;*/
 
     .rondje {
         display: block;
-        /*  border: 1px solid grey;*/
         border-radius: 50%;
         width: 5em;
         height: 5em;
-        margin-left: 40%;
+        margin: 0 auto;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -1433,12 +1429,12 @@ width: 72px;*/
             top: 0;
         }
         .col-sm-4.item {
-            width: 33%;
-            margin: auto;
+            margin: 0 auto;
         }
         .homeContainer .block_img {
             /* Hier aanpassen als het niet goed is @ index/home */
-            height: 30em;
+            /*height: 30em;*/
+            /*float: left;*/
         }
         .footerContainer {
             width: 100%;
