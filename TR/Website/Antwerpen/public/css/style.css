@@ -1753,3 +1753,18 @@ width: 72px;*/
     .btn-custom a {
         color: #ff2847;
     }
+
+    .richtingen .col-sm-4.item .block_img {
+        /*background-color: blue;*/
+        height: 30em;
+    }
+
+    .richtingen .col-sm-4.item .block_img h1 {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .richtingen .col-sm-4.item .block_img img {
+        max-height: 60%;
+        max-width: 100%;
+    }

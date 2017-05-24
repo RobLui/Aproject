@@ -23,7 +23,7 @@
 
     <div class="rwpa">
       <a href="/info/studieaanbod" target="blank">
-        <h3>Richting aanbod</h3>
+        <h3>Studieaanbod</h3>
           Er nog niet helemaal uit wat je wil studeren?
           Klik hier voor een volledig overzicht van scholen en hun richting aanbod!
       </a>
