@@ -1,24 +1,7 @@
-.container.index .col-sm-4.item {
-    margin-top: 3em;
-}
-
 .block_img p {
     padding-left: 7%;
     padding-right: 5%;
     text-align: left;
-}
-
-.menu ol, .menu ul {
-    margin: 0px
-}
-
-
-/*-----------------------HEAD DISPLAY-----------------------*/
-
-.head_center {
-    margin: 0 auto;
-    margin-bottom: 2em;
-    text-align: center;
 }
 
 
@@ -40,7 +23,6 @@
 }
 
 .up-down {
-    background-color: Transparent;
     background-repeat: no-repeat;
     border: none;
     overflow: hidden;
@@ -52,7 +34,6 @@
 
 .article-overview {
     list-style-type: none;
-    padding: 0px;
 }
 
 .alert.alert-danger ul li:first-child {
