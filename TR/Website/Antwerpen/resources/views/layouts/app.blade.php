@@ -77,7 +77,7 @@
                                 {{ csrf_field() }}
                             </form>
                           </li>
-                          <li><a href="{{ url('/admin-panel') }}">Admin-panel</a></li>
+                          <li><a href="{{ url('/admin-panel') }}">Admin-paneel</a></li>
                         </ul>
                       </li>
                     </div>

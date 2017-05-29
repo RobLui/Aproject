@@ -122,7 +122,7 @@ class nieuwsController extends Controller
       $validator = Validator::make($file, $rules);
       if ($validator->fails()) {
         // send back to the page with the input data and errors
-        return Redirect::to('/nieuws/add')->withInput()->withErrors($validator);
+        return Redirect()->back()->withInput()->withErrors($validator);
       }
       else {
         // checking file is valid.
@@ -130,15 +130,6 @@ class nieuwsController extends Controller
           $destinationPath = 'uploads'; // upload path
           $extension = Input::file('data')->getClientOriginalExtension(); // getting image extension
           $fileName = rand(11111,99999).'.'.$extension; // renameing image
-          Input::file('data')->move($destinationPath, $fileName); // uploading file to given path
-          // Success
-          Session::flash('success', 'Upload successfully');
-        }
-        else {
-          Session::flash('error', 'uploaded file is not valid');
-        }
-      }
-
           // Validation handler
         $validator = Validator::make($req->all(), [
         'title' => 'required|max:255',
@@ -150,18 +141,23 @@ class nieuwsController extends Controller
           ->withEvents($event)
           ->withErrors($validator);
         }
+        Input::file('data')->move($destinationPath, $fileName); // uploading file to given path
         // dd($fileName);
         $event->update($req->all());
         $event->data = $fileName;
         $event->save();
         // Session::flash('success', ($req->title.' is bijgewerkt.'));
         Session::flash('success', "Succesvol aangepast");
-      }
+          // Success
+          // Session::flash('success', 'Upload succesvol');
+        }
       else {
           Session::flash('error_', ("Er is iets misgelopen!"));
       }
         return redirect('/nieuws')->with(compact('id'));
     }
+  }}
+
 
     // ----------------------- DELETE -----------------------
     public function delete(Request $req, $id)

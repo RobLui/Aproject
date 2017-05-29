@@ -1135,8 +1135,6 @@ h1 {
 
 /*-------------------- MEDIA QUERIES --------------------*/
 
-
-
 @media (max-width: 767px) {
     .mid_container {
         margin-top: 2em;
@@ -1257,7 +1255,7 @@ h1 {
 @media (min-width: 768px) {
     .panel-default {
         margin: 0 auto;
-      /*  width: 50%;*/
+        /*  width: 50%;*/
         width: 60%;
         height: auto;
     }
@@ -1349,7 +1347,6 @@ h1 {
     .col-sm-4.item {
         text-align: center;
         width: 100%;
-
     }
     .footerContainer {
         width: 100%;
@@ -1393,8 +1390,10 @@ h1 {
         padding-right: 5%;
     }
     .block_img {
-        height: 100%;
         padding-bottom: 2em;
+    }
+    .block_img img {
+        max-height: 15em;
     }
 }
 
@@ -1701,11 +1700,7 @@ h1 {
     height: 100%;
     width: 100%;
 }
-/*
-.block_img img {
-    max-height: 15em;
-}
-*/
+
 .block_img h1 {
     padding-top: 0.5em;
     width: 90%;
@@ -1749,45 +1744,42 @@ li.dropdown.open {
     color: red !important;
 }
 
-#email, #password{
-  text-align: center;
+#email, #password {
+    text-align: center;
 }
 
-.aanmelden h1{
-
-  font-size: 50px;
+.aanmelden h1 {
+    font-size: 50px;
 }
 
 .aanmelden {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
-
 @media(max-width:420px) {
-  .aanmelden h1{
-
-    font-size: 30px;
-  }
+    .aanmelden h1 {
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 900px) {
-.container {
-    padding: 0;
-    width: 100%;
-}
-.homeContainer {
-    overflow: hidden;
-    clear: both;
-    width: 100%;
-    margin: auto 0;
-}
-.slider {
-    width: 100%;
-}
-.col-sm-4.item {
-    text-align: center;
-    width: 33.3%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
+    .container {
+        padding: 0;
+        width: 100%;
+    }
+    .homeContainer {
+        overflow: hidden;
+        clear: both;
+        width: 100%;
+        margin: auto 0;
+    }
+    .slider {
+        width: 100%;
+    }
+    .col-sm-4.item {
+        text-align: center;
+        width: 33.3%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
