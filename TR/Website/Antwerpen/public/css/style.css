@@ -1135,6 +1135,8 @@ h1 {
 
 /*-------------------- MEDIA QUERIES --------------------*/
 
+
+
 @media (max-width: 767px) {
     .mid_container {
         margin-top: 2em;
@@ -1347,8 +1349,7 @@ h1 {
     .col-sm-4.item {
         text-align: center;
         width: 100%;
-        padding-left: 20%;
-        padding-right: 20%;
+
     }
     .footerContainer {
         width: 100%;
@@ -1719,6 +1720,7 @@ h1 {
 
 .block_img {
     display: block;
+    padding-bottom: 5%;
 }
 
 .btn-custom a {
@@ -1766,4 +1768,26 @@ li.dropdown.open {
 
     font-size: 30px;
   }
+}
+
+@media (min-width: 900px) {
+.container {
+    padding: 0;
+    width: 100%;
+}
+.homeContainer {
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+    margin: auto 0;
+}
+.slider {
+    width: 100%;
+}
+.col-sm-4.item {
+    text-align: center;
+    width: 33.3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 }
