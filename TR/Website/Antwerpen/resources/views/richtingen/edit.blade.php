@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-      <div class="col-md-5">
-        <!--DELETE BUTTON  -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">        <!--DELETE BUTTON  -->
         <a href="/info/studieaanbod">← Terug naar studieaanbod</a>
           <br><br>
             <div class="panel panel-default">
@@ -62,4 +63,5 @@
       </div>
     </div>
   </div>
+</div>
 @endsection
