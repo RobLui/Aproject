@@ -47,7 +47,7 @@
         <div class="col-sm-4 item">
           <div class="block_img">
             <img src='{{$data[$i]["snippets"][0]["body"]["file"][0]["src"]}}' alt="image">
-            <h1>{{$data[0]["title"]}}</h1>
+            <h1>{{$data[$i]["title"]}}</h1>
             <?= $data[$i]["snippets"][1]["body"]["text"]?> <!--  Dit moet zo gedaan worden want met blade stuff displayed hij de <p> tags nog...-->
           </div>
         </div>
