@@ -1699,11 +1699,11 @@ h1 {
     height: 100%;
     width: 100%;
 }
-
+/*
 .block_img img {
     max-height: 15em;
 }
-
+*/
 .block_img h1 {
     padding-top: 0.5em;
     width: 90%;
