@@ -1255,7 +1255,8 @@ h1 {
 @media (min-width: 768px) {
     .panel-default {
         margin: 0 auto;
-        width: 50%;
+      /*  width: 50%;*/
+        width: 80%;
         height: auto;
     }
     .news_m a {
@@ -1744,4 +1745,8 @@ li.dropdown.open {
 
 .active a {
     color: red !important;
+}
+
+#email, #password{
+  text-align: center;
 }

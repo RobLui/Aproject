@@ -2168,7 +2168,7 @@
               }
 
               @media (min-width:992px) {
-                  .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+                  .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, /*.col-md-4,*/ .col-md-5, /*.col-md-6,*/ .col-md-7, .col-md-8, .col-md-9 {
                       float: left
                   }
                   .col-md-1 {
@@ -2181,13 +2181,13 @@
                       width: 25%
                   }
                   .col-md-4 {
-                      width: 33.3333333333%
+                    /*  width: 33.3333333333%*/
                   }
                   .col-md-5 {
                       width: 41.6666666667%
                   }
                   .col-md-6 {
-                      width: 50%;
+                    /*  width: 50%;*/
                   }
                   .col-md-7 {
                       width: 58.3333333333%
@@ -2749,7 +2749,7 @@
               }*/
 
               .form-group {
-                  margin-bottom: 15px
+                  margin-bottom: 6%;
               }
 
               .checkbox, .radio {
@@ -3039,8 +3039,8 @@
                   }
                   .form-horizontal .control-label {
                       text-align: right;
-                      margin-bottom: 0;
-                      padding-top: 7px
+                      margin-bottom:2%;
+                      padding-top: 4%
                   }
               }
 
@@ -3153,7 +3153,8 @@
               .btn-primary {
                   color: #fff;
                   background-color: #3097D1;
-                  border-color: #2a88bd
+                  border-color: #2a88bd;
+                  width: 100%;
               }
 
               .btn-primary.focus, .btn-primary:focus {

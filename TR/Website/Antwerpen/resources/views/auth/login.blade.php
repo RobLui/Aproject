@@ -13,6 +13,7 @@
                         </div>
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                             <label for="email" class="col-md-4 control-label">E-Mail</label>
+                            <br>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
@@ -26,7 +27,7 @@
                         </div>
 
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <label for="password" class="col-md-4 control-label">Paswoord</label>
+                            <label for="password" class="col-md-4 control-label">Wachtwoord</label>
 
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control" name="password" required>
@@ -50,19 +51,20 @@
                         </div> -->
 
                         <div class="form-group">
-                            <div class="col-md-8 col-md-offset-4">
+                            <div class="col-md-6 ">
                                 <button type="submit" class="btn btn-primary">
                                     Login
                                 </button>
+                                <br>
                                 <a class="btn btn-link" href="{{ url('/password/reset') }}">
-                                    Forgot Your Password?
+                                    Wachtwoord vergeten?
                                 </a>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                              Nog geen account? <a href="../register">Registreer hier</a>
+                            <div class="col-md-6">
+                              Nog geen account? <br> <a href="../register">Registreer hier</a>
                             </div>
                         </div>
                     </form>
