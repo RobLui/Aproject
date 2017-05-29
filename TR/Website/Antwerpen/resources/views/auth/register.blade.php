@@ -8,7 +8,7 @@
         <div class="panel-body">
           <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
               {{ csrf_field() }}
-              <div class="aanmelden">
+              <div class="aanmelden panel">
                 <h1>Registreren</h1>
               </div>
               <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
@@ -68,7 +68,7 @@
                       </button>
                   </div>
               </div>
-              
+
           </form>
         </div>
       </div>
