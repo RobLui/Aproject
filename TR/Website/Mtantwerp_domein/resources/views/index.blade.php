@@ -4,13 +4,13 @@
 <title>Home</title>
 <div class="container index">
   <div class="slider">
-    <img class="slide_img" src="./images/sliderMockUp.jpg" alt="sliderMockUp">
-    <img class="slide_img" src="./images/lowpoly.jpg" alt="img2">
-    <img class="slide_img" src="./images/antwerp_img.jpg" alt="img3">
+    <img class="slide_img" src="./images/sliderMockUp.jpg" alt="gameApp">
+    <img class="slide_img" src="./images/infoHead.jpg" alt="infoHead">
+    <img class="slide_img" src="./images/slide3StuDay.jpg" alt="Studay">
   </div>
 
 <div class="homeContainer">
-    <div class="col-sm-4 item"> <!-- 1 -->
+    <div class="col-sm-4 item itemHome"> <!-- 1 -->
       <div class="rondje">
       <i class="fa fa-binoculars fa-3x"></i>
       <img src="./images/L-icon.png" alt="icon" class="iconL">
@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div class="col-sm-4 item"> <!-- 2 -->
+    <div class="col-sm-4 item itemHome"> <!-- 2 -->
       <div class="rondje">
         <i class="fa fa-info fa-3x"></i>
         <img src="./images/M-icon.png" alt="icon" class="iconM">
@@ -46,7 +46,7 @@
         </div>
     </div>
 
-    <div class="col-sm-4 item"> <!-- 3 -->
+    <div class="col-sm-4 item itemHome"> <!-- 3 -->
       <div class="rondje">
       <i class="fa fa-paper-plane fa-3x" aria-hidden="true"></i>
       <img src="./images/R-icon.png" alt="icon" class="iconR">

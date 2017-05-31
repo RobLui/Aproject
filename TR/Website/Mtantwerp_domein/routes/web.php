@@ -30,7 +30,7 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
   Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
   Route::get('/nieuws/delete/{id}', 'nieuwsController@delete');
   // INDIVIDUEEL ARTIKEL
-  Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');
+  Route::get('/nieuws/artikel/{id}', 'nieuwsController@ArtikelIndex');
 
 // ----------------------- RICHTINGEN  -----------------------
   // CREATE
@@ -52,9 +52,7 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
   // Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
 
 // ADMIN PANEL
-Route::get('/admin-panel', function () {
-    return view('/admin-panel');
-});
+Route::get('/admin-panel', 'adminController@index');
 
 // ERROR
 Route::get('/404', 'errorController@index');

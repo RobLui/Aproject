@@ -4,6 +4,10 @@
     text-align: left;
 }
 
+.block_img h4 {
+    padding-top: 5%;
+}
+
 
 /*--------------------------SLIDER--------------------------*/
 
@@ -197,6 +201,7 @@ li:nth-child(2) {
 ul.dropdown-menu {
     padding-bottom: 2em;
     width: 100%;
+    /*height: 5em;*/
     font-size: 100%;
 }
 
@@ -426,7 +431,6 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     float: left;
     text-align: center;
     width: 30%;
-    padding-top: 2%;
     padding-left: 5%;
     padding-right: 1%;
     margin-bottom: 5%;
@@ -441,7 +445,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     text-align: center;
     font-size: 50px;
     margin-top: 10%;
-    margin-bottom: 5%;
+    /*margin-bottom: 5%;*/
 }
 
 .main {
@@ -671,8 +675,8 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     width: 20%;
 }
 
-.menu li:nth-child(2), .menu li:nth-child(3), .menu li:nth-child(4), .menu li:nth-child(5), .menu li:nth-child(6) {
-    margin-top: 2.5em;
+.menu li {
+    margin-top: 2em;
 }
 
 #slider3 .main {
@@ -692,11 +696,13 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     float: left;
     text-align: center;
     width: 33em;
-    padding-top: 2%;
-    padding-left: 5%;
     padding-right: 1%;
     margin-bottom: 5%;
     display: block;
+}
+
+.itemHome {
+    padding-top: 6%;
 }
 
 .blok {
@@ -783,7 +789,7 @@ input[type=text], select, textarea {
 .footerContentContainer {}
 
 .footerContainer {
-    background-color: #d01f38;
+    background-color: #90abbc;
 }
 
 #footer p {
@@ -1087,7 +1093,7 @@ h1 {
 }
 
 .btn-section_ {
-    margin-bottom: 5%;
+    margin-bottom: 8%;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -1121,7 +1127,7 @@ h1 {
     text-align: center;
     height: 5em;
     display: block;
-    background-image: url("http://www.robbert.luit.mtantwerp.eu/public/images/lowpoly.jpg");
+    background-image: url("/public/images/lowpoly.jpg");
     background-position: center;
     width: 30%;
 }
@@ -1241,11 +1247,12 @@ h1 {
         margin: 0 auto;
         width: 75%;
         height: auto;
+        margin-bottom: 5%;
     }
 }
 
 ._admin {
-    background-image: url("http://www.robbert.luit.mtantwerp.eu/public/images/lowpoly.jpg");
+    background-image: url("/public/images/lowpoly.jpg");
     background-position: center;
 }
 
@@ -1257,6 +1264,7 @@ h1 {
 @media (min-width: 768px) {
     .panel-default {
         margin: 0 auto;
+        /*  width: 50%;*/
         width: 60%;
         height: auto;
         margin-bottom: 5%;
@@ -1273,6 +1281,8 @@ h1 {
         float: left;
         display: block;
         width: 7em;
+        margin-top: 2em;
+        margin-left: 0.5em;
         height: 100%;
         text-align: center;
         padding: 0;
@@ -1673,21 +1683,22 @@ h1 {
 }
 
 @media(min-width: 1200px) {
-    img.slide_img {
+    /*  img.slide_img
+   {
         height: 45em;
-    }
+    }*/
 }
 
 @media(max-width: 1199px) {
-    img.slide_img {
+    /*img.slide_img {
         height: 25em;
-    }
+    }*/
 }
 
 @media(max-width:420px) {
-    img.slide_img {
+    /*  img.slide_img {
         height: 11.5em;
-    }
+    }*/
 }
 
 .richtingen_class {
@@ -1717,6 +1728,7 @@ h1 {
     display: block;
     padding-bottom: 5%;
     background-color: #FBFBF9;
+    margin-top: 5%;
 }
 
 .btn-custom a {
@@ -1783,4 +1795,50 @@ li.dropdown.open {
         padding-left: 5%;
         padding-right: 5%;
     }
+}
+
+.aanmeldenNav {
+    width: 10% !important;
+}
+
+.aanmeldenNav li a {
+    text-align: center;
+}
+
+.aanmeldenNav {
+    background-color: #0064B4;
+    padding: 2%;
+    margin-top: 2.2em !important;
+    width: 7em;
+    text-align: center;
+    display: block;
+}
+
+.fa-user {
+    background: red;
+    padding: 4%;
+    float: left;
+    width: 15%;
+    display: block;
+}
+
+.aanmeldenNav a {
+    color: white !important;
+    padding: 1%;
+    margin-left: 7.5%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.menu li:nth-child(6), .menu li:nth-child(5), .menu li:nth-child(4), .menu li:nth-child(3), .menu li:nth-child(2) {
+    margin-top: 2.5em;
+}
+
+.dropdown-menu li {
+    height: 100% !important;
+}
+
+.itemHome {
+    padding: 6%;
 }

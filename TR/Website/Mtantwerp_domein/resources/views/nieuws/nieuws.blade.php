@@ -29,6 +29,7 @@
             <img src="http://www.robbert.luit.mtantwerp.eu/public/uploads/{{$event->data}}" alt="{{$event->data}}">
             <h1>{{$event->title}}</h1>
             <p>{{$event->text}}</p>
+            <a href="http://www.robbert.luit.mtantwerp.eu/public/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
             @if(isset(Auth::user()->name))
               @if(Auth::user()->name == $event->posted_by)
                 <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
