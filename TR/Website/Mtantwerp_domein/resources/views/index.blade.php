@@ -6,7 +6,7 @@
   <div class="slider">
     <img class="slide_img" src="./images/sliderMockUp.jpg" alt="gameApp">
     <img class="slide_img" src="./images/infoHead.jpg" alt="infoHead">
-    <img class="slide_img" src="./images/slide3StuDay.jpg" alt="Studay">
+    <img class="slide_img" src="./images/slide_studay.jpg" alt="studay">
   </div>
 
 <div class="homeContainer">

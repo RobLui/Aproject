@@ -42,14 +42,7 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
   // DELETE
   Route::get('/info/studieaanbod/delete/{id}', 'InfoController@delete');
 
-// NIEUWS / EVENTS
-  // EDIT nieuws/event
-  // Route::get('nieuws/edit/{id}', function () { // view
-  //   return view('nieuws/nieuws');
-  // });
   Route::get('/nieuws/edit/{id}', 'nieuwsController@edit');
-  // DELETE nieuws/event
-  // Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
 
 // ADMIN PANEL
 Route::get('/admin-panel', 'adminController@index');

@@ -786,8 +786,6 @@ input[type=text], select, textarea {
     text-align: center;
 }
 
-.footerContentContainer {}
-
 .footerContainer {
     background-color: #90abbc;
 }
@@ -1402,7 +1400,7 @@ h1 {
     .block_img {
         padding-bottom: 2em;
     }
-    .block_img img {
+    .newz .block_img img {
         max-height: 15em;
     }
 }

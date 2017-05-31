@@ -25,16 +25,18 @@
       @foreach($events as $event)
       <div class="nieuws">
         <div class="col-sm-4 item">
-          <div class="block_img">
-            <img src="http://www.robbert.luit.mtantwerp.eu/public/uploads/{{$event->data}}" alt="{{$event->data}}">
-            <h1>{{$event->title}}</h1>
-            <p>{{$event->text}}</p>
-            <a href="http://www.robbert.luit.mtantwerp.eu/public/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
-            @if(isset(Auth::user()->name))
-              @if(Auth::user()->name == $event->posted_by)
-                <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
+          <div class="newz">
+            <div class="block_img">
+              <img src="http://www.robbert.luit.mtantwerp.eu/public/uploads/{{$event->data}}" alt="{{$event->data}}">
+              <h1>{{$event->title}}</h1>
+              <p>{{$event->text}}</p>
+              <a href="http://www.robbert.luit.mtantwerp.eu/public/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
+              @if(isset(Auth::user()->name))
+                @if(Auth::user()->name == $event->posted_by)
+                  <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
+                @endif
               @endif
-            @endif
+            </div>
           </div>
         </div>
       </div>
@@ -46,12 +48,14 @@
       @foreach($data as $s)
       <div class="nieuws">
         <div class="col-sm-4 item">
-          <div class="block_img">
-            <img src='{{$data[$i]["snippets"][0]["body"]["file"][0]["src"]}}' alt="image">
-            <h1>{{$data[$i]["title"]}}</h1>
-            <?= $data[$i]["snippets"][1]["body"]["text"]?> <!--  Dit moet zo gedaan worden want met blade stuff displayed hij de <p> tags nog...-->
-            <div class="btn-section_">
+          <div class="newz">
+            <div class="block_img">
+              <img src='{{$data[$i]["snippets"][0]["body"]["file"][0]["src"]}}' alt="image">
+              <h1>{{$data[$i]["title"]}}</h1>
+              <?= $data[$i]["snippets"][1]["body"]["text"]?> <!--  Dit moet zo gedaan worden want met blade stuff displayed hij de <p> tags nog...-->
+              <div class="btn-section_">
                 <a href="https://www.gate15.be/nl/nieuws/{{$data[$i]["slug"]}}" target="_blank" class="btn-custom"> + meer lezen </a>
+              </div>
             </div>
           </div>
         </div>
