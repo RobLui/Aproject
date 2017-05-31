@@ -171,10 +171,10 @@ class nieuwsController extends Controller
     }
 
 // ----------------------- ARTIKEL INDEX -----------------------
-    public function ArtikelIndex()
+    public function ArtikelIndex(Request $req, $id)
     {
-      $news = Event::all();
-      return view('niews/artikel')->withNews($news);
+      $artikel = Event::findOrFail($id);
+      return view('nieuws/artikel')->withNews($artikel);
     }
 
 }

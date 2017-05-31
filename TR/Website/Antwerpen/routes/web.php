@@ -30,7 +30,7 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
   Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
   Route::get('/nieuws/delete/{id}', 'nieuwsController@delete');
   // INDIVIDUEEL ARTIKEL
-  Route::get('/nieuws/artikel', 'nieuwsController@ArtikelIndex');
+  Route::get('/nieuws/artikel/{id}', 'nieuwsController@ArtikelIndex');
 
 // ----------------------- RICHTINGEN  -----------------------
   // CREATE

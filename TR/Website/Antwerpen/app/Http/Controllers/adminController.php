@@ -8,7 +8,8 @@ use App\User;
 
 class adminController extends Controller
 {
-  public function index()
+
+  public function index(Request $req, $id)
   {
     if (Auth::check())
     {
@@ -20,4 +21,5 @@ class adminController extends Controller
       return redirect()->back();
     }
   }
+
 }

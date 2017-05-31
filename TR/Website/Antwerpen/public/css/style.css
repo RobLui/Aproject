@@ -298,11 +298,11 @@ ul.richtingen_class {
 }
 
 .artikel .mid_container p, .testimonial .mid_container p {
-    margin: 3em;
+    /*margin: 3em;*/
 }
 
 .artikel .mid_container p:first-child, .testimonial .mid_container p:first-child {
-    padding-top: 3em;
+    padding-top: 1em;
 }
 
 
@@ -1033,7 +1033,7 @@ h1 {
     margin: 0 auto;
     margin-bottom: 5em;
     width: 75%;
-    margin-top: 5em;
+    /*margin-top: 5em;*/
 }
 
 .mid_container p {
@@ -1825,4 +1825,15 @@ li.dropdown.open {
     float: left;
     display: block;
     text-align: center;
+}
+
+.artikel .block_img img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-height: 40em;
+}
+
+.mid_container {
+    width: 100%;
 }
