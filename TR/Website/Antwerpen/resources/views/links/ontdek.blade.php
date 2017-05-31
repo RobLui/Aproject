@@ -14,14 +14,15 @@
 		<div class="mainContainer">
 
 			  <div class="panel panel-default">
-			    <h2>Ontdek de stad</h2>
+			    <h1 class="PTtitel">Ontdek de stad</h1>
 			  </div>
 
 			<div class="col-sm-4 item">
 				<!--  PLACES TO EAT -->
 				<!-- 1 -->
 				<div class="rondje">
-					<li class="fa fa-cutlery fa-3x "></li>
+					<i class="fa fa-cutlery fa-3x"></i>
+					<img src="./images/L-icon.png" alt="icon" class="iconL">
 				</div>
 				<h1>Eet plekskes</h1>
 				<div class="block_img">
@@ -34,16 +35,19 @@
 						</p>
 					</div>
 						<div class="btn-section_">
-							<a href="ontdek/eet-plekskes" class="btn-custom"> > meer lezen </a>
+							<a href="ontdek/eet-plekskes" class="btn-custom"> + meer lezen </a>
 					</div>
 				</div>
 			</div>
+
+
 			<!--  PLACES TO STUDY -->
 			<!-- 2 -->
-			<div class="col-sm-4  item">
+			<div class="col-sm-4 item">
 
 				<div class="rondje">
-					<li class="fa fa-book fa-3x"></li>
+					<i class="fa fa-book fa-3x"></i>
+					<img src="./images/M-icon.png" alt="icon" class="iconM">
 				</div>
 				<h1>Studie plekskes</h1>
 				<div class="block_img">
@@ -54,7 +58,7 @@
 						Dit zijn de leukste plaatsen om te studeren.
 					</p>
 					<div class="btn-section_">
-						<a href="ontdek/studie-plekskes" class="btn-custom"> >  meer lezen </a>
+						<a href="ontdek/studie-plekskes" class="btn-custom"> +  meer lezen </a>
 					</div>
 				</div>
 			</div>
@@ -63,7 +67,8 @@
 			<!-- 3 -->
 			<div class="col-sm-4 item">
 				<div class="rondje">
-				<li class="fa fa-search fa-3x" aria-hidden="true"></li>
+				<i class="fa fa-search fa-3x" aria-hidden="true"></i>
+				<img src="./images/R-icon.png" alt="icon" class="iconR">
 			</div>
 				<h1>Toffe plekskes</h1>
 				<div class="block_img">
@@ -74,7 +79,7 @@
 						Wij hebben alvast een paar top plekjes uitgelicht voor jou!
 					</p>
 					<div class="btn-section_">
-						<a href="ontdek/toffe-plekskes" class="btn-custom"> > meer lezen </a>
+						<a href="ontdek/toffe-plekskes" class="btn-custom"> + meer lezen </a>
 					</div>
 				</div>
 			</div>

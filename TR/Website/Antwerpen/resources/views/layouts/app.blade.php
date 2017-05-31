@@ -50,7 +50,7 @@
                     <div class="nav_top">
 
                       <!-- HOME -->
-                      <li class='{{ Request::is('home') ? 'active' : "" }}'><a href="{{ url('/home') }}">Home</a></li>
+                      <li class='{{ Request::is('home') ? 'active' : "" }} eersteNav '><a href="{{ url('/home') }}">Home</a></li>
 
                       <!-- ONTDEK -->
                       <li class='{{ Request::is('ontdek') ? 'active' : "" }}'><a href="{{ url('/ontdek') }}">Ontdek</a></li>
