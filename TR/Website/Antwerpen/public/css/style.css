@@ -1682,21 +1682,21 @@ h1 {
 }
 
 @media(min-width: 1200px) {
-    img.slide_img {
+  /*  img.slide_img {
         height: 45em;
-    }
+    }*/
 }
 
 @media(max-width: 1199px) {
-    img.slide_img {
+    /*img.slide_img {
         height: 25em;
-    }
+    }*/
 }
 
 @media(max-width:420px) {
-    img.slide_img {
+  /*  img.slide_img {
         height: 11.5em;
-    }
+    }*/
 }
 
 .richtingen_class {
