@@ -63,7 +63,7 @@
 
                       <!-- AANMELDEN -->
                       @if (Auth::guest())
-                        <li ><a href="{{ url('/login') }}">Aanmelden</a></li>
+                      <li class='aanmeldenNav'><i class="fa fa-user"></i><a href="{{ url('/login') }} ">Aanmelden</a></li>
                       @else
 
                       <!-- LOGOUT & ADMIN PANEL -->

@@ -4,12 +4,9 @@
     text-align: left;
 }
 
-.block_img h4{
-
-  padding-top: 5%;
-
+.block_img h4 {
+    padding-top: 5%;
 }
-
 
 
 /*--------------------------SLIDER--------------------------*/
@@ -1290,6 +1287,12 @@ h1 {
         padding: 0;
         margin: 0;
     }
+    .aanmeldenNav {
+        width: 10% !important;
+    }
+    .aanmeldenNav li a {
+        text-align: center;
+    }
     .menu {
         padding: 0;
     }
@@ -1723,7 +1726,6 @@ h1 {
 .block_img p {
     /*padding-top: 0.5em;*/
     text-align: center;
-
 }
 
 .block_img {
@@ -1796,4 +1798,29 @@ li.dropdown.open {
         padding-left: 5%;
         padding-right: 5%;
     }
+}
+
+.aanmeldenNav {
+    background-color: #0064B4;
+    padding: 2%;
+    margin-top: -0.2% !important;
+    width: 7em;
+    display: block;
+}
+
+.fa-user {
+    background: red;
+    padding: 3%;
+    float: left;
+    width: 15%;
+    display: block;
+}
+
+.aanmeldenNav a {
+    color: white !important;
+    padding: 1%;
+    margin-left: 7.5%;
+    float: left;
+    display: block;
+    text-align: center;
 }
