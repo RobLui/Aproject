@@ -432,7 +432,6 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     float: left;
     text-align: center;
     width: 30%;
-    padding-top: 2%;
     padding-left: 5%;
     padding-right: 1%;
     margin-bottom: 5%;
@@ -698,11 +697,13 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     float: left;
     text-align: center;
     width: 33em;
-    padding-top: 5%;
-    padding-left: 5%;
     padding-right: 1%;
     margin-bottom: 5%;
     display: block;
+}
+
+.itemHome{
+      padding-top: 6%;
 }
 
 .blok {
@@ -1728,6 +1729,7 @@ h1 {
     display: block;
     padding-bottom: 5%;
     background-color: #FBFBF9;
+    margin-top: 5%;
 }
 
 .btn-custom a {
