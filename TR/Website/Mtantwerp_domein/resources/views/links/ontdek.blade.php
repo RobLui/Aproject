@@ -21,7 +21,8 @@
 				<!--  PLACES TO EAT -->
 				<!-- 1 -->
 				<div class="rondje">
-					<li class="fa fa-cutlery fa-3x "></li>
+					<i class="fa fa-cutlery fa-3x "></i>
+					<img src="/public/images/L-icon.png" alt="icon" class="iconL">
 				</div>
 				<h1>Eet plekskes</h1>
 				<div class="block_img">
@@ -35,7 +36,7 @@
 					</div>
 						<div class="btn-section_">
 							<a href="ontdek/eet-plekskes" class="btn-custom"> > meer lezen </a>
-					</div>
+						</div>
 				</div>
 			</div>
 			<!--  PLACES TO STUDY -->
@@ -43,7 +44,8 @@
 			<div class="col-sm-4  item">
 
 				<div class="rondje">
-					<li class="fa fa-book fa-3x"></li>
+					<i class="fa fa-book fa-3x"></i>
+					<img src="/public/images/M-icon.png" alt="icon" class="iconL">
 				</div>
 				<h1>Studie plekskes</h1>
 				<div class="block_img">
@@ -63,7 +65,8 @@
 			<!-- 3 -->
 			<div class="col-sm-4 item">
 				<div class="rondje">
-				<li class="fa fa-search fa-3x" aria-hidden="true"></li>
+				<i class="fa fa-search fa-3x" aria-hidden="true"></i>
+				<img src="/public/images/R-icon.png" alt="icon" class="iconL">
 			</div>
 				<h1>Toffe plekskes</h1>
 				<div class="block_img">

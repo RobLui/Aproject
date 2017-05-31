@@ -50,16 +50,16 @@
                     <div class="nav_top">
 
                       <!-- HOME -->
-                      <li class='{{ Request::is('home') ? 'active' : "" }}'><a href="{{ url('/home') }}">Home</a></li>
+                      <li class='{{ Request::is('public/home') ? 'active' : "" }}'><a href="{{ url('/home') }}">Home</a></li>
 
                       <!-- ONTDEK -->
-                      <li class='{{ Request::is('ontdek') ? 'active' : "" }}'><a href="{{ url('/ontdek') }}">Ontdek</a></li>
+                      <li class='{{ Request::is('public/ontdek') ? 'active' : "" }}'><a href="{{ url('/ontdek') }}">Ontdek</a></li>
 
                       <!-- INFO -->
-                      <li class='{{ Request::is('info') ? 'active' : "" }}'><a href="{{ url('/info') }}">Info</a></li>
+                      <li class='{{ Request::is('public/info') ? 'active' : "" }}'><a href="{{ url('/info') }}">Info</a></li>
 
                       <!-- NIEUWS -->
-                      <li class='{{ Request::is('nieuws') ? 'active' : "" }}'><a href="{{ url('/nieuws') }}">Nieuws</a></li>
+                      <li class='{{ Request::is('public/nieuws') ? 'active' : "" }}'><a href="{{ url('/nieuws') }}">Nieuws</a></li>
 
                       <!-- AANMELDEN -->
                       @if (Auth::guest())

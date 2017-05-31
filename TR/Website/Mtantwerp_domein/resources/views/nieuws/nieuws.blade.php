@@ -49,6 +49,9 @@
             <img src='{{$data[$i]["snippets"][0]["body"]["file"][0]["src"]}}' alt="image">
             <h1>{{$data[$i]["title"]}}</h1>
             <?= $data[$i]["snippets"][1]["body"]["text"]?> <!--  Dit moet zo gedaan worden want met blade stuff displayed hij de <p> tags nog...-->
+            <div class="btn-section_">
+                <a href="https://www.gate15.be/nl/nieuws/{{$data[$i]["slug"]}}" target="_blank" class="btn-custom"> + meer lezen </a>
+            </div>
           </div>
         </div>
       </div>

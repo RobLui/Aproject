@@ -55,10 +55,18 @@
                   <ul class="menu">
                     <!-- Left Side Of Navbar -->
                         <li><a href="{{ url('/home') }}"><img src="http://i.imgur.com/4nhGtlf.png" alt="Logo"/></a></li>
-                        <li><a href="{{ url('/home') }}">Home</a></li>
-                        <li><a href="{{ url('/ontdek') }}">Ontdek</a></li>
-                        <li><a href="{{ url('/info') }}">Info</a></li>
-                        <li><a href="{{ url('/nieuws') }}">Nieuws</a></li>
+                        <!-- HOME -->
+                        <li class='{{ Request::is('home') ? 'active' : "" }}'><a href="{{ url('/home') }}">Home</a></li>
+
+                        <!-- ONTDEK -->
+                        <li class='{{ Request::is('ontdek') ? 'active' : "" }}'><a href="{{ url('/ontdek') }}">Ontdek</a></li>
+
+                        <!-- INFO -->
+                        <li class='{{ Request::is('info') ? 'active' : "" }}'><a href="{{ url('/info') }}">Info</a></li>
+
+                        <!-- NIEUWS -->
+                        <li class='{{ Request::is('nieuws') ? 'active' : "" }}'><a href="{{ url('/nieuws') }}">Nieuws</a></li>
+
 
                         @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Aanmelden</a></li>
