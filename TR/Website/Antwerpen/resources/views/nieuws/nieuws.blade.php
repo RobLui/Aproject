@@ -8,7 +8,7 @@
   <div class="row">
     @include("common.messages")
     <div class="panel panel-default">
-      <h2>Nieuws &amp Events</h2>
+      <h1 class="PTtitel">Nieuws &amp Events</h1>
     </div>
   </div>
 

@@ -29,6 +29,7 @@
       </div>
     </div>
 
+
     <div class="col-sm-4 item"> <!-- 2 -->
       <div class="rondje">
         <i class="fa fa-info fa-3x"></i>

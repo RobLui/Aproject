@@ -4,6 +4,13 @@
     text-align: left;
 }
 
+.block_img h4{
+
+  padding-top: 5%;
+
+}
+
+
 
 /*--------------------------SLIDER--------------------------*/
 
@@ -442,7 +449,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     text-align: center;
     font-size: 50px;
     margin-top: 10%;
-    margin-bottom: 5%;
+    /*margin-bottom: 5%;*/
 }
 
 .main {
@@ -1088,7 +1095,9 @@ h1 {
 }
 
 .btn-section_ {
-    margin-bottom: 5%;
+    margin-bottom: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .rwpa a:hover {
@@ -1240,6 +1249,7 @@ h1 {
         margin: 0 auto;
         width: 75%;
         height: auto;
+        margin-bottom: 5%;
     }
 }
 
@@ -1259,6 +1269,7 @@ h1 {
         /*  width: 50%;*/
         width: 60%;
         height: auto;
+        margin-bottom: 5%;
     }
     .news_m a {
         padding-top: 1.5em;
@@ -1710,13 +1721,15 @@ h1 {
 }
 
 .block_img p {
-    padding-top: 0.5em;
+    /*padding-top: 0.5em;*/
     text-align: center;
+
 }
 
 .block_img {
     display: block;
     padding-bottom: 5%;
+    background-color: #FBFBF9;
 }
 
 .btn-custom a {
