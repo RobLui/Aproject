@@ -110,30 +110,18 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                    <img src="/images/contents/300/1.jpg" alt="300">
-                    <h4>Sightseeing place 5</h4>
+                    <img src="/images/toffePlekskes/ontdekDeStad.jpg" alt="Duifkes spotten">
+                    <h4>Duifkes spotten</h4>
                     <div class="block_">
-                      <p class="columnText">Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
+                      <p class="columnText">Duiven, ze horen nu eenmaal bij elke stad. Voornamelijk op pleinen kan je deze gevleugelde vrienden terugvinden. Daarom als je eens duifjes wil gaan spotten raden we je aan om naar al onze plezantste pleintjes te trekken.</p>
                       <div class="btn-section_">
-                          <a href="page_services.html" class="btn-custom"> >  Link naar see Place </a>
+                          <a href="http://www.allesoverantwerpen.nl/straten-en-pleinen/" class="btn-custom"> + Toon mij deze geweldige plaatsen </a>
                       </div>
                   </div>
                 </div>
             </div>
 
-            <div class="col-sm-4 item">
-                <!-- 1 -->
-                <div class="block_img">
-                  <img src="/images/contents/300/1.jpg" alt="300">
-                  <h4>Sightseeing place 6</h4>
-                  <div class="block_">
-                    <p class="columnText">Vestibulum porta tristique porttitor donec at velit ac nunc blandit mollis donec ornare quis lorem eu iaculis curabitur scelerisque tincidunt lorem quis rhoncus.</p>
-                    <div class="btn-section_">
-                      <a href="ontdek/places_to_see" class="btn-custom"> >  Link naar see Place </a>
-                    </div>
-                  </div>
-              </div>
-            </div>
+          
 
         </div>
         <!-- .mainContainer end -->

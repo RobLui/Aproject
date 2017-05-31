@@ -4,8 +4,8 @@
 <title>Home</title>
 <div class="container index">
   <div class="slider">
-    <img class="slide_img" src="./images/sliderMockUp.jpg" alt="sliderMockUp">
-    <img class="slide_img" src="./images/lowpoly.jpg" alt="img2">
+    <img class="slide_img" src="./images/sliderMockUp.jpg" alt="gameApp">
+    <img class="slide_img" src="./images/infoHead.jpg" alt="infoHead">
     <img class="slide_img" src="./images/antwerp_img.jpg" alt="img3">
   </div>
 
