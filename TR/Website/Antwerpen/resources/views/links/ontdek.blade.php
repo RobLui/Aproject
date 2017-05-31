@@ -29,9 +29,9 @@
 					<img src="images/ontdek/eet_plekskes.jpg" alt="restaurant Antwerpen">
 					<div class="block_">
 						<p>
-							Eten is belangrijk. Dat is een feit. <br>
+							Eten is belangrijk. Dat is een feit.
 							Als Student zit je vaak met een budget, dus daarom zijn budget-vriendelijke eetplekjes altijd welkom.
-							Wil je graag zien waar je lekker kan gaan eten? <br> Ontdek nu onze tips.
+							Wil je graag zien waar je lekker kan gaan eten? Ontdek nu onze tips.
 						</p>
 					</div>
 						<div class="btn-section_">
@@ -53,7 +53,7 @@
 				<div class="block_img">
 					<img src="images/ontdek/studie_plekskes.jpg" alt="300">
 					<p class="columnText">
-						Zit je op kot of wil je thuis niet gestoord worden tijdens het studeren? <br>
+						Zit je op kot of wil je thuis niet gestoord worden tijdens het studeren?
 						Ben je het beu om op een witte muur te kijken?
 						Dit zijn de leukste plaatsen om te studeren.
 					</p>
@@ -74,7 +74,7 @@
 				<div class="block_img">
 					<img src="images/ontdek/schoon_plekskes.jpg" alt="300">
 					<p class="columnText">
-						Student zijn is niet enkel studeren. "Het zijn de mooiste jaren van je leven". <br>
+						Student zijn is niet enkel studeren. "Het zijn de mooiste jaren van je leven".
 						Kom daarom zeker eens van achter je bureau en neem een kijkje in het mooie antwerpen!
 						Wij hebben alvast een paar top plekjes uitgelicht voor jou!
 					</p>
