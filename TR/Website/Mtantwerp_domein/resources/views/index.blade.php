@@ -24,7 +24,7 @@
           Wij geven je alvast 10 dingen die je zeker niet mag missen!
         </p>
         <div class="btn-section">
-          <a href="/public/ontdek" class="btn-custom"> > meer </a>
+          <a href="/public/ontdek" class="btn-custom"> + meer lezen </a>
         </div>
       </div>
     </div>
@@ -41,7 +41,7 @@
             Vragen over je richting?
             Geen nood! <br>Hier is een overzicht te vinden van alle scholen en hun aanbod.</p>
           <div class="btn-section">
-              <a href="/public/info/studieaanbod" class="btn-custom"> > meer </a>
+              <a href="/public/info/studieaanbod" class="btn-custom"> + meer lezen </a>
           </div>
         </div>
     </div>
@@ -60,7 +60,7 @@
           Neem zeker en vast een kijkje!
         </p>
         <div class="btn-section">
-            <a href="/public/nieuws" class="btn-custom"> > meer </a>
+            <a href="/public/nieuws" class="btn-custom"> + meer lezen </a>
         </div>
     </div>
   </div>

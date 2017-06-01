@@ -35,7 +35,7 @@
 						</p>
 					</div>
 						<div class="btn-section_">
-							<a href="ontdek/eet-plekskes" class="btn-custom"> > meer lezen </a>
+							<a href="ontdek/eet-plekskes" class="btn-custom"> + meer lezen </a>
 						</div>
 				</div>
 			</div>
@@ -56,7 +56,7 @@
 						Dit zijn de leukste plaatsen om te studeren.
 					</p>
 					<div class="btn-section_">
-						<a href="ontdek/studie-plekskes" class="btn-custom"> >  meer lezen </a>
+						<a href="ontdek/studie-plekskes" class="btn-custom"> + meer lezen </a>
 					</div>
 				</div>
 			</div>
@@ -77,7 +77,7 @@
 						Wij hebben alvast een paar top plekjes uitgelicht voor jou!
 					</p>
 					<div class="btn-section_">
-						<a href="ontdek/toffe-plekskes" class="btn-custom"> > meer lezen </a>
+						<a href="ontdek/toffe-plekskes" class="btn-custom"> + meer lezen </a>
 					</div>
 				</div>
 			</div>

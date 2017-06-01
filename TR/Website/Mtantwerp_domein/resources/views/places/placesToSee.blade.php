@@ -4,7 +4,7 @@
 
 <head>
 
-    <!-- Your Basic Site Informations -->
+    <!-- Basic Site Information -->
     <title>Antwerpen - Toffe Plekses</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="description" content="Antwerpen" />

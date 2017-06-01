@@ -4,8 +4,8 @@
 
 <head>
 
-    <!-- Your Basic Site Informations -->
-    <title>Antwerpen - Places to study</title>
+    <!-- Basic Site Information -->
+    <title>Antwerpen - Studie Plekskes</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="description" content="Antwerpen" />
     <meta name="keywords" content="Antwerpen, Studenten, A'pen, Studie, Richtingen " />
@@ -34,7 +34,7 @@
         <div class="mainContainer">
 
       <div class="panel panel-default">
-            <h1 class="PTtitel">Places to study</h1>
+            <h1 class="PTtitel">Studie Plekskes</h1>
       </div>
 
 
