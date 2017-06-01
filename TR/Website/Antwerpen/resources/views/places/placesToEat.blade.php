@@ -4,8 +4,8 @@
 
 <head>
 
-    <!-- Your Basic Site Informations -->
-    <title>Antwerpen - Places to eat</title>
+    <!-- Basic Site Information -->
+    <title>Antwerpen - eet-plekskes</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="description" content="Antwerpen" />
     <meta name="keywords" content="Antwerpen, Studenten, A'pen, Studie, Richtingen " />
@@ -30,7 +30,7 @@
 
         <!-- .container -->
         <div class="mainContainer">
-            <h1 class="PTtitel">Places to eat</h1>
+            <h1 class="PTtitel">Eet Plekskes</h1>
             <div class="col-sm-4 item">
                 <div class="blok">
                     <img src="images/contents/300/1.jpg" alt="300">

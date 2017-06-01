@@ -64,7 +64,7 @@
 
                         <div class="form-group">
                             <div class="col-md-6">
-                              Nog geen account? <br> <a href="../register">Registreer hier</a>
+                              Nog geen account? <br> <a href="/register">Registreer hier</a>
                             </div>
                         </div>
                     </form>

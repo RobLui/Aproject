@@ -9,17 +9,6 @@
   </div>
   <div class="panel-content">
     <div class="mid_container">
-      <!-- <div class="left-sq">
-        <a href="/nieuws">Nieuws &amp Evenementen</a>
-      </div>
-      <div class="right-sq">
-        <a href="/info/studieaanbod">Richtingen</a>
-      </div>
-      <div class="left-sq">
-        <a href="/approval">Goedkeuren</a>
-      <div class="right-sq">
-        <a href="/info/studieaanbod">Instellingen</a>
-      </div> -->
 
       <div class="one">
         <div class="_admin">
@@ -29,6 +18,7 @@
           <a href="/info/studieaanbod">Richtingen</a>
         </div>
       </div>
+
       <div class="one">
         <div class="_admin">
           <a href="/approval">Goedkeuren</a>

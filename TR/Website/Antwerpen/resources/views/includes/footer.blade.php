@@ -6,7 +6,7 @@
     <div class="footerLMR">
 
         <div class="footerItem">
-          <a href="www.antwerpen.be">www.antwerpen.be</a>
+          <a href="https://www.antwerpen.be" target="_blank">www.antwerpen.be</a>
         </div>
 
         <div class="footerItem">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="footerItem">
-          <a href="www.gate15.be">www.gate15.be</a>
+          <a href="https://www.gate15.be" target="_blank">www.gate15.be</a>
         </div>
 
     </div>
@@ -24,8 +24,6 @@
     <img src="/images/footer2.jpg" alt="footerImg" class="footerImg">
 
   </div>
-
-    <!-- <img src="/images/footer2.jpg" alt="footerImg" class="footerImg"> -->
 
     <!-- .container -->
     <div class="footerContainer">

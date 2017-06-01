@@ -42,9 +42,10 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
   // DELETE
   Route::get('/info/studieaanbod/delete/{id}', 'InfoController@delete');
 
+  Route::get('/nieuws/edit/{id}', 'nieuwsController@edit');
+
 // ADMIN PANEL
 Route::get('/admin-panel', 'adminController@index');
-
 
 // ERROR
 Route::get('/404', 'errorController@index');

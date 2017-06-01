@@ -170,11 +170,11 @@ class nieuwsController extends Controller
       return redirect("/nieuws")->with(compact('id'));
     }
 
-// ----------------------- ARTIKEL INDEX -----------------------
-    public function ArtikelIndex(Request $req, $id)
-    {
-      $artikel = Event::findOrFail($id);
-      return view('nieuws/artikel')->withNews($artikel);
-    }
+    // ----------------------- ARTIKEL INDEX -----------------------
+        public function ArtikelIndex(Request $req, $id)
+        {
+          $artikel = Event::findOrFail($id);
+          return view('nieuws/artikel')->withNews($artikel);
+        }
 
 }
