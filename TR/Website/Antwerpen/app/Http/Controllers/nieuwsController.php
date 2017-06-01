@@ -33,7 +33,7 @@ class nieuwsController extends Controller
       // dd($obj_data); // Om te testen
 
       $user = User::all();
-      $event = Event::all();
+      $event = Event::all()->sortByDesc('created_at');
       $user->name = $req->name;
 
       return view('nieuws/nieuws')
