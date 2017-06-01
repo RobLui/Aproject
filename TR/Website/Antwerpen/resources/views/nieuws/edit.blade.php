@@ -61,7 +61,7 @@
             </div>
             @endif
           @endif
-          
+
           <!-- EDIT SUBMIT-->
           <div class="form-group">
               <div class="col-sm-offset-3 col-sm-6">

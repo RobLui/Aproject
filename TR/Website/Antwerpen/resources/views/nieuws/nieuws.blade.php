@@ -23,29 +23,57 @@
 
     @if(count($events) > 0)
       @foreach($events as $event)
-      <div class="nieuws">
-        <div class="col-sm-4 item">
-          <div class="newz">
-            <div class="block_img">
-              <img src="/uploads/{{$event->data}}" alt="{{$event->data}}">
-              <h1>{{$event->title}}</h1>
-              <p>{{$event->text}}</p>
-              <a href="/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
-              @if(isset(Auth::user()->name))
-                @if(Auth::user()->name == $event->posted_by ||Auth::user()->name == "Admin" )
-                <div class="form-group" style="padding-top:1em;">
-                  <a href="nieuws/edit/{{$event->id}}" class="btn btn-default">
-                    <i class="fa fa-plus" style="color:green; margin-right:0.5em;"></i>Aanpassen</a>
-                </div>
+        @if($event->allowed == 1)
+        <div class="nieuws">
+          <div class="col-sm-4 item">
+            <div class="newz">
+              <div class="block_img">
+                <img src="/uploads/{{$event->data}}" alt="{{$event->data}}">
+                <h1>{{$event->title}}</h1>
+                <p>{{$event->text}}</p>
+                <a href="/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
+                @if(isset(Auth::user()->name))
+                  @if(Auth::user()->name == $event->posted_by ||Auth::user()->name == "Admin" )
+                    <div class="form-group" style="padding-top:1em;">
+                      <a href="nieuws/edit/{{$event->id}}" class="btn btn-default">
+                        <i class="fa fa-plus" style="color:green; margin-right:0.5em;"></i>Aanpassen</a>
+                    </div>
+                  @endif
                 @endif
-              @endif
+              </div>
+            </div>
           </div>
         </div>
-        </div>
-      </div>
+        @else
+        @if(isset(Auth::user()->name))
+          @if(Auth::user()->name == "Admin" || Auth::user()->name == "Student")
+          <div class="nieuws">
+            <div class="col-sm-4 item">
+              <div class="newz">
+                <div class="block_img">
+                  <img src="/uploads/{{$event->data}}" alt="{{$event->data}}">
+                  <h1>{{$event->title}}</h1>
+                  <p>{{$event->text}}</p>
+                  <a href="/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
+                  @if(isset(Auth::user()->name))
+                    @if(Auth::user()->name == $event->posted_by ||Auth::user()->name == "Admin" )
+                      <div class="form-group" style="padding-top:1em;">
+                        <a href="nieuws/edit/{{$event->id}}" class="btn btn-default">
+                          <i class="fa fa-plus" style="color:green; margin-right:0.5em;"></i>Aanpassen</a>
+                      </div>
+                    @endif
+                  @endif
+                </div>
+              </div>
+            </div>
+          </div>
+          @endif
+        @endif
+        @endif
       @endforeach
     @endif
 
+<!--  GATE 15 !!!!! -->
     @if(count($data) > 0)
     <?php $i = 0; ?>
       @foreach($data as $s)

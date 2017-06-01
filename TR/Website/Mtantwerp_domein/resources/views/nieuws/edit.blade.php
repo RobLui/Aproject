@@ -49,11 +49,24 @@
             </div>
           </div>
 
+          <!-- CHECKBOX -->
+          @if(isset(Auth::user()->name))
+            @if(Auth::user()->name == "Admin")
+            <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-6">
+                <label class="btn btn-primary">
+                  <input type="checkbox" checked autocomplete="off" name="checkbox" id="checkbox"> Toestaan
+                </label>
+              </div>
+            </div>
+            @endif
+          @endif
+
           <!-- EDIT SUBMIT-->
           <div class="form-group">
               <div class="col-sm-offset-3 col-sm-6">
                   <button type="submit" class="btn btn-default">
-                      <i class="fa fa-plus"></i> Edit nieuws
+                      <i class="fa fa-plus" style="color:green;"></i> Edit nieuws
                       <input type="hidden" name="_token" value="{{ csrf_token() }}">
                   </button>
               </div>

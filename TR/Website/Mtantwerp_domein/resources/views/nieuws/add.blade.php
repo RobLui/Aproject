@@ -45,14 +45,27 @@
               </div>
             </div>
 
-          <!-- Submit -->
-          <div class="form-group">
-            <div class="col-sm-offset-3 col-sm-6">
-              <button type="submit" class="btn btn-default">
-                  <i class="fa fa-plus"></i> Toevoegen
-              </button>
+            <!-- CHECKBOX -->
+            @if(isset(Auth::user()->name))
+              @if(Auth::user()->name == "Admin")
+              <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-6">
+                  <label class="btn btn-primary">
+                    <input type="checkbox" checked autocomplete="off" name="checkbox" id="checkbox"> Toestaan
+                  </label>
+                </div>
+              </div>
+              @endif
+            @endif
+
+            <!-- Submit -->
+            <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-6">
+                <button type="submit" class="btn btn-default">
+                    <i class="fa fa-plus"></i> Toevoegen
+                </button>
+              </div>
             </div>
-          </div>
 
           {!! Form::close() !!}
 
