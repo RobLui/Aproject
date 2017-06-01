@@ -7,7 +7,7 @@
   <div class="panel panel-default">
 
   @if(count($news) > 0)
-  <div class="news_title">;
+  <div class="news_title">
      <h2>{{$news->title}}</h2>
   </div>
   @endif

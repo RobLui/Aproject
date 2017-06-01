@@ -1111,7 +1111,11 @@ h1 {
 }
 
 .rwpa a:nth-child(2), .rwpa a:nth-child(3), .rwpa a:nth-child(6) {
-    background-color: #eeeeee;
+    /*background-color: #eeeeee;*/
+    /* THIS ONE - font weight */
+    font-weight: 700;
+    /* THIS ONE - bg img */
+    background-image: url("/public/images/lowpoly.jpg");
     color: #d01f38;
 }
 
