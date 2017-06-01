@@ -1842,3 +1842,7 @@ li.dropdown.open {
 .itemHome {
     padding: 6%;
 }
+
+.news_title h2 {
+    color: grey !important;
+}
