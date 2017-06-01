@@ -14,7 +14,7 @@
 
   <div class="panel-content">
     @if(isset(Auth::user()->name))
-      @if(Auth::user()->name == "Admin")
+      @if(Auth::user()->name == "Admin" || Auth::user()->name == "Student")
       <div class="news_m">
         <a href="/nieuws/add"> Nieuws/Event toevoegen</a>
       </div>
@@ -32,12 +32,15 @@
               <p>{{$event->text}}</p>
               <a href="/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
               @if(isset(Auth::user()->name))
-                @if(Auth::user()->name == $event->posted_by)
-                  <a href="nieuws/edit/{{$event->id}}" class="btn btn-primary btn-xs edit-btn">edit</a>
+                @if(Auth::user()->name == $event->posted_by ||Auth::user()->name == "Admin" )
+                <div class="form-group" style="padding-top:1em;">
+                  <a href="nieuws/edit/{{$event->id}}" class="btn btn-default">
+                    <i class="fa fa-plus" style="color:green; margin-right:0.5em;"></i>Aanpassen</a>
+                </div>
                 @endif
               @endif
-            </div>
           </div>
+        </div>
         </div>
       </div>
       @endforeach
@@ -46,16 +49,25 @@
     @if(count($data) > 0)
     <?php $i = 0; ?>
       @foreach($data as $s)
+
+      <!--  NIEUWS GEHEEL -->
       <div class="nieuws">
         <div class="col-sm-4 item">
           <div class="newz">
+
+            <!--  AFBEELDING -->
             <div class="block_img">
               <img src='{{$data[$i]["snippets"][0]["body"]["file"][0]["src"]}}' alt="image">
+
+              <!--  TITEL -->
               <h1>{{$data[$i]["title"]}}</h1>
+
+              <!--  TEXT -->
               <?= $data[$i]["snippets"][1]["body"]["text"]?> <!--  Dit moet zo gedaan worden want met blade stuff displayed hij de <p> tags nog...-->
               <div class="btn-section_">
                 <a href="https://www.gate15.be/nl/nieuws/{{$data[$i]["slug"]}}" target="_blank" class="btn-custom"> + meer lezen </a>
               </div>
+
             </div>
           </div>
         </div>

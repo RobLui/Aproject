@@ -83,11 +83,17 @@ class nieuwsController extends Controller
       $user = User::all();
       $event = Event::all();
 
+      // TOESTEMMING
+      $allow = 0;
+      // if ($req->input('checkbox') ? $allow = 1 : $allow = 0)
+
       $events = new Event();
+      // TOESTEMMING
       $events->title = $req->title;
       $events->text = $req->text;
       $events->posted_by = Auth::user()->name;
       $events->data = $fileName;
+      $events->allowed = $allow;
       $events->save();
       return redirect("/nieuws")->withEvents($event);
     }
@@ -109,8 +115,13 @@ class nieuwsController extends Controller
     public function update(Request $req, $id)
     {
       $event = Event::findOrFail($id);
+      // TOESTEMMING
+      $allow = 0;
+      if ($req->input('checkbox') ? $allow = 1 : $allow = 0){
+
+      }
           // Check for admin role
-          if (Auth::user()->name == "Admin") {
+          if (Auth::user()->name == "Admin" || Auth::user()->name == "Student")   {
       // FILE UPLOAD
       $filename ="";
 
@@ -142,9 +153,15 @@ class nieuwsController extends Controller
           ->withErrors($validator);
         }
         Input::file('data')->move($destinationPath, $fileName); // uploading file to given path
-        // dd($fileName);
+
+
+
         $event->update($req->all());
         $event->data = $fileName;
+
+        // TOESTEMMING
+        $event->allowed = $allow;
+
         $event->save();
         // Session::flash('success', ($req->title.' is bijgewerkt.'));
         Session::flash('success', "Succesvol aangepast");

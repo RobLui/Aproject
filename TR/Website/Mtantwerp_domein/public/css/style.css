@@ -76,7 +76,7 @@ body {
 }
 
 a {
-    color: #337ab7;
+    color: #D11F38;
     text-decoration: none;
 }
 
@@ -344,8 +344,8 @@ h1, h2, h3 {
     margin-top: 0px;
 }
 
-a, a:visited {
-    color: #3f3d3e;
+a:visited {
+    color: #4f4e4e;
     -webkit-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
     -moz-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
     -ms-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
@@ -354,7 +354,7 @@ a, a:visited {
 }
 
 a:hover {
-    color: #3f3d3e;
+    color: #dd1f38;
     text-decoration: none;
 }
 
@@ -541,22 +541,22 @@ h1, h2 {
 }
 
 .item h1 {
-    color: grey;
+    color: #D11F38;
 }
 
 h3 {
-    color: grey;
+    color: #4f4e4e;
     font-family: Lato, Arial, sans-serif;
     font-weight: 400;
     margin-top: 0px;
 }
 
-a {
-    color: #ff2847;
+.menu > li > a {
+    color: #4f4e4e  ;
 }
 
-a:visited {
-    color: grey;
+.menu > li > a:visited {
+    color: #4f4e4e;
     -webkit-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
     -moz-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
     -ms-transition: background .2s ease, background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
@@ -565,17 +565,17 @@ a:visited {
 }
 
 a:hover {
-    color: #ff2847;
+    color: #dd1f38;
     text-decoration: none;
 }
 
 a:active {
-    color: #d01f38;
+    color: #D11F38;
     text-decoration: none;
 }
 
 li.current>a {
-    border-bottom: 3px solid #d01f38;
+    border-bottom: 3px solid #D11F38;
 }
 
 textarea {
@@ -638,11 +638,11 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     position: relative;
 }
 
-.menu>li>a {
+/*.menu>li>a {
     transition: all .3s ease;
     text-decoration: none;
-    color: grey;
-}
+    color: #4f4e4e;
+}*/
 
 .menu {
     font-family: Arial;
@@ -668,12 +668,21 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
 /* navbar positie enz */
 
 .menu>li>a {
-    font-weight: 700;
-    /*transition: all .3s ease;*/
+    /*font-weight: 700;*/
     margin: auto 0;
     text-decoration: none;
-    /*width: 20%;*/
+    color: #4f4e4e;
+
 }
+
+.menu>li>a:hover{
+  color: #dd1f38;
+}
+
+.menu>li>a:active{
+  color: #D11F38;
+}
+
 
 .menu li {
     margin-top: 2em;
@@ -790,13 +799,17 @@ input[type=text], select, textarea {
     background-color: #90abbc;
 }
 
+.footerContainer a{
+  color: white;
+}
+
 #footer p {
     font-family: Arial;
     font-size: 12px;
     line-height: 16px;
     text-transform: uppercase;
     padding: 10px 0px;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0px;
     width: 100%;
     color: white;
@@ -1096,9 +1109,18 @@ h1 {
     padding-right: 2%;
 }
 
+.btn-section_ a, .btn-custom {
+  color: #D11F38;
+  text-decoration: underline;
+}
+
+.btn-section_ a:hover, .btn-custom a:hover {
+  color: #0064B4;
+}
+
 .rwpa a:hover {
     background-color: white;
-    color: #d01f38;
+    color: #dd1f38;
 }
 
 .rwpa a:nth-child(1), .rwpa a:nth-child(4), .rwpa a:nth-child(5) {
@@ -1113,9 +1135,9 @@ h1 {
 .rwpa a:nth-child(2), .rwpa a:nth-child(3), .rwpa a:nth-child(6) {
     /*background-color: #eeeeee;*/
     /* THIS ONE - font weight */
-    font-weight: 700;
+    font-weight: 500;
     /* THIS ONE - bg img */
-    background-image: url("/public/images/lowpoly.jpg");
+    background-image: url("/images/footerImg.jpg");
     color: #d01f38;
 }
 
@@ -1282,7 +1304,7 @@ h1 {
     .menu li {
         float: left;
         display: block;
-        width: 7em;
+      /*  width: 7em;*/
         margin-top: 2em;
         margin-left: 0.5em;
         height: 100%;
@@ -1756,7 +1778,7 @@ li.dropdown.open {
 }
 
 .active a {
-    color: red !important;
+    color: #D11F38 !important;
 }
 
 #email, #password {
@@ -1802,13 +1824,13 @@ li.dropdown.open {
 .aanmeldenNav {
     background-color: #0064B4;
     margin-top: 2.2em !important;
-    width: 10em !important;
+    /*width: 9em !important;*/
     text-align: center;
     display: block;
 }
 
 .fa-user {
-    background: red;
+    background: #D11F38;
     padding: 6%;
     float: left;
     display: block;
@@ -1818,12 +1840,13 @@ li.dropdown.open {
     color: white !important;
     padding: 1%;
     padding-top: 3%;
-    padding-left: 10%;
     margin-left: 7.5%;
-    max-width: 75%;
+    max-width: 65%;
     float: left;
     display: block;
     text-align: center;
+    text-transform: capitalize;
+    padding-left: 8%;
 }
 
 .menu li:nth-child(6), .menu li:nth-child(5), .menu li:nth-child(4), .menu li:nth-child(3), .menu li:nth-child(2) {
