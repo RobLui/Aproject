@@ -526,7 +526,7 @@
   }
 
   .item h1 {
-      color: #D11F38;
+      color: #7c7b7b;
   }
 
   h3 {
@@ -663,10 +663,11 @@
   .menu>li>a:active {
       color: #D11F38;
   }
-
+  /*
   .menu li {
       margin-top: 2em;
   }
+  */
 
   #slider3 .main {
       height: auto;
@@ -1274,12 +1275,12 @@
           float: left;
           display: block;
           /*  width: 7em;*/
-          margin-top: 2em;
-          margin-left: 0.5em;
+          /*margin-top: 2em;*/
+          /*margin-left: 0.5em;*/
           height: 100%;
           text-align: center;
           padding: 0;
-          margin: 0;
+          /*margin: 0;*/
       }
       .menu {
           padding: 0;
@@ -1528,7 +1529,7 @@
       }
   }
 
-  @media (max-width: 1092px) {
+  @media (max-width: 1090px) {
       .block {
           margin-bottom: 6em;
       }
@@ -1579,7 +1580,7 @@
           /* THIS ONE - font weight */
           font-weight: 500;
           /*THIS ONE - bg img */
-          background-image: url("/public/images/footerImg.jpg");
+          background-image: url("/public/images/footer_img.jpg");
           color: #d01f38;
       }
       .rwpa a:nth-child(2) h3, .rwpa a:nth-child(4) h3, .rwpa a:nth-child(6) h3 {
@@ -1788,6 +1789,89 @@
           padding-right: 5%;
       }
   }
+  /* NAV MENU SCHALEN */
+
+  @media (max-width: 2200px) {
+      .logoImg {
+          margin-right: 30%;
+      }
+      .aanmeldenNav {
+          margin-left: 30%;
+      }
+  }
+
+  @media (max-width: 1700px) {
+      .logoImg {
+          margin-right: 28%;
+      }
+      .aanmeldenNav {
+          margin-left: 28%;
+      }
+  }
+
+  @media (max-width: 1500px) {
+      .logoImg {
+          margin-right: 25%;
+      }
+      .aanmeldenNav {
+          margin-left: 25%;
+      }
+  }
+
+  @media (max-width: 1315px) {
+      .logoImg {
+          margin-right: 20%;
+      }
+      .aanmeldenNav {
+          margin-left: 20%;
+      }
+  }
+
+  @media (max-width: 1096px) {
+      .logoImg {
+          margin-right: 16%;
+      }
+      .aanmeldenNav {
+          margin-left: 12%;
+      }
+  }
+  /*
+  @media (max-width: 999px) {
+      .logoImg {
+          margin-right: 20%;
+      }
+      .aanmeldenNav {
+          margin-left: 20%;
+      }
+  }*/
+
+  @media (max-width: 999px) {
+      .logoImg {
+          margin-right: 15%;
+      }
+      .aanmeldenNav {
+          margin-left: 10%;
+      }
+  }
+
+  @media (max-width: 878px) {
+      .logoImg {
+          margin-right: 5%;
+      }
+      .aanmeldenNav {
+          margin-left: 10%;
+      }
+  }
+
+  @media (max-width:775px) {
+      .logoImg {
+          margin-right: 5%;
+      }
+      .aanmeldenNav {
+          margin-left: 8%;
+      }
+  }
+  /* EINDE NAV MENU SCHALEN*/
 
   .aanmeldenNav {
       background-color: #0064B4;

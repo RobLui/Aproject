@@ -526,7 +526,7 @@
   }
 
   .item h1 {
-      color: #D11F38;
+      color: #7c7b7b;
   }
 
   h3 {
@@ -664,9 +664,11 @@
       color: #D11F38;
   }
 
+/*
   .menu li {
       margin-top: 2em;
   }
+  */
 
   #slider3 .main {
       height: auto;
@@ -1081,7 +1083,7 @@
       padding-right: 2%;
   }
 
-  .btn-section_ a, .btn-custom {
+  .btn-section_ a, .btn-custom a {
       color: #D11F38;
       text-decoration: underline;
   }
@@ -1274,12 +1276,12 @@
           float: left;
           display: block;
           /*  width: 7em;*/
-          margin-top: 2em;
-          margin-left: 0.5em;
+          /*margin-top: 2em;*/
+          /*margin-left: 0.5em;*/
           height: 100%;
           text-align: center;
           padding: 0;
-          margin: 0;
+          /*margin: 0;*/
       }
       .menu {
           padding: 0;
@@ -1788,6 +1790,138 @@
           padding-right: 5%;
       }
   }
+
+
+
+
+
+
+
+  /* NAV MENU SCHALEN */
+
+
+  @media (max-width: 2200px) {
+
+    .logoImg{
+      margin-right: 30%;
+    }
+
+    .aanmeldenNav{
+        margin-left: 30%;
+
+      }
+  }
+
+
+
+  @media (max-width: 1700px) {
+
+    .logoImg{
+      margin-right: 28%;
+    }
+
+    .aanmeldenNav{
+        margin-left: 28%;
+
+      }
+  }
+
+
+
+  @media (max-width: 1500px) {
+
+    .logoImg{
+      margin-right: 25%;
+    }
+
+    .aanmeldenNav{
+        margin-left: 25%;
+
+      }
+  }
+
+
+  @media (max-width: 1300px) {
+
+    .logoImg{
+      margin-right: 20%;
+    }
+
+    .aanmeldenNav{
+        margin-left: 20%;
+
+      }
+  }
+
+
+  @media (max-width: 1090px) {
+    .logoImg{
+      margin-right: 16%;
+    }
+
+    .aanmeldenNav{
+        margin-left: 12%;
+      }
+  }
+
+
+  @media (max-width: 1000px) {
+
+    .logoImg{
+      margin-right: 20%;
+    }
+
+    .aanmeldenNav{
+        margin-left: 20%;
+
+      }
+  }
+
+
+  @media (max-width: 999px) {
+
+    .logoImg{
+      margin-right: 15%;
+    }
+
+  .aanmeldenNav{
+      margin-left: 10%;
+    }
+
+  }
+
+
+  @media (max-width: 860px) {
+
+    .logoImg{
+      margin-right: 5%;
+    }
+
+    .aanmeldenNav{
+        margin-left: 10%;
+    }
+
+  }
+
+
+  @media (max-width:768px) {
+
+    .logoImg{
+      margin-right: 5%;
+    }
+
+    .aanmeldenNav{
+        margin-left: 8%;
+    }
+
+  }
+
+
+/* EINDE NAV MENU SCHALEN*/
+
+
+
+
 
   .aanmeldenNav {
       background-color: #0064B4;

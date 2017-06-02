@@ -54,7 +54,7 @@
                   <!-- Branding Image -->
                   <ul class="menu">
                     <!-- Left Side Of Navbar -->
-                        <li><a href="{{ url('/home') }}"><img src="http://i.imgur.com/4nhGtlf.png" alt="Logo"/></a></li>
+                        <li class="logoImg"><a href="{{ url('/home') }}"><img src="http://i.imgur.com/4nhGtlf.png" alt="Logo"/></a></li>
                         <!-- HOME -->
                         <li class='{{ Request::is('home') ? 'active' : "" }}'><a href="{{ url('/home') }}">Home</a></li>
 
@@ -84,9 +84,11 @@
                                             {{ csrf_field() }}
                                         </form>
                                     </li>
-                                    <li>
-                                      <a href="{{ url('/admin-panel') }}">Admin-panel</a>
-                                    </li>
+                                    @if( Auth::user()->name == "Admin")
+                                      <li>
+                                        <a href="{{ url('/admin-panel') }}">Admin-panel</a>
+                                      </li>
+                                    @endif
                                 </ul>
                             </li>
                         @endif
