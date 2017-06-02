@@ -1136,7 +1136,7 @@ h1 {
         /* THIS ONE - font weight */
         font-weight: 500;
         /* THIS ONE - bg img */
-        background-image: url("/images/footerImg.jpg");
+        background-image: url("/public/images/footer_img.jpg");
         color: #d01f38;
     }
     .rwpa a:nth-child(2) h3, .rwpa a:nth-child(3) h3, .rwpa a:nth-child(6) h3 {
@@ -1150,7 +1150,7 @@ h1 {
     text-align: center;
     height: 5em;
     display: block;
-    background-image: url("/images/lowpoly.jpg");
+    background-image: url("/public/images/lowpoly.jpg");
     background-position: center;
     width: 30%;
 }
@@ -1275,7 +1275,7 @@ h1 {
 }
 
 ._admin {
-    background-image: url("/images/lowpoly.jpg");
+    background-image: url("/public/images/lowpoly.jpg");
     background-position: center;
 }
 
@@ -1613,7 +1613,7 @@ h1 {
         /* THIS ONE - font weight */
         font-weight: 500;
         /*THIS ONE - bg img */
-        background-image: url("/images/footerImg.jpg");
+        background-image: url("/public/images/footer_img.jpg");
         color: #d01f38;
     }
     .rwpa a:nth-child(2) h3, .rwpa a:nth-child(4) h3, .rwpa a:nth-child(6) h3 {
