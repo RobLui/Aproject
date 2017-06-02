@@ -34,9 +34,9 @@
                 <a href="/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
                 @if(isset(Auth::user()->name))
                   @if(Auth::user()->name == $event->posted_by ||Auth::user()->name == "Admin" )
-                    <div class="form-group" style="padding-top:1em;">
+                    <div class="form-group">
                       <a href="nieuws/edit/{{$event->id}}" class="btn btn-default">
-                        <i class="fa fa-plus" style="color:green; margin-right:0.5em;"></i>Aanpassen</a>
+                        <i class="fa fa-plus"></i>Aanpassen</a>
                     </div>
                   @endif
                 @endif
@@ -57,9 +57,9 @@
                   <a href="/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
                   @if(isset(Auth::user()->name))
                     @if(Auth::user()->name == $event->posted_by ||Auth::user()->name == "Admin" )
-                      <div class="form-group" style="padding-top:1em;">
+                      <div class="form-group">
                         <a href="nieuws/edit/{{$event->id}}" class="btn btn-default">
-                          <i class="fa fa-plus" style="color:green; margin-right:0.5em;"></i>Aanpassen</a>
+                          <i class="fa fa-plus"></i>Aanpassen</a>
                       </div>
                     @endif
                   @endif

@@ -29,7 +29,7 @@
           <div class="col-sm-4 item">
             <div class="block_img">
               <h1><a href="{{$richting->url}}" target="_blank">{{$richting->title}} </a></h1>
-              <img src="/uploads/{{$richting->afbeelding}}" alt="{{$richting->afbeelding}}">
+              <img src="http://www.robbert.luit.mtantwerp.eu/public/uploads/{{$richting->afbeelding}}" alt="{{$richting->afbeelding}}">
               @if(isset(Auth::user()->name))
                 @if(Auth::user()->name == "Admin")
                 <div class="block_">

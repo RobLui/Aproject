@@ -15,7 +15,7 @@
           <a href="/nieuws">Nieuws &amp Evenementen</a>
         </div>
         <div class="_admin">
-          <a href="/info/studieaanbod">Richtingen</a>
+          <a href="/info/studieaanbod">Instellingen</a>
         </div>
       </div>
 

@@ -25,15 +25,15 @@
             <div class="form-group">
               <label for="titel" class="col-sm-3 control-label">Titel ( max 255 karakters)</label>
               <div class="col-sm-6">
-                <textarea name="title" id="title" class="form-control"></textarea>
+                  <input type="text" name="title" id="title" class="form-control">
               </div>
             </div>
 
-            <!-- Tekst -->
+            <!-- Tekt -->
             <div class="form-group">
               <label for="text" class="col-sm-3 control-label">Tekst</label>
               <div class="col-sm-6">
-                  <textarea name="text" id="text" class="form-control"></textarea>
+                  <input type="text" name="text" id="text" class="form-control">
               </div>
             </div>
 
