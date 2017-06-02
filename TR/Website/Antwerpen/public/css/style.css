@@ -1305,11 +1305,11 @@ h1 {
         display: block;
         /*  width: 7em;*/
         margin-top: 2em;
-        margin-left: 0.5em;
+      /*  margin-left: 0.5em;*/
         height: 100%;
         text-align: center;
         padding: 0;
-        margin: 0;
+      /*  margin: 0;*/
     }
     .menu {
         padding: 0;
@@ -1829,7 +1829,11 @@ li.dropdown.open {
     /*width: 9em !important;*/
     text-align: center;
     display: block;
+    margin-left: 20%;
+
 }
+
+
 
 .fa-user {
     background: #D11F38;
@@ -1881,4 +1885,9 @@ li.dropdown.open {
 
 #text {
     height: 12em;
+}
+
+.logoImg{
+
+  margin-right: 20%;
 }
