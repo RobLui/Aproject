@@ -1081,7 +1081,7 @@
       padding-right: 2%;
   }
 
-  .btn-section_ a, .btn-custom {
+  .btn-section_ a, .btn-custom a {
       color: #D11F38;
       text-decoration: underline;
   }

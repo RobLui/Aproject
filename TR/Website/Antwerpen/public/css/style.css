@@ -542,7 +542,7 @@ h1, h2 {
 }
 
 .item h1 {
-    color: #D11F38;
+    color: #7c7b7b;
 }
 
 h3 {
@@ -1109,7 +1109,7 @@ h1 {
     padding-right: 2%;
 }
 
-.btn-section_ a, .btn-custom {
+.btn-section_ a, .btn-custom a  {
     color: #D11F38;
     text-decoration: underline;
 }
