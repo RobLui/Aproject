@@ -10,11 +10,14 @@
         <br><br>
       <div class="panel panel-default">
         <div class="panel-heading aanpassen">Aanpassen
-          <!--  Delete article button -->
-          <a href="../delete/{{$events->id}}" class="btn btn-danger btn-xs pull-right" id="first_del" name="first_del">
-            <i class="fa fa-btn fa-trash"></i> delete nieuws</a>
+
         </div>
         <br>
+        <!--  Delete  -->
+        <a href="../delete/{{$events->id}}" class="btn btn-danger btn-xs pull-right" id="first_del" name="first_del">
+          <i class="fa fa-btn fa-trash"></i> Verwijder
+        </a>
+
         <div class="panel-content">
 
         <!-- display errors and messages -->
@@ -27,17 +30,17 @@
           {{ csrf_field() }}
           <!-- TITEL -->
           <div class="form-group">
-            <label for="titel" class="col-sm-3 control-label">Titel (max 255 chars)</label>
+            <label for="titel" class="col-sm-3 control-label">Titel (max 255 karakters)</label>
             <div class="col-sm-6">
-                <input type="text" name="title" id="title" class="form-control" value="{{$events->title}}">
+              <textarea name="title" id="title" class="form-control">{{$events->title}}</textarea>
             </div>
           </div>
 
           <!-- TEXT -->
           <div class="form-group">
-            <label for="url" class="col-sm-3 control-label">Text</label>
+            <label for="text" class="col-sm-3 control-label">Text</label>
             <div class="col-sm-6">
-                <input type="text" name="text" id="text" class="form-control" value="{{$events->text}}">
+                <textarea name="text" id="text" class="form-control">{{$events->text}}</textarea>
             </div>
           </div>
 

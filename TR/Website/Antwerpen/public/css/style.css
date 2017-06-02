@@ -216,6 +216,7 @@ ul.dropdown-menu li {
 div.panel-heading {
     font-size: 1em;
     text-align: center;
+    background-image: url('/public/images/lowpoly.jpg') !important;
 }
 
 button.x {
@@ -1874,4 +1875,8 @@ li.dropdown.open {
     .aanmeldenNav {
         width: 100% !important;
     }
+}
+
+#text {
+    height: 12em;
 }
