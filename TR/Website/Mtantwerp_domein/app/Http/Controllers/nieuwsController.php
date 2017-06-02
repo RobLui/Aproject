@@ -95,6 +95,8 @@ class nieuwsController extends Controller
       $events->data = $fileName;
       $events->allowed = $allow;
       $events->save();
+      Session::flash('success', "Succesvol aangemaakt!" );
+
       return redirect("/nieuws")->withEvents($event);
     }
 

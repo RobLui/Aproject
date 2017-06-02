@@ -15,10 +15,10 @@
           <a href="http://www.robbert.luit.mtantwerp.eu/public/nieuws">Nieuws &amp Evenementen</a>
         </div>
         <div class="_admin">
-          <a href="http://www.robbert.luit.mtantwerp.eu/public/info/studieaanbod">Richtingen</a>
+          <a href="http://www.robbert.luit.mtantwerp.eu/public/info/studieaanbod">Instellingen</a>
         </div>
       </div>
-      
+
       <div class="one">
         <div class="_admin">
           <a href="http://www.robbert.luit.mtantwerp.eu/public/approval">Goedkeuren</a>

@@ -216,7 +216,7 @@ ul.dropdown-menu li {
 div.panel-heading {
     font-size: 1em;
     text-align: center;
-    background-image: url('/public/images/lowpoly.jpg') !important;
+    background-image: url('/images/lowpoly.jpg') !important;
 }
 
 button.x {

@@ -69,7 +69,7 @@
           <div class="form-group">
               <div class="col-sm-offset-3 col-sm-6">
                   <button type="submit" class="btn btn-default">
-                      <i class="fa fa-plus" style="color:green;"></i> Edit nieuws
+                      <i class="fa fa-plus"></i> Edit nieuws
                       <input type="hidden" name="_token" value="{{ csrf_token() }}">
                   </button>
               </div>

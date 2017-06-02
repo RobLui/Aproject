@@ -3,17 +3,18 @@
 @section('content')
 <div class="container">
   <div class="row">
-    <div class="col-md-5">        <!--DELETE BUTTON  -->
+    <div class="col-md-5">        
         <a href="/public/info/studieaanbod">← Terug naar studieaanbod</a>
           <br><br>
             <div class="panel panel-default">
               <div class="panel-heading aanpassen">Aanpassen
-                <!--  Delete article button -->
-                <a href="../delete/{{$richtingen->id}}" class="btn btn-danger btn-xs pull-right" id="first_del" name="first_del">
-                  <i class="fa fa-btn fa-trash"></i> delete richting</a>
               </div>
               <br>
           <div class="panel-content">
+
+            <!--  DELETE -->
+            <a href="../delete/{{$richtingen->id}}" class="btn btn-danger btn-xs pull-right" id="first_del" name="first_del">
+              <i class="fa fa-btn fa-trash"></i> delete richting</a>
 
             <!-- ERRORS & MESSAGES -->
             @include("common.errors")
