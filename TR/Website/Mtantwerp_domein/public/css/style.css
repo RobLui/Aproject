@@ -283,7 +283,6 @@
 
   .artikel .mid_container, .testimonial .mid_container {
       height: 100%;
-      background-color: pink;
   }
 
   .artikel .mid_container p, .testimonial .mid_container p {
@@ -1460,6 +1459,7 @@
           height: 42.5em;
           padding-left: 5%;
           padding-right: 5%;
+          overflow: hidden !important;
       }
   }
 
@@ -1913,8 +1913,10 @@
       padding: 6%;
   }
 
-  .news_title h2 {
-      color: grey !important;
+  .news_title h3 {
+      color: #D11F38 !important;
+      text-align: center;
+      margin-top: 2em;
   }
 
   @media (max-width:767px) {
@@ -1940,4 +1942,18 @@
 
   .form-group {
       margin-top: 0.5em;
+  }
+
+  @media(max-width:768px) {
+      .aanmeldenNav {
+          margin: 0;
+      }
+      .aanmeldenNav a {
+          margin-left: 5%;
+          max-width: 100%;
+      }
+  }
+
+  .link_back {
+      text-align: center;
   }
