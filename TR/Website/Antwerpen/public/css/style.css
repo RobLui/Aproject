@@ -2041,6 +2041,7 @@
   }
 
 
+
     @media (max-width:400px) {
 
       .error-panel h1{
@@ -2056,6 +2057,10 @@
         font-size: 15px;
         padding-left: 15%;
         padding-right: 15%;
+      }
+
+      .slider{
+        display: none;
       }
 
 
@@ -2078,7 +2083,5 @@
       .duifImg{
         padding-bottom: 5%;
       }
-
-
 
     }
