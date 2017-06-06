@@ -76,3 +76,6 @@ Route::post('nieuws/fileupload', 'ArticleController@upload');
 
 // //TESTIMONIAL
 // Route::get('/testimonial', 'testimonialController@index');
+Route::get('ontdek/approve', function () {
+    return view('nieuws/goedkeurpagina');
+});
