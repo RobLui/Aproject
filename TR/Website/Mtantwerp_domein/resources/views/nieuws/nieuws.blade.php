@@ -30,7 +30,8 @@
               <div class="block_img">
                 <img src="/public/uploads/{{$event->data}}" alt="{{$event->data}}">
                 <h1>{{$event->title}}</h1>
-                <p>{{$event->text}}</p>
+                <!-- <p>{{$event->text}}</p> -->
+                <p>{!! str_limit($event->text, 250) !!}</p>
                 <a href="/public/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
                 @if(isset(Auth::user()->name))
                   @if(Auth::user()->name == $event->posted_by ||Auth::user()->name == "Admin" )
@@ -53,7 +54,7 @@
                 <div class="block_img">
                   <img src="/public/uploads/{{$event->data}}" alt="{{$event->data}}">
                   <h1>{{$event->title}}</h1>
-                  <p>{{$event->text}}</p>
+                  <p>{!! str_limit($event->text, 250) !!}</p>
                   <a href="/public/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
                   @if(isset(Auth::user()->name))
                     @if(Auth::user()->name == $event->posted_by ||Auth::user()->name == "Admin" )
@@ -91,7 +92,7 @@
               <h1>{{$data[$i]["title"]}}</h1>
 
               <!--  TEXT -->
-              <?= $data[$i]["snippets"][1]["body"]["text"]?> <!--  Dit moet zo gedaan worden want met blade stuff displayed hij de <p> tags nog...-->
+              <p>{!! str_limit(($data[$i]["snippets"][1]["body"]["text"]),250); !!}</p>
               <div class="btn-section_">
                 <a href="https://www.gate15.be/nl/nieuws/{{$data[$i]["slug"]}}" target="_blank" class="btn-custom"> + meer lezen </a>
               </div>

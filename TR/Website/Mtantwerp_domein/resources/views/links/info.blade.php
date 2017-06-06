@@ -35,11 +35,15 @@
       </a>
       <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="blank">
           <h3>Antwerpen LEEFT</h3>
-          Ken je alle hotspots? Blijf op de hoogte van nieuws en evenementen door de facebook pagina te volgen!
+          Ken je alle hotspots van Antwerpen?
+          Blijf op de hoogte van nieuws en evenementen
+          door de facebook pagina te volgen en leer nieuwe plekjes kennen!
+
       </a>
       <a href="https://www.antwerpen.be/nl/vacatures/overzicht" target="blank">
           <h3>Werkgelegenheid</h3>
           Na je studie is er een grotere kans dat je in Antwerpen kan werken aangezien het een atypische studentenstad is.
+          Neem snel een kijkje bij de vacatures.
       </a>
       <a href="https://www.studentkotweb.be/" target="blank">
           <h3>Op Kot</h3>

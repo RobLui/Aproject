@@ -4,9 +4,9 @@
 <title>Home</title>
 <div class="container index">
   <div class="slider">
-    <img class="slide_img" src="./images/sliderMockUp.jpg" alt="gameApp">
-    <img class="slide_img" src="./images/infoHead.jpg" alt="infoHead">
-    <img class="slide_img" src="./images/slide_studay.jpg" alt="studay">
+    <a href="https://play.google.com/store?hl=nl" target="blank"><img class="slide_img" src="./images/sliderMockUp.jpg" alt="gameApp"></a>
+    <a href="/public/info" target="blank"><img class="slide_img" src="./images/infoHead.jpg" alt="infoHead"></a>
+    <a href="http://www.studay.be/" target="blank"><img class="slide_img" src="./images/slide_studay.jpg" alt="studay"></a>
   </div>
 
 <div class="homeContainer">

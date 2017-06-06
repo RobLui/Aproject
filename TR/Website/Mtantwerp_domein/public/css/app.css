@@ -3440,7 +3440,7 @@
               }
 
               .dropdown-menu {
-                  position: absolute;
+                  /*position: absolute;*/
                   top: 100%;
                   left: 0;
                   z-index: 1000;
@@ -3521,7 +3521,9 @@
               }
 
               .open>.dropdown-menu {
-                  display: block
+                  display: block;
+                  /*ROBBERT*/
+                  /*position: absolute;*/
               }
 
               .open>a {
@@ -3985,7 +3987,7 @@
 
               .navbar {
                   position: relative;
-                  min-height: 50px;
+                  /*min-height: 105px;*/
                   /*margin-bottom: 22px;*/
                   border: 1px solid transparent
               }
