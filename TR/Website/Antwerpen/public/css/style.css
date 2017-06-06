@@ -1991,3 +1991,97 @@
   .form-group {
       margin-top: 0.5em;
   }
+
+
+  .error-panel{
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .error-panel h1,   .error-panel h2, .h4error, .blijftDuif {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+
+  .error-panel h1{
+    font-size: 40px;
+
+  }
+
+  .duifImg {
+      margin: 0 auto;
+      width: 20em;
+      margin-top: 5%;
+      display: block;
+
+
+    }
+
+  a.blijftDuifA {
+    display: inline;
+    text-align:center;
+
+  }
+
+  .blijftDuif{
+        font-size: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
+  }
+
+
+
+    @media (max-width:400px) {
+
+      .error-panel h1{
+        font-size: 30px;
+
+      }
+
+      .error-panel h2{
+        font-size: 20px;
+      }
+
+      .h4error{
+        font-size: 15px;
+        padding-left: 15%;
+        padding-right: 15%;
+      }
+
+      .slider{
+        display: none;
+      }
+
+
+
+}
+
+
+    @media (max-width:350px) {
+      .footerContainer p {
+        color: #D11F38 !important;
+        font-size: 10px!important;
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+      }
+
+      .footerContainer a{
+        color: #D11F38 !important;
+      }
+
+      .duifImg{
+        padding-bottom: 5%;
+      }
+
+    }
