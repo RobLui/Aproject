@@ -1075,16 +1075,6 @@ input[type=text], select, textarea {
     margin-top: 1em;
 }
 
-.mid_container .left-sq, .mid_container .right-sq {
-    width: 45%;
-}
-
-.mid_container .left-sq a, .mid_container .right-sq a {
-    margin: 0 auto;
-    display: block;
-    padding-top: 35%;
-}
-
 .mid_headers {
     padding-bottom: 0.5em;
     text-align: left;
@@ -1231,9 +1221,6 @@ h1 {
     .mid_container {
         margin-top: 2em;
     }
-}
-
-@media (max-width: 767px) {
     .block, .mid_headers, .infoRight, .infoLeft {
         margin: 0 auto;
     }
@@ -1304,6 +1291,9 @@ h1 {
         display: block;
         text-align: center;
         width: 100%;
+        margin: 0 auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
     ._admin a {
         display: block;
@@ -1311,18 +1301,6 @@ h1 {
         width: 100%;
         padding-top: 1em;
         padding-bottom: 1em;
-    }
-    /*.one {
-        margin: 0 auto;
-        width: 14em;
-        height: 14em;
-        display: block;
-    }*/
-    .one ._admin {
-        margin: 0 auto;
-        margin-top: 1em;
-        width: 75%;
-        margin-bottom: 1em;
     }
     .panel-default {
         margin: 0 auto;
@@ -1361,13 +1339,9 @@ h1 {
     .menu li {
         float: left;
         display: block;
-        /*width: 7em;*/
-        /*margin-top: 2em;*/
-        /*margin-left: 0.5em;*/
         height: 100%;
         text-align: center;
         padding: 0;
-        /*margin: 0;*/
     }
     .menu {
         padding: 0;
@@ -1386,30 +1360,19 @@ h1 {
         display: block;
         width: 50%;
     }
-    ._admin {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 1em;
-        display: block;
-        float: left;
-        width: 12.5em;
-        height: 12.5em;
-        text-align: center;
-    }
     ._admin a {
         display: block;
         height: 100%;
         width: 100%;
-        padding-top: 5em;
+        padding: 2em;
+    }
+    ._admin {
+        margin-top: 1em;
     }
     .one {
         margin: 0 auto;
-        width: 50em;
-        height: 15em;
+        width: 50%;
         display: block;
-    }
-    .one ._admin {
-        margin-left: 15%;
     }
 }
 

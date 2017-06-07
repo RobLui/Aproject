@@ -51,10 +51,10 @@
           opgelegd door de stad Antwerpen.
           Neem zeker een kijkje!
       </a>
-      <a href="http://www.robbert.luit.mtantwerp.eu/public/ontdek" target="blank">
-          <h3>Ontdek 't Stad!</h3>
-          Antwerpen is een atypische studentenstad met ook een bruisend leven buiten het schooljaar en in weekends.
-          Bekijk zeker wat je niet mag missen!
+      <a href="https://www.gate15.be/nl/blog" target="blank">
+          <h3>Testimonials</h3>
+          Als je eens een mening over de stad als studentenstad wilt lezen door studenten,
+          kan je altijd naar de testimonials gaan kijken op de gate15 pagina!
       </a>
     </div>
   </div>
