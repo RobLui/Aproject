@@ -75,6 +75,7 @@ body {
 .panel-content {
     padding: 1em;
     text-align: center;
+    padding-bottom: 3em;
 }
 
 .navbar-default {
