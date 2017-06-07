@@ -73,7 +73,7 @@ body {
 }
 
 .panel-content {
-    padding: 2em;
+    padding: 1em;
     text-align: center;
 }
 
@@ -1364,14 +1364,14 @@ h1 {
         display: block;
         height: 100%;
         width: 100%;
-        padding: 2em;
+        padding: 5em;
     }
     ._admin {
         margin-top: 1em;
     }
     .one {
         margin: 0 auto;
-        width: 50%;
+        width: 30%;
         display: block;
     }
 }
