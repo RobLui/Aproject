@@ -149,7 +149,6 @@ button {
 /* Admin toggle / logout*/
 
 .menu {
-    z-index: 2;
     /*position: absolute;*/
     margin-bottom: 5em;
     width: 100%;
@@ -167,7 +166,6 @@ button {
 }
 
 .dropdown-menu {
-    z-index: 2;
     position: relative;
 }
 
@@ -1036,6 +1034,7 @@ input[type=text], select, textarea {
 .panel.panel-default h2 {
     text-align: center;
     padding-top: 1em;
+    font-size: 250%;
 }
 
 .mid_container .left, .mid_container .right {
@@ -1199,25 +1198,34 @@ h1 {
 .news_m {
     margin: 0 auto;
     text-align: center;
-    height: 5em;
     display: block;
     background-image: url("/public/images/lowpoly.jpg");
     background-position: center;
-    width: 30%;
 }
 
 .news_m a {
-    margin-top: 1em;
+    /*height: 5em;*/
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
     height: 100%;
     width: 100%;
     color: white;
     display: block;
 }
 
+@media(min-width:768px) {
+    .news_m {
+        width: 25%;
+    }
+}
+
 
 /*-------------------- MEDIA QUERIES --------------------*/
 
 @media (max-width: 767px) {
+    .news_m {
+        width: 75%;
+    }
     .mid_container {
         margin-top: 2em;
     }
@@ -1245,8 +1253,9 @@ h1 {
         padding-top: 1em;
     }
     .menu li a {
-        padding: 0;
         margin: 0;
+        padding-top: 1em;
+        padding-bottom: 1em;
         text-align: center;
     }
     .menu li a:visited {
@@ -1785,6 +1794,13 @@ h1 {
     width: 90%;
     margin: 0 auto;
     font-size: 150%;
+}
+
+@media(max-height:768px) {
+    .block_img h1 {
+        margin-top: 1em;
+        font-size: 120%;
+    }
 }
 
 .block_img p {
