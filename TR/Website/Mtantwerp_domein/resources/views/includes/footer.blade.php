@@ -10,9 +10,9 @@
         </div>
 
         <div class="footerItem">
-          <a href="www.antwerpen.be"><img src="http://www.robbert.luit.mtantwerp.eu/public/images/fb.png" alt="facebook"  class="footerLogo"></a>
-          <a href="www.antwerpen.be"><img src="http://www.robbert.luit.mtantwerp.eu/public/images/googlePlay.png" alt="googlePlay" class="footerLogo"></a>
-          <a href="www.antwerpen.be"><img src="http://www.robbert.luit.mtantwerp.eu/public/images/appleStore.png" alt="appleStore" class="footerLogo"></a>
+          <a href="https://www.facebook.com/stad.antwerpen/"><img src="http://www.robbert.luit.mtantwerp.eu/public/images/fb.png" alt="facebook" class="footerLogo"></a>
+          <a href="https://play.google.com/store/search?q=antwerpen"><img src="http://www.robbert.luit.mtantwerp.eu/public/images/googlePlay.png" alt="googlePlay" class="footerLogo"></a>
+          <a href="https://itunes.apple.com/nl/genre/ios/id36?mt=8"><img src="http://www.robbert.luit.mtantwerp.eu/public/images/appleStore.png" alt="appleStore" class="footerLogo"></a>
         </div>
 
         <div class="footerItem">

@@ -2167,3 +2167,8 @@ a.blijftDuifA {
     margin: 0 auto;
     margin-top: 3em;
 }
+
+.block_img a {
+    font-weight: 400;
+    text-decoration: underline;
+}
