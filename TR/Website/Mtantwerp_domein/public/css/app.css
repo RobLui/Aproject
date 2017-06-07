@@ -3989,7 +3989,7 @@
                   position: relative;
                   /*min-height: 105px;*/
                   /*margin-bottom: 22px;*/
-                  border: 1px solid transparent
+                  /*border: 1px solid transparent*/
               }
 
               .navbar:after, .navbar:before {

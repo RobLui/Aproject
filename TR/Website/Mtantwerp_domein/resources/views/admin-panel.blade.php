@@ -12,19 +12,19 @@
 
       <div class="one">
         <div class="_admin">
-          <a href="http://www.robbert.luit.mtantwerp.eu/public/nieuws">Nieuws &amp Evenementen</a>
+          <a href="/public/nieuws">Nieuws &amp Evenementen</a>
         </div>
         <div class="_admin">
-          <a href="http://www.robbert.luit.mtantwerp.eu/public/info/studieaanbod">School/Richtingen</a>
+          <a href="/public/info/studieaanbod">Scholen &amp Richtingen</a>
         </div>
       </div>
 
       <div class="one">
         <div class="_admin">
-          <a href="http://www.robbert.luit.mtantwerp.eu/public/approval">Goedkeuren</a>
+          <a href="/public/approval">Goedkeuren</a>
         </div>
         <div class="_admin">
-          <a href="http://www.robbert.luit.mtantwerp.eu/public/info/studieaanbod">Instellingen</a>
+          <a href="/public/info/studieaanbod">Instellingen</a>
         </div>
       </div>
 
