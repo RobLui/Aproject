@@ -195,6 +195,7 @@ li:nth-child(2) {
     text-align: center;
     display: block;
     margin: auto 0;
+    margin-top: 1em;
 }
 
 .navbar-nav li:first-child a {
@@ -238,7 +239,7 @@ ul.dropdown-menu li {
 div.panel-heading {
     font-size: 1em;
     text-align: center;
-    background-image: url('/public/images/lowpoly.jpg') !important;
+    background-image: url('/public/images/panelbg.jpg') !important;
 }
 
 button.x {
@@ -1827,15 +1828,6 @@ h1 {
 .richtingen .col-sm-4.item .block_img h1 {
     padding-top: 1em;
     padding-bottom: 1em;
-}
-
-.richtingen .col-sm-4.item .block_img img {
-    max-height: 60%;
-    max-width: 100%;
-}
-
-li.dropdown.open {
-    /*margin-bottom: 5em;*/
 }
 
 .active a {

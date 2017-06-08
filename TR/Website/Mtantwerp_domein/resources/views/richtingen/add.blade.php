@@ -1,7 +1,7 @@
 
 <div class="richtingen_center">
     <div class="panel panel-default">
-      <div class="panel-heading x">Instelling toevoegen</div>
+      <div class="panel-heading x">Toevoegen</div>
         <div class="panel-content">
           <!-- CREATE -->
           {!! Form::open(array('url'=>'/info/studieaanbod/add','method'=>'POST', 'files'=>true, 'class'=>'form-horizontal')) !!}

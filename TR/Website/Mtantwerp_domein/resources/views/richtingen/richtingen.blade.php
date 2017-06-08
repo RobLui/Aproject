@@ -27,9 +27,9 @@
         @foreach($richtingen as $richting)
         <div class="richtingen">
           <div class="col-sm-4 item">
-            <div class="block_img">
-              <h1><a href="{{$richting->url}}" target="_blank">{{$richting->title}} </a></h1>
-              <img src="http://www.robbert.luit.mtantwerp.eu/public/uploads/{{$richting->afbeelding}}" alt="{{$richting->afbeelding}}">
+                <h1><a href="{{$richting->url}}" target="_blank">{{$richting->title}} </h1>
+                  <img src="http://www.robbert.luit.mtantwerp.eu/public/uploads/{{$richting->afbeelding}}" alt="{{$richting->afbeelding}}" class="img-responsive">
+                </a>
               @if(isset(Auth::user()->name))
                 @if(Auth::user()->name == "Admin")
                 <div class="block_">
@@ -37,7 +37,6 @@
                 </div>
                 @endif
               @endif
-              </div>
             </div>
           </div>
           @endforeach

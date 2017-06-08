@@ -22,36 +22,36 @@
     </div>
 
     <div class="rwpa">
-      <a href="http://www.robbert.luit.mtantwerp.eu/public/info/studieaanbod" target="blank">
+      <a href="/public/info/studieaanbod" target="_blank">
         <h3>Studieaanbod</h3>
           Er nog niet helemaal uit wat je wil studeren?
           Klik hier voor een volledig overzicht van scholen en hun richting aanbod!
       </a>
-      <a href="http://www.belgianrail.be/" target="blank">
+      <a href="http://www.belgianrail.be/" target="_blank">
         <h3>Pendelaars</h3>
           Niet van Antwerpen? Welkom Avonturier!
           Op de website van De Lijn en NMBS
           kan je kijken hoe je hier snelst geraakt.
       </a>
-      <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="blank">
+      <a href="https://www.facebook.com/Antwerpen-leeft-1524612521197719/" target="_blank">
           <h3>Antwerpen LEEFT</h3>
           Ken je alle hotspots van Antwerpen?
           Blijf op de hoogte van nieuws en evenementen
           door de facebook pagina te volgen en leer nieuwe plekjes kennen!
 
       </a>
-      <a href="https://www.antwerpen.be/nl/vacatures/overzicht" target="blank">
+      <a href="https://www.antwerpen.be/nl/vacatures/overzicht" target="_blank">
           <h3>Werkgelegenheid</h3>
           Na je studie is er een grotere kans dat je in Antwerpen kan werken aangezien het een atypische studentenstad is.
           Neem snel een kijkje bij de vacatures.
       </a>
-      <a href="https://www.studentkotweb.be/" target="blank">
+      <a href="https://www.studentkotweb.be/" target="_blank">
           <h3>Op Kot</h3>
           Kotweb kent een label toe aan de koten die voldoen aan de kwaliteitseisen die werden
           opgelegd door de stad Antwerpen.
           Neem zeker een kijkje!
       </a>
-      <a href="https://www.gate15.be/nl/blog" target="blank">
+      <a href="https://www.gate15.be/nl/blog" target="_blank">
           <h3>Testimonials</h3>
           Als je eens een mening over de stad als studentenstad wilt lezen door studenten,
           kan je altijd naar de testimonials gaan kijken op de gate15 pagina!
