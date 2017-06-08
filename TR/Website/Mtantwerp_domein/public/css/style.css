@@ -2131,10 +2131,23 @@ a.blijftDuifA {
     text-align: left !important;
 }
 
-.allowpage {
-    width: 75%;
-    margin: 0 auto;
-    margin-top: 3em;
+@media(max-width:768px) {
+    .allowpage {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 3em;
+    }
+    .allowpage .table {
+        width: 75% !important;
+    }
+}
+
+@media(min-width:768px) {
+    .allowpage {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 3em;
+    }
 }
 
 .block_img a {
