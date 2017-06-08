@@ -4,12 +4,16 @@
 <title>Info</title>
 <div class="container">
 
-  <img src="images/infoHead.jpg" alt="infoHead" class="infoHead">
+  <a href="https://www.gate15.be/nl/blog">
+    <img src="images/infoHead.jpg" alt="testimonials" class="infoHead">
+  </a>
 
     <!--  STUDEREN IN ANTWERPEN -->
     <div class="mid_container">
       <div class="block">
+
         <img src="http://www.robbert.luit.mtantwerp.eu/public/images/waaromStuderenInAntwerpen.jpg" alt="waaromStuderenInAntwerpen" class="infoLeft">
+
         <div class="infoRight">
             <h1 class="mid_headers">Waarom studeren in Antwerpen?</h1>
             <p>

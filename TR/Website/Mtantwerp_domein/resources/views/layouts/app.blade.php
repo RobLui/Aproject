@@ -8,6 +8,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
     <!-- Styles -->
     <link href="http://www.robbert.luit.mtantwerp.eu/public/css/app.css" rel="stylesheet">
     <link href="http://www.robbert.luit.mtantwerp.eu/public/css/style.css" rel="stylesheet" >
@@ -46,12 +48,17 @@
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
+
                     <!-- Collapsed Hamburger -->
+                    <div class="hamburgerTitel">
+                      <h3> Studeren in Antwerpen</h3>
+                    </div>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
                         <span class="sr-only">Toggle Navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+
                     </button>
                 </div>
 
@@ -83,7 +90,7 @@
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
                                         <a href="{{ url('/logout') }}"
-                                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout
+                                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Uitloggen
                                         </a>
                                         <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
                                             {{ csrf_field() }}
