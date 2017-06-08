@@ -50,9 +50,7 @@
                 <div class="navbar-header">
 
                     <!-- Collapsed Hamburger -->
-                    <div class="hamburgerTitel">
-                      <h3> Studeren in Antwerpen</h3>
-                    </div>
+                    <h3 class="hamburgerTitel"> Studeren in Antwerpen</h3>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
                         <span class="sr-only">Toggle Navigation</span>
                         <span class="icon-bar"></span>
