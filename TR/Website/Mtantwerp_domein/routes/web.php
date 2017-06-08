@@ -43,40 +43,28 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
   Route::get('/info/studieaanbod/delete/{id}', 'InfoController@delete');
 
 // NIEUWS / EVENTS
-  // EDIT nieuws/event
-  // Route::get('nieuws/edit/{id}', function () { // view
-  //   return view('nieuws/nieuws');
-  // });
   Route::get('/nieuws/edit/{id}', 'nieuwsController@edit');
-  // DELETE nieuws/event
-  // Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
 
 // ADMIN PANEL
-Route::get('/admin-panel', 'adminController@index');
+  Route::get('/admin-panel', 'adminController@index');
 
-// ERROR
-Route::get('/404', 'errorController@index');
+  // ----------------------- PLACES  -----------------------
+    //PLACES TO EAT
+    Route::get('ontdek/eet-plekskes', function () {
+        return view('places/placesToEat');
+    });
 
-//PLACES TO EAT
-Route::get('ontdek/eet-plekskes', function () {
-    return view('places/placesToEat');
-});
+    // PLACES TO SEE
+    Route::get('ontdek/toffe-plekskes', function () {
+        return view('places/placesToSee');
+    });
 
-// PLACES TO SEE
-Route::get('ontdek/toffe-plekskes', function () {
-    return view('places/placesToSee');
-});
-
-// PLACES TO STUDY
-Route::get('ontdek/studie-plekskes', function () {
-    return view('places/placesToStudy');
-});
+    // PLACES TO STUDY
+    Route::get('ontdek/studie-plekskes', function () {
+        return view('places/placesToStudy');
+    });
 
 Route::post('nieuws/fileupload', 'ArticleController@upload');
 
-// //TESTIMONIAL
-// Route::get('/testimonial', 'testimonialController@index');
-// Route::get('/approval', function () {
-//     return view('nieuws/goedkeurpagina');
-// });
+// ADMIN APPROVAL
 Route::get('/approval', 'AllowController@index');

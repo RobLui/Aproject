@@ -26,7 +26,7 @@
 				</div>
 				<h1>Eet plekskes</h1>
 				<div class="block_img">
-					<img src="images/ontdek/eet_plekskes.jpg" alt="restaurant Antwerpen">
+					<img src="images/ontdek/eet_plekskes.jpg" alt="eet plekskes">
 					<div class="block_">
 						<p>
 							Eten is belangrijk. Dat is een feit. <br>
@@ -49,7 +49,7 @@
 				</div>
 				<h1>Studie plekskes</h1>
 				<div class="block_img">
-					<img src="images/ontdek/studie_plekskes.jpg" alt="300">
+					<img src="images/ontdek/studie_plekskes.jpg" alt="studie plekskes">
 					<p class="columnText">
 						Zit je op kot of wil je thuis niet gestoord worden tijdens het studeren? <br>
 						Ben je het beu om op een witte muur te kijken?
@@ -70,7 +70,7 @@
 			</div>
 				<h1>Toffe plekskes</h1>
 				<div class="block_img">
-					<img src="images/ontdek/schoon_plekskes.jpg" alt="300">
+					<img src="images/ontdek/schoon_plekskes.jpg" alt="schoon plekskes">
 					<p class="columnText">
 						Student zijn is niet enkel studeren. "Het zijn de mooiste jaren van je leven". <br>
 						Kom daarom zeker eens van achter je bureau en neem een kijkje in het mooie antwerpen!

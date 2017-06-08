@@ -5,7 +5,7 @@
 <div class="container index">
   <div class="slider">
     <a href="https://play.google.com/store?hl=nl" target="blank"><img class="slide_img" src="./images/sliderMockUp.jpg" alt="gameApp"></a>
-    <a href="/public/info" target="blank"><img class="slide_img" src="./images/infoHead.jpg" alt="infoHead"></a>
+    <a href="https://www.gate15.be/nl/trots" target="blank"><img class="slide_img" src="./images/infoHead.jpg" alt="infoHead"></a>
     <a href="http://www.studay.be/" target="blank"><img class="slide_img" src="./images/slide_studay.jpg" alt="studay"></a>
   </div>
 
@@ -18,7 +18,7 @@
 
       <h1>Ontdek de stad</h1>
       <div class="block_img">
-        <img src="./images/ontdekDeStadIndex.jpg" alt="img">
+        <img src="./images/ontdekDeStadIndex.jpg" alt="ontdek de stad">
         <p>Nieuw in Antwerpen?
           Wat valt er zoal te doen in ‘t Stad?
           Wij geven je alvast 10 dingen die je zeker niet mag missen!
@@ -53,7 +53,7 @@
       </div>
       <h1>Nieuws & Evenementen</h1>
       <div class="block_img">
-        <img src="./images/NieuwsEnEvenementenIndex.jpg" alt="img">
+        <img src="./images/NieuwsEnEvenementenIndex.jpg" alt="nieuws en evenementen">
         <p>Pauzeren hoort nu eenmaal bij studeren.
           Waar gaan feestjes door? Al naar de Stu Day geweest?
           Geïntereseerd in een nieuwe studierichtig?

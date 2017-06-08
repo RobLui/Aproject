@@ -40,7 +40,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                  <img src="/public/images/eetPlekskes/restaurant_1.jpeg" alt="1">
+                  <img src="/public/images/eetPlekskes/restaurant_1.jpeg" alt="Komida">
                     <h4>Komida</h4>
                     <div class="block_">
                       <p>

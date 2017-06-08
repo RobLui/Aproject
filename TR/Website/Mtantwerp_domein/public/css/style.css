@@ -322,6 +322,7 @@ ul.richtingen_class {
 
 .artikel .mid_container p, .testimonial .mid_container p {
     margin: 3em;
+    text-align: left;
 }
 
 .artikel .mid_container p:first-child, .testimonial .mid_container p:first-child {
@@ -859,6 +860,7 @@ input[type=text], select, textarea {
     margin: 0 auto;
     z-index: 2;
     margin-top: 19%;
+    font-family: "Antwerpen";
 }
 
 .footerLogo {
@@ -1872,6 +1874,9 @@ h1 {
         padding-left: 5%;
         padding-right: 5%;
     }
+    .richtingen .col-sm-4.item {
+        height: 35em;
+    }
 }
 
 
@@ -2012,7 +2017,7 @@ h1 {
 @media (max-width:767px) {
     li.aanmeldenNav a {
         display: block;
-        width: 75%;
+        width: 65%;
         padding-top: 5%;
         padding-bottom: 5%;
     }
@@ -2039,7 +2044,7 @@ h1 {
         margin: 0;
     }
     .aanmeldenNav a {
-        margin-left: 5%;
+        margin-left: 4.5%;
         max-width: 100%;
     }
 }
@@ -2157,4 +2162,13 @@ a.blijftDuifA {
 
 .form-group a {
     text-decoration: none;
+}
+
+.artikel .mid_container p, .testimonial .mid_container p {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.artikel.block_img p {
+    text-align: left;
 }
