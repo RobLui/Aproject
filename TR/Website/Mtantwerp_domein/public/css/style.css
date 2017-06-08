@@ -1378,6 +1378,7 @@ h1 {
         height: 100%;
         width: 100%;
         padding: 5em;
+        margin-top: 1em;
     }
     ._admin {
         margin-top: 1em;
@@ -2172,3 +2173,5 @@ a.blijftDuifA {
 .artikel.block_img p {
     text-align: left;
 }
+
+#carousel-inner .item

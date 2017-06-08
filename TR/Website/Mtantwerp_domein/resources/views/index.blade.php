@@ -3,6 +3,7 @@
 @section('content')
 <title>Home</title>
 <div class="container index">
+
   <div class="slider">
     <a href="https://play.google.com/store?hl=nl" target="blank"><img class="slide_img" src="./images/sliderMockUp.jpg" alt="gameApp"></a>
     <a href="https://www.gate15.be/nl/trots" target="blank"><img class="slide_img" src="./images/infoHead.jpg" alt="infoHead"></a>
