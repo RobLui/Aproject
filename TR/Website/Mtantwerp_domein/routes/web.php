@@ -11,7 +11,6 @@ Route::get('/info', 'InfoController@index');
 Route::get('/nieuws', 'nieuwsController@index');
 Route::get('/info/studieaanbod', 'InfoController@indexRichting');
 
-
 // ----------------------- HOME -----------------------
   // HOME & INDEX - home controllers
   Route::get('/', 'ArticleController@index');
@@ -45,24 +44,19 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
 // NIEUWS / EVENTS
   Route::get('/nieuws/edit/{id}', 'nieuwsController@edit');
 
-// ADMIN PANEL
-  Route::get('/admin-panel', 'adminController@index');
-
-  // ----------------------- PLACES  -----------------------
-    //PLACES TO EAT
-    Route::get('ontdek/eet-plekskes', function () {
-        return view('places/placesToEat');
-    });
-
-    // PLACES TO SEE
-    Route::get('ontdek/toffe-plekskes', function () {
-        return view('places/placesToSee');
-    });
-
-    // PLACES TO STUDY
-    Route::get('ontdek/studie-plekskes', function () {
-        return view('places/placesToStudy');
-    });
+// ----------------------- PLACES  -----------------------
+  //PLACES TO EAT
+  Route::get('ontdek/eet-plekskes', function () {
+      return view('places/placesToEat');
+  });
+  // PLACES TO SEE
+  Route::get('ontdek/toffe-plekskes', function () {
+      return view('places/placesToSee');
+  });
+  // PLACES TO STUDY
+  Route::get('ontdek/studie-plekskes', function () {
+      return view('places/placesToStudy');
+  });
 
 Route::post('nieuws/fileupload', 'ArticleController@upload');
 

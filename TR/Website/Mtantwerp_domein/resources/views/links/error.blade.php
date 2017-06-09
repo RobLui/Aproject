@@ -3,40 +3,24 @@
 @section('content')
 
 <title>Page 404</title>
-<body>
 
 <div class="container">
-
-	<!-- #main -->
 	<section class="main">
+		<div class="mainContainer">
 
-  		<!-- .container -->
-  		<div class="mainContainer">
+			<div class="error-panel">
+				<h1>Oops..</h1>
+					<br>
+					<h2> Je bent precies een beetje verdwaald.</h2>
+			</div>
 
-				<div class="error-panel">
-					<h1>Oops..</h1>
- 					<br>
- 					<h2> Je bent precies een beetje verdwaald.</h2>
-				</div>
+			<h4 class="h4error">Klik op de duif, hij zal je wel terug op het goede pad zetten.</h4>
 
-				<h4 class="h4error">Klik op de duif, hij zal je wel terug op het goede pad zetten.</h4>
+			<p class="blijftDuif">Of niet.. We beloven niets. Het blijft een duif he...</p>
 
-				<p class="blijftDuif">Of niet.. We beloven niets. Het blijft een duif he...</p>
-
-				  <a href="http://robbert.luit.mtantwerp.eu/public/home"><img class="duifImg" src="http://www.robbert.luit.mtantwerp.eu/public/images/error404.gif" alt="error404.gif"></a>
-
-
-
-
-
-      </div>
-
-	</div>
-
+			  <a href="http://robbert.luit.mtantwerp.eu/public/home"><img class="duifImg" src="http://www.robbert.luit.mtantwerp.eu/public/images/error404.gif" alt="error404.gif"></a>
+    </div>
 	</section>
-
-</body>
-
-</html>
+</div>
 
 @endsection

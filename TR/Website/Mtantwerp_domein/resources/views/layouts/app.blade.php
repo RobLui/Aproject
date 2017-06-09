@@ -44,74 +44,68 @@
 
 </head>
 <body>
-    <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
+  <div id="app">
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- Collapsed Hamburger -->
+          <h3 class="hamburgerTitel"> Studeren in Antwerpen</h3>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+        </div>
 
-                    <!-- Collapsed Hamburger -->
-                    <h3 class="hamburgerTitel"> Studeren in Antwerpen</h3>
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+        <div class="collapse navbar-collapse" id="app-navbar-collapse">
+          <ul class="menu">
+            <!-- Left Side Of Navbar -->
+            <li class="logoImg"><a href="{{ url('/home') }}"><img src="/public/images/logo.png" alt="Logo Antwerpen"/></a></li>
+            <!-- HOME -->
+            <li class='{{ Request::is('home') ? 'active' : "" }}'><a href="{{ url('/home') }}">Home</a></li>
+            <!-- ONTDEK -->
+            <li class='{{ Request::is('ontdek') ? 'active' : "" }}'><a href="{{ url('/ontdek') }}">Ontdek</a></li>
+            <!-- INFO -->
+            <li class='{{ Request::is('info') ? 'active' : "" }}'><a href="{{ url('/info') }}">Info</a></li>
+            <!-- NIEUWS -->
+            <li class='{{ Request::is('nieuws') ? 'active' : "" }}'><a href="{{ url('/nieuws') }}">Nieuws</a></li>
 
-                    </button>
-                </div>
+            @if (Auth::guest())
+              <li class='aanmeldenNav'><i class="fa fa-user"></i><a href="{{ url('/login') }} ">Aanmelden</a></li>
+            @else
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    {{ Auth::user()->name }} <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li>
+                        <a href="{{ url('/logout') }}"
+                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Uitloggen
+                        </a>
+                        <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                            {{ csrf_field() }}
+                        </form>
+                    </li>
+                    @if( Auth::user()->name == "Admin")
+                      <li>
+                        <a href="{{ url('/admin-panel') }}">Admin-panel</a>
+                      </li>
+                    @endif
+                </ul>
+              </li>
+            @endif
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
 
-                <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                  <!-- Branding Image -->
-                  <ul class="menu">
-                    <!-- Left Side Of Navbar -->
-                        <li class="logoImg"><a href="{{ url('/home') }}"><img src="/public/images/logo.png" alt="Logo Antwerpen"/></a></li>
-                        <!-- HOME -->
-                        <li class='{{ Request::is('home') ? 'active' : "" }}'><a href="{{ url('/home') }}">Home</a></li>
+  @yield('content')
+  <!-- Scripts -->
+  <script src="http://www.robbert.luit.mtantwerp.eu/public/js/app.js"></script>
+  <script src="http://www.robbert.luit.mtantwerp.eu/public/js/slider.js"></script>
 
-                        <!-- ONTDEK -->
-                        <li class='{{ Request::is('ontdek') ? 'active' : "" }}'><a href="{{ url('/ontdek') }}">Ontdek</a></li>
-
-                        <!-- INFO -->
-                        <li class='{{ Request::is('info') ? 'active' : "" }}'><a href="{{ url('/info') }}">Info</a></li>
-
-                        <!-- NIEUWS -->
-                        <li class='{{ Request::is('nieuws') ? 'active' : "" }}'><a href="{{ url('/nieuws') }}">Nieuws</a></li>
-
-                        @if (Auth::guest())
-                          <li class='aanmeldenNav'><i class="fa fa-user"></i><a href="{{ url('/login') }} ">Aanmelden</a></li>
-                        @else
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        <a href="{{ url('/logout') }}"
-                                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Uitloggen
-                                        </a>
-                                        <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
-                                            {{ csrf_field() }}
-                                        </form>
-                                    </li>
-                                    @if( Auth::user()->name == "Admin")
-                                      <li>
-                                        <a href="{{ url('/admin-panel') }}">Admin-panel</a>
-                                      </li>
-                                    @endif
-                                </ul>
-                            </li>
-                        @endif
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </div>
-      @yield('content')
-      <!-- Scripts -->
-    <script src="http://www.robbert.luit.mtantwerp.eu/public/js/app.js"></script>
-    <script src="http://www.robbert.luit.mtantwerp.eu/public/js/slider.js"></script>
 </body>
 @include('includes.footer')
 </html>

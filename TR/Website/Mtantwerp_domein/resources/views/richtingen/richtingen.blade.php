@@ -27,23 +27,21 @@
         @foreach($richtingen as $richting)
         <div class="richtingen">
           <div class="col-sm-4 item">
-                <h1><a href="{{$richting->url}}" target="_blank">{{$richting->title}} </h1>
-                  <img src="http://www.robbert.luit.mtantwerp.eu/public/uploads/{{$richting->afbeelding}}" alt="{{$richting->afbeelding}}" class="img-responsive">
-                </a>
-              @if(isset(Auth::user()->name))
-                @if(Auth::user()->name == "Admin")
-                <div class="block_">
-                 <p><a href="studieaanbod/edit/{{$richting->id}}" class="btn btn-primary btn-xs edit-btn">aanpassen</a></p>
-                </div>
-                @endif
+            <h1><a href="{{$richting->url}}" target="_blank">{{$richting->title}} </h1>
+              <img src="http://www.robbert.luit.mtantwerp.eu/public/uploads/{{$richting->afbeelding}}" alt="{{$richting->afbeelding}}" class="img-responsive">
+            </a>
+            @if(isset(Auth::user()->name))
+              @if(Auth::user()->name == "Admin")
+              <div class="block_">
+               <p><a href="studieaanbod/edit/{{$richting->id}}" class="btn btn-primary btn-xs edit-btn">aanpassen</a></p>
+              </div>
               @endif
-            </div>
+            @endif
           </div>
-          @endforeach
-        @endif
-
+        </div>
+        @endforeach
+      @endif
     </div>
   </div>
-</div>
 
 @endsection
