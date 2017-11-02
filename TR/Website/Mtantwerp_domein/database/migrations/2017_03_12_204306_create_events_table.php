@@ -13,13 +13,14 @@ class CreateEventsTable extends Migration
           $table->increments('id');
           $table->string('title')->index();
           $table->text('text');
+          $table->boolean('allowed')->default(true);
           $table->string('posted_by')->index();
           $table->text('data'); // BLOB , foto
           $table->timestamps();
           $table->softDeletes();
       });
   }
-  // Opposite of whet the up()
+  // Opposite of the up()
   public function down()
   {
       Schema::dropIfExists('events');

@@ -2,30 +2,36 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\User;
 use App\Event;
-use App\Article;
-use App\Comment;
+use App\User;
 use Auth;
-
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
-use Redirect;
-
-use Validator;
-use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Validation\Validator;
+use function file_get_contents;
+use function stream_context_create;
 
 class nieuwsController extends Controller
 {
 
 // ----------------------- INDEX -----------------------
-    public function index(request $req){
+    public function index(Request $req){
 
       ini_set("allow_url_fopen", 1);
 
+      // Context options -> fixes error
+      $arrContextOptions=array(
+          "ssl"=>array(
+              "verify_peer"=>false,
+              "verify_peer_name"=>false,
+          ),
+      );
+
       // Datasource
-      $json = file_get_contents('https://www.gate15.be/srv/content/d/content-type/10/start/0/limit/10/excluded_tags/trots');
+      $json = file_get_contents('https://www.gate15.be/srv/content/d/content-type/10/start/0/limit/10/excluded_tags/trots', false, stream_context_create($arrContextOptions));
+
       // Source van de data decoded
       $obj = json_decode($json,true);
 
@@ -47,7 +53,7 @@ class nieuwsController extends Controller
     }
 
 // ----------------------- CREATE -----------------------
-    public function create(request $req)
+    public function create(Request $req)
     {
 
       // FILE UPLOAD
