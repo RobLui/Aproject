@@ -11,8 +11,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <!-- Styles -->
-    <link href="http://www.robbert.luit.mtantwerp.eu/public/css/app.css" rel="stylesheet">
-    <link href="http://www.robbert.luit.mtantwerp.eu/public/css/style.css" rel="stylesheet" >
+    <link href="/public/css/app.css" rel="stylesheet">
+    <link href="/public/css/style.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Fonts -->
@@ -103,8 +103,8 @@
 
   @yield('content')
   <!-- Scripts -->
-  <script src="http://www.robbert.luit.mtantwerp.eu/public/js/app.js"></script>
-  <script src="http://www.robbert.luit.mtantwerp.eu/public/js/slider.js"></script>
+  <script src="/public/js/app.js"></script>
+  <script src="/public/js/slider.js"></script>
 
 </body>
 @include('includes.footer')

@@ -4,7 +4,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-5">
-      <a href="/public/info/studieaanbod">← Terug naar studieaanbod</a>
+      <a href="/info/studieaanbod">← Terug naar studieaanbod</a>
         <br><br>
           <div class="panel panel-default">
             <div class="panel-heading aanpassen">Aanpassen

@@ -11,13 +11,13 @@
   <div class="panel-content">
       <div class="one">
         <div class="_admin">
-          <a href="/public/nieuws">Nieuws &amp Evenementen</a>
+          <a href="/nieuws">Nieuws &amp Evenementen</a>
         </div>
         <div class="_admin">
-          <a href="/public/info/studieaanbod">Scholen &amp Richtingen</a>
+          <a href="/info/studieaanbod">Scholen &amp Richtingen</a>
         </div>
         <div class="_admin">
-          <a href="/public/approval">Goedkeuren</a>
+          <a href="/approval">Goedkeuren</a>
         </div>
       </div>
   </div>

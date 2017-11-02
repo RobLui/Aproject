@@ -18,7 +18,7 @@
 
 			<p class="blijftDuif">Of niet.. We beloven niets. Het blijft een duif he...</p>
 
-			  <a href="http://robbert.luit.mtantwerp.eu/public/home"><img class="duifImg" src="http://www.robbert.luit.mtantwerp.eu/public/images/error404.gif" alt="error404.gif"></a>
+			  <a href="/home"><img class="duifImg" src="/images/error404.gif" alt="error404.gif"></a>
     </div>
 	</section>
 </div>

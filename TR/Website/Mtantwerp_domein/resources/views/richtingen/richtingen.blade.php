@@ -28,7 +28,7 @@
         <div class="richtingen">
           <div class="col-sm-4 item">
             <h1><a href="{{$richting->url}}" target="_blank">{{$richting->title}} </h1>
-              <img src="http://www.robbert.luit.mtantwerp.eu/public/uploads/{{$richting->afbeelding}}" alt="{{$richting->afbeelding}}" class="img-responsive">
+              <img src="/public/uploads/{{$richting->afbeelding}}" alt="{{$richting->afbeelding}}" class="img-responsive">
             </a>
             @if(isset(Auth::user()->name))
               @if(Auth::user()->name == "Admin")

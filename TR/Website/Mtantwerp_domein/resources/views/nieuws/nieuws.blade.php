@@ -16,7 +16,7 @@
     @if(isset(Auth::user()->name))
       @if(Auth::user()->name == "Admin" || Auth::user()->name == "Student")
       <div class="news_m">
-        <a href="/public/nieuws/add"> Nieuws/Event toevoegen</a>
+        <a href="/nieuws/add"> Nieuws/Event toevoegen</a>
       </div>
       @endif
     @endif
@@ -32,7 +32,7 @@
                 <h1>{{$event->title}}</h1>
                 <!-- <p>{{$event->text}}</p> -->
                 <p>{!! str_limit($event->text, 250) !!}</p>
-                <a href="/public/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
+                <a href="/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
                 @if(isset(Auth::user()->name))
                   @if(Auth::user()->name == $event->posted_by ||Auth::user()->name == "Admin" )
                     <div class="form-group">
@@ -55,7 +55,7 @@
                   <img src="/public/uploads/{{$event->data}}" alt="{{$event->data}}">
                   <h1>{{$event->title}}</h1>
                   <p>{!! str_limit($event->text, 250) !!}</p>
-                  <a href="/public/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
+                  <a href="/nieuws/artikel/{{$event->id}}" target="_blank" class="btn-custom"> + meer lezen </a>
                   @if(isset(Auth::user()->name))
                     @if(Auth::user()->name == $event->posted_by ||Auth::user()->name == "Admin" )
                       <div class="form-group">

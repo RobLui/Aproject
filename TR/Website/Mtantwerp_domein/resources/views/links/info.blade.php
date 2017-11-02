@@ -13,7 +13,7 @@
   <div class="mid_container">
     <div class="block">
 
-      <img src="http://www.robbert.luit.mtantwerp.eu/public/images/waaromStuderenInAntwerpen.jpg" alt="waaromStuderenInAntwerpen" class="infoLeft">
+      <img src="/public/images/waaromStuderenInAntwerpen.jpg" alt="waaromStuderenInAntwerpen" class="infoLeft">
 
       <div class="infoRight">
           <h1 class="mid_headers">Waarom studeren in Antwerpen?</h1>
@@ -28,7 +28,7 @@
 
   <!-- BLOKKEN MET ELEMENTEN -->
   <div class="rwpa">
-    <a href="/public/info/studieaanbod" target="_blank">
+    <a href="/info/studieaanbod" target="_blank">
       <h3>Studieaanbod</h3>
         Er nog niet helemaal uit wat je wil studeren?
         Klik hier voor een volledig overzicht van scholen en hun richting aanbod!
