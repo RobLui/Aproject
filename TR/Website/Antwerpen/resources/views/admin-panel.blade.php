@@ -21,7 +21,7 @@
 
       <div class="one">
         <div class="_admin">
-          <a href="/approval">Goedkeuren</a>
+          <a href="#">Goedkeuren</a>
         </div>
         <div class="_admin">
           <a href="/info/studieaanbod">Instellingen</a>

@@ -9,7 +9,7 @@
     <!--  STUDEREN IN ANTWERPEN -->
     <div class="mid_container">
       <div class="block">
-        <img src="http://www.robbert.luit.mtantwerp.eu/public/images/waaromStuderenInAntwerpen.jpg" alt="waaromStuderenInAntwerpen" class="infoLeft">
+        <img src="/images/waaromStuderenInAntwerpen.jpg" alt="waaromStuderenInAntwerpen" class="infoLeft">
         <div class="infoRight">
             <h1 class="mid_headers">Waarom studeren in Antwerpen?</h1>
             <p>
@@ -22,7 +22,7 @@
     </div>
 
     <div class="rwpa">
-      <a href="http://www.robbert.luit.mtantwerp.eu/public/info/studieaanbod" target="blank">
+      <a href="/info/studieaanbod" target="blank">
         <h3>Studieaanbod</h3>
           Er nog niet helemaal uit wat je wil studeren?
           Klik hier voor een volledig overzicht van scholen en hun richting aanbod!
@@ -47,7 +47,7 @@
           opgelegd door de stad Antwerpen.
           Neem zeker een kijkje!
       </a>
-      <a href="http://www.robbert.luit.mtantwerp.eu/public/ontdek" target="blank">
+      <a href="/ontdek" target="blank">
           <h3>Ontdek 't Stad!</h3>
           Antwerpen is een atypische studentenstad met ook een bruisend leven buiten het schooljaar en in weekends.
           Bekijk zeker wat je niet mag missen!
