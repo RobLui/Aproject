@@ -12,7 +12,7 @@ class adminController extends Controller
   {
     if (Auth::check())
     {
-      if (Auth::user()->name == "Admin") {
+      if (Auth::user()->name == "Admin" || Auth::user()->email == "robbertluit@hotmail.com") {
         return view('admin-panel');
       }
     }

@@ -62,3 +62,6 @@ Route::post('nieuws/fileupload', 'ArticleController@upload');
 
 // ADMIN APPROVAL
 Route::get('/approval', 'AllowController@index');
+
+Route::get('/admin-panel', 'AdminController@index');
+
