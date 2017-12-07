@@ -13,7 +13,7 @@ use Illuminate\Validation\Validator;
 use function file_get_contents;
 use function stream_context_create;
 
-class nieuwsController extends Controller
+class NieuwsController extends Controller
 {
 
 // ----------------------- INDEX -----------------------

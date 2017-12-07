@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class errorController extends Controller
+class ErrorController extends Controller
 {
   public function index()
   {

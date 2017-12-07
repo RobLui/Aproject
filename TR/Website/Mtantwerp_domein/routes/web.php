@@ -1,14 +1,12 @@
 <?php
 
-use Illuminate\Http\Request;
-
 // Routes
 Auth::routes();
 
 // ALGEMENE LINKS
 Route::get('/ontdek', 'OntdekController@index');
 Route::get('/info', 'InfoController@index');
-Route::get('/nieuws', 'nieuwsController@index');
+Route::get('/nieuws', 'NieuwsController@index');
 Route::get('/info/studieaanbod', 'InfoController@indexRichting');
 
 // ----------------------- HOME -----------------------
@@ -18,18 +16,18 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
 
 // ----------------------- NIEUWS -----------------------
   // INDEX ADD
-  Route::get('/nieuws/add', 'nieuwsController@AddIndex');
+  Route::get('/nieuws/add', 'NieuwsController@AddIndex');
   // ADD
-  Route::post('/nieuws/add/nieuw', 'nieuwsController@create');
+  Route::post('/nieuws/add/nieuw', 'NieuwsController@create');
   // EDIT
-  Route::get('nieuws/edit/{id}', 'nieuwsController@edit');
+  Route::get('nieuws/edit/{id}', 'NieuwsController@edit');
   // UPDATE
-  Route::post('nieuws/edit/{id}', 'nieuwsController@update');
+  Route::post('nieuws/edit/{id}', 'NieuwsController@update');
   // DELETE
-  Route::post('/nieuws/delete/{id}', 'nieuwsController@delete');
-  Route::get('/nieuws/delete/{id}', 'nieuwsController@delete');
+  Route::post('/nieuws/delete/{id}', 'NieuwsController@delete');
+  Route::get('/nieuws/delete/{id}', 'NieuwsController@delete');
   // INDIVIDUEEL ARTIKEL
-  Route::get('/nieuws/artikel/{id}', 'nieuwsController@ArtikelIndex');
+  Route::get('/nieuws/artikel/{id}', 'NieuwsController@ArtikelIndex');
 
 // ----------------------- RICHTINGEN  -----------------------
   // CREATE
@@ -42,7 +40,7 @@ Route::get('/info/studieaanbod', 'InfoController@indexRichting');
   Route::get('/info/studieaanbod/delete/{id}', 'InfoController@delete');
 
 // NIEUWS / EVENTS
-  Route::get('/nieuws/edit/{id}', 'nieuwsController@edit');
+  Route::get('/nieuws/edit/{id}', 'NieuwsController@edit');
 
 // ----------------------- PLACES  -----------------------
   //PLACES TO EAT

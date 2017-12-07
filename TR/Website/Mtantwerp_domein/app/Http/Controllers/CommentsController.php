@@ -2,13 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Http\Request;
-use App\Comment;
 use App\Article;
+use App\Comment;
 use App\User;
 use Auth;
-use Illuminate\Support\Facades\URL;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 use Session;
 
 class CommentsController extends Controller
