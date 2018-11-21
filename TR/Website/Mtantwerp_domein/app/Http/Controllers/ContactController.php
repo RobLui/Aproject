@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 class ContactController extends Controller
 {
-  public function index(){
-    return view('links/contact');
-  }
+    public function index()
+    {
+        return view('links/contact');
+    }
 }

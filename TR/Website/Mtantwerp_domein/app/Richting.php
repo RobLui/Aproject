@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Richting extends Model
 {
-  protected $fillable = [
-     'id', 'title', 'url'
-  ];
+    protected $fillable = [
+        'id', 'title', 'url'
+    ];
 }

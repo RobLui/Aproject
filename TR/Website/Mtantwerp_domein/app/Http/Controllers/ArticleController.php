@@ -5,10 +5,10 @@ namespace App\Http\Controllers;
 use App\Article;
 use App\Comment;
 use App\User;
-use Auth;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
-use Session;
 
 class ArticleController extends Controller
 {
@@ -17,31 +17,28 @@ class ArticleController extends Controller
         $user = User::all();
         $article = Article::all();
         $comment = Comment::all();
-
         $user->name = $req->name;
-
         return view('index')
-      ->withArticles($article)
-      ->withComments($comment);
+            ->withArticles($article)
+            ->withComments($comment);
     }
 
     // CREATE
     public function create(Request $request)
     {
         // Check if the user is logged in -> only than, an article can be added
-          if (Auth::check())
-          {
-              // Validatie
+        if (Auth::check()) {
+            // Validatie
             $validator = Validator::make($request->all(), [
-            'title' => 'required|max:255',
-            'url' => 'required|max:255',
+                'title' => 'required|max:255',
+                'url' => 'required|max:255',
             ]);
             // Validatie error handling
             if ($validator->fails()) {
                 return view('/articles/add')->withErrors($validator);
             }
             if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $request->url)) {
-                return view('/articles/add')->withErrors($request->url.' is not a valid URL');
+                return view('/articles/add')->withErrors($request->url . ' is not a valid URL');
             }
 
             // No validation error, continue..
@@ -54,14 +51,14 @@ class ArticleController extends Controller
             $articles->posted_by = Auth::user()->name;
             $articles->save();
 
-            Session::flash('success', ($request->title.' was succesfully created'));
+            Session::flash('success', ($request->title . ' was succesfully created'));
             // Save into db
             return redirect('/');
-          }
-          else {
+        } else {
             return redirect('login');
-          }
+        }
     }
+
     // ELOQUENT EDIT
     public function edit($id)
     {
@@ -74,50 +71,49 @@ class ArticleController extends Controller
             return redirect('/home')->withMessage('msg', 'You are not the user off this article ');
         }
     }
+
     // ELOQUENT UPDATE
     public function update(Request $req, $id)
     {
         $events = Article::findOrFail($id);
-      // Check if the user is logged in -> only than, an article can be added
-      if (Auth::user()->name == $events->posted_by) {
-          // Validation handler
-        $validator = Validator::make($req->all(), [
-        'title' => 'required|max:255',
-        'url' => 'required|max:255',
-        ]);
-      // Validation error, show errors
-        if ($validator->fails()) {
-            return view('/articles/edit')
-          ->withArticles($events)
-          ->withErrors($validator);
+        // Check if the user is logged in -> only than, an article can be added
+        if (Auth::user()->name == $events->posted_by) {
+            // Validation handler
+            $validator = Validator::make($req->all(), [
+                'title' => 'required|max:255',
+                'url' => 'required|max:255',
+            ]);
+            // Validation error, show errors
+            if ($validator->fails()) {
+                return view('/articles/edit')
+                    ->withArticles($events)
+                    ->withErrors($validator);
+            }
+            // Check for valid email through regEX
+            if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $req->url)) {
+                return view('/articles/edit')
+                    ->withArticles($events)
+                    ->withErrors($req->url . ' is not a valid URL');
+            } //if no errors occur, the article can update
+            $events->update($req->all());
+            Session::flash('success', ($req->title . ' was succesfully updated'));
+        } else {
+            Session::flash('error_', ("You can't edit an article that isn't yours!"));
         }
-        // Check for valid email through regEX
-        if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $req->url)) {
-            return view('/articles/edit')
-          ->withArticles($events)
-          ->withErrors($req->url.' is not a valid URL');
-        } //if no errors occur, the article can update
-        $events->update($req->all());
-          Session::flash('success', ($req->title.' was succesfully updated'));
-      } else {
-          Session::flash('error_', ("You can't edit an article that isn't yours!"));
-      }
-
         return redirect('/')->with(compact('id'));
     }
+
     // ELOQUENT DELETE
     public function delete(Request $req, $id)
     {
         $events = Article::findOrFail($id);
-      //cancel if no delete is wanted
-      if (!$req->cancel) {
-          if (Auth::user()->name == $events->posted_by) {
-              $events->delete($req->all());
-              Session::flash('success', ('Succesfully deleted the article'));
-          }
-      }
-
+        //cancel if no delete is wanted
+        if (!$req->cancel) {
+            if (Auth::user()->name == $events->posted_by) {
+                $events->delete($req->all());
+                Session::flash('success', ('Succesfully deleted the article'));
+            }
+        }
         return redirect('/')->with(compact('id'));
     }
-
 }

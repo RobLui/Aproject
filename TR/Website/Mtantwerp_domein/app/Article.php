@@ -7,9 +7,10 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Article extends Model
 {
- use SoftDeletes;
+    use SoftDeletes;
 
- protected $fillable = [
-    'id', 'title', 'url'
- ];
+    protected $fillable = [
+        'id', 'title', 'url'
+    ];
+
 }
