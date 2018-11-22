@@ -18,7 +18,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                    <img src="/images/eetPlekskes/restaurant_1.jpeg" alt="Komida">
+                    <img src="{{ asset('images/eetPlekskes/restaurant_1.jpeg') }}" alt="Komida">
                     <h4>Komida</h4>
                     <div class="block_">
                         <p>
@@ -35,7 +35,7 @@
             <div class="col-sm-4 item">
                 <!-- 2 -->
                 <div class="block_img">
-                    <img src="/images/eetPlekskes/restaurant_2.jpg" alt="AP Studentenrestaurants">
+                    <img src="{{ asset('images/eetPlekskes/restaurant_2.jpg') }}" alt="AP Studentenrestaurants">
                     <h4>AP Studentenrestaurants</h4>
                     <div class="block_">
                         <p class="columnText">
@@ -52,7 +52,7 @@
             <div class="col-sm-4 item">
                 <!-- 3 -->
                 <div class="block_img">
-                    <img src="/images/eetPlekskes/restaurant_3.jpg" alt="Gate15">
+                    <img src="{{ asset('images/eetPlekskes/restaurant_3.jpg') }}" alt="Gate15">
                     <h4>Gate15</h4>
                     <div class="block_">
                         <p class="columnText">

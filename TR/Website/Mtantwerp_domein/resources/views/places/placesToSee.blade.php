@@ -18,7 +18,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                    <img src="/public/images/toffePlekskes/escapeRoom.png" alt="escape Room">
+                    <img src="{{ asset('images/toffePlekskes/escapeRoom.png') }}" alt="escape Room">
                     <h4>Escape Rooms</h4>
                     <div class="block_">
                         <p>
@@ -36,7 +36,7 @@
             <div class="col-sm-4 item">
                 <!-- 2 -->
                 <div class="block_img">
-                    <img src="/public/images/toffePlekskes/kerstmarktAntwerpen.jpg" alt="kerstmarkt Antwerpen">
+                    <img src="{{ asset('images/toffePlekskes/kerstmarktAntwerpen.jpg') }}" alt="kerstmarkt Antwerpen">
                     <h4>Kerstmarkt</h4>
                     <div class="block_">
                         <p class="columnText">
@@ -52,7 +52,7 @@
             <div class="col-sm-4 item">
                 <!-- 3 -->
                 <div class="block_img">
-                    <img src="/public/images/toffePlekskes/MASpanorama.jpg" alt="MAS panorama">
+                    <img src="{{ asset('images/toffePlekskes/MASpanorama.jpg') }}" alt="MAS panorama">
                     <h4>Panorama terras @ MAS</h4>
                     <div class="block_">
                         <p class="columnText">
@@ -72,7 +72,7 @@
             <div class="col-sm-4 item">
                 <!-- 4 -->
                 <div class="block_img">
-                    <img src="/public/images/toffePlekskes/Vlaeykensgang.jpg" alt="Vlaeykensgang">
+                    <img src="{{ asset('images/toffePlekskes/Vlaeykensgang.jpg') }}" alt="Vlaeykensgang">
                     <h4>Vlaeykensgang</h4>
                     <div class="block_">
                         <p class="columnText">
@@ -91,7 +91,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                    <img src="/public/images/toffePlekskes/ontdekDeStad.jpg" alt="Duifkes spotten">
+                    <img src="{{ asset('images/toffePlekskes/ontdekDeStad.jpg') }}" alt="Duifkes spotten">
                     <h4>Duifkes spotten</h4>
                     <div class="block_">
                         <p class="columnText">Duiven, ze horen nu eenmaal bij elke stad. Voornamelijk op pleinen kan je deze gevleugelde vrienden

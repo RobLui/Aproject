@@ -6,14 +6,14 @@
     <div class="container">
 
         <a href="https://www.gate15.be/nl/blog">
-            <img src="images/infoHead.jpg" alt="testimonials" class="infoHead">
+            <img src="{{ asset('images/infoHead.jpg') }}" alt="testimonials" class="infoHead">
         </a>
 
         <!--  STUDEREN IN ANTWERPEN -->
         <div class="mid_container">
             <div class="block">
 
-                <img src="/public/images/waaromStuderenInAntwerpen.jpg" alt="waaromStuderenInAntwerpen" class="infoLeft">
+                <img src="{{ asset('images/waaromStuderenInAntwerpen.jpg') }}" alt="waaromStuderenInAntwerpen" class="infoLeft">
 
                 <div class="infoRight">
                     <h1 class="mid_headers">Waarom studeren in Antwerpen?</h1>

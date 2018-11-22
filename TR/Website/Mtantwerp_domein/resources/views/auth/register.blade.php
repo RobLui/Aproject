@@ -8,7 +8,7 @@
                     <div class="panel-body">
                         <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
                             {{ csrf_field() }}
-                            
+
                             <div class="aanmelden panel">
                                 <h1>Registreren</h1>
                             </div>

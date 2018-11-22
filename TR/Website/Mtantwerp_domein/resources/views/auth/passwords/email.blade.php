@@ -12,7 +12,6 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-
                         <form class="form-horizontal" role="form" method="POST" action="{{ url('/password/email') }}">
                             {{ csrf_field() }}
 
@@ -21,7 +20,6 @@
 
                                 <div class="col-md-6">
                                     <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
-
                                     @if ($errors->has('email'))
                                         <span class="help-block">
                                         <strong>{{ $errors->first('email') }}</strong>

@@ -18,7 +18,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                    <img src="/public/images/studiePlekskes/study360.jpg" alt="study 360">
+                    <img src="{{ asset('images/studiePlekskes/study360.jpg') }}" alt="study 360">
                     <h4>STUDY360</h4>
                     <div class="block_">
                         <p>
@@ -37,7 +37,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                    <img src="/public/images/studiePlekskes/MAS.jpg" alt="MAS">
+                    <img src="{{ asset('images/studiePlekskes/MAS.jpg') }}" alt="MAS">
                     <h4>Het MAS</h4>
                     <div class="block_">
                         <p>
@@ -54,7 +54,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                    <img src="/public/images/studiePlekskes/kathedraal.jpg" alt="kathedraal">
+                    <img src="{{ asset('images/studiePlekskes/kathedraal.jpg') }}" alt="kathedraal">
                     <h4>De Kathedraal</h4>
                     <div class="block_">
                         <p>
@@ -73,7 +73,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                    <img src="/public/images/studiePlekskes/Kaffeenini.jpg" alt="Kaffeenini">
+                    <img src="{{ asset('images/studiePlekskes/Kaffeenini.jpg') }}" alt="Kaffeenini">
                     <h4>Kaffeenini</h4>
                     <div class="block_">
                         <p>
@@ -92,7 +92,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                    <img src="/public/images/studiePlekskes/bell.jpg" alt="Den Bell ">
+                    <img src="{{ asset('images/studiePlekskes/bell.jpg') }}" alt="Den Bell">
                     <h4>Den Bell </h4>
                     <div class="block_">
                         <p>
@@ -111,7 +111,7 @@
             <div class="col-sm-4 item">
                 <!-- 1 -->
                 <div class="block_img">
-                    <img src="/public/images/studiePlekskes/havenhuis.jpg" alt="havenhuis">
+                    <img src="{{ asset('images/studiePlekskes/havenhuis.jpg') }}" alt="havenhuis">
                     <h4>Havenhuis</h4>
                     <div class="block_">
                         <p>
