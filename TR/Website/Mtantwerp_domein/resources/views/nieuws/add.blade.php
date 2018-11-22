@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
-                <a href="..\nieuws">← Terug naar nieuws</a>
+                <a href="{{ route('news') }}">← Terug naar nieuws</a>
                 <br><br>
                 <div class="panel panel-default">
                     <div class="panel-heading">Nieuws & Events</div>
@@ -16,7 +16,7 @@
                     @include("common.messages")
 
                     <!-- CREATE -->
-                    {!! Form::open(array('url'=>'nieuws/add/nieuw','method'=>'POST', 'files'=>true, 'class'=>'form-horizontal')) !!}
+                    {!! Form::open(array('url'=> route('news_add_new'),'method'=>'POST', 'files'=>true, 'class'=>'form-horizontal')) !!}
 
                     <!--  Token field -->
                     {{ csrf_field() }}

@@ -61,18 +61,18 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <ul class="menu">
                     <!-- Left Side Of Navbar -->
-                    <li class="logoImg"><a href="{{ url('/home') }}"><img src="{{ asset('images/logo.png') }}" alt="Logo Antwerpen"/></a></li>
+                    <li class="logoImg"><a href="{{ route('index') }}"><img src="{{ asset('images/logo.png') }}" alt="Logo Antwerpen"/></a></li>
                     <!-- HOME -->
-                    <li class='{{ Request::is('home') ? 'active' : "" }}'><a href="{{ url('/home') }}">Home</a></li>
+                    <li class='{{ Request::is('home') ? 'active' : "" }}'><a href="{{ route('index')  }}">Home</a></li>
                     <!-- ONTDEK -->
-                    <li class='{{ Request::is('ontdek') ? 'active' : "" }}'><a href="{{ url('/ontdek') }}">Ontdek</a></li>
+                    <li class='{{ Request::is('ontdek') ? 'active' : "" }}'><a href="{{ route('discover') }}">Ontdek</a></li>
                     <!-- INFO -->
-                    <li class='{{ Request::is('info') ? 'active' : "" }}'><a href="{{ url('/info') }}">Info</a></li>
+                    <li class='{{ Request::is('info') ? 'active' : "" }}'><a href="{{ route('info') }}">Info</a></li>
                     <!-- NIEUWS -->
-                    <li class='{{ Request::is('nieuws') ? 'active' : "" }}'><a href="{{ url('/nieuws') }}">Nieuws</a></li>
+                    <li class='{{ Request::is('nieuws') ? 'active' : "" }}'><a href="{{ route('news') }}">Nieuws</a></li>
 
                     @if (Auth::guest())
-                        <li class='aanmeldenNav'><i class="fa fa-user"></i><a href="{{ url('/login') }} ">Aanmelden</a></li>
+                        <li class='aanmeldenNav'><i class="fa fa-user"></i><a href="{{ route('login') }} ">Aanmelden</a></li>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -80,18 +80,18 @@
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
-                                    <a href="{{ url('/logout') }}"
-                                       onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Uitloggen
+                                    @if( Auth::user()->name == "Admin" || Auth::user()->email == "robbertluit@hotmail.com")
+                                        <a href="{{ route('admin_panel') }}">
+                                            Admin panel
+                                        </a>
+                                    @endif
+                                    <a href="{{ url('/logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                        Uitloggen
                                     </a>
-                                    <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         {{ csrf_field() }}
                                     </form>
                                 </li>
-                                @if( Auth::user()->name == "Admin")
-                                    <li>
-                                        <a href="{{ url('/admin-panel') }}">Admin-panel</a>
-                                    </li>
-                                @endif
                             </ul>
                         </li>
                     @endif

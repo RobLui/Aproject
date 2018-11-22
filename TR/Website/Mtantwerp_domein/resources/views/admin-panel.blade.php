@@ -11,13 +11,13 @@
         <div class="panel-content">
             <div class="one">
                 <div class="_admin">
-                    <a href="/nieuws">Nieuws &amp Evenementen</a>
+                    <a href="{{ route('news') }}">Nieuws &amp Evenementen</a>
                 </div>
                 <div class="_admin">
-                    <a href="/info/studieaanbod">Scholen &amp Richtingen</a>
+                    <a href="{{ route('study_offer') }}">Scholen &amp Richtingen</a>
                 </div>
                 <div class="_admin">
-                    <a href="/approval">Goedkeuren</a>
+                    <a href="{{ route('approval') }}">Goedkeuren</a>
                 </div>
             </div>
         </div>

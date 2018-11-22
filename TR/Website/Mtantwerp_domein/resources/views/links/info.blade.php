@@ -29,7 +29,7 @@
 
         <!-- BLOKKEN MET ELEMENTEN -->
         <div class="rwpa">
-            <a href="/info/studieaanbod" target="_blank">
+            <a href="{{ route('study_offer') }}" target="_blank">
                 <h3>Studieaanbod</h3>
                 Er nog niet helemaal uit wat je wil studeren?
                 Klik hier voor een volledig overzicht van scholen en hun richting aanbod!
