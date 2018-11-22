@@ -47,7 +47,7 @@
 
                         <!-- CHECKBOX -->
                         @if(isset(Auth::user()->name))
-                            @if(Auth::user()->name == "Admin")
+                            @if(Auth::user()->name == "Admin" || Auth::user()->email == "robbertluit@hotmail.com")
                                 <div class="form-group">
                                     <div class="col-sm-offset-3 col-sm-6">
                                         <label class="btn btn-primary">

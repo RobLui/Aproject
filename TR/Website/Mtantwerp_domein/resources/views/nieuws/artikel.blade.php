@@ -16,7 +16,7 @@
                         <p>{{ $news->text }}</p>
                     </div>
                     <div class="link_back">
-                        <a href="/nieuws">← Terug naar alle artikels en evenementen</a>
+                        <a href="{{ route('news') }}">← Terug naar alle artikels en evenementen</a>
                     </div>
                 </div>
             </div>

@@ -221,7 +221,7 @@ ul.dropdown-menu li {
 div.panel-heading {
     font-size: 1em;
     text-align: center;
-    background-image: url('images/panelbg.jpg') !important;
+    background-image: url('/images/panelbg.jpg') !important;
 }
 
 button.x {
@@ -255,10 +255,8 @@ button.x {
 }
 
 .richtingen_class {
-    margin: auto 0;
     margin-bottom: 2em;
     display: block;
-    margin: 0 auto;
     text-align: center;
     text-decoration: none;
     list-style: none;
@@ -1128,13 +1126,13 @@ h1 {
 
     .rwpa a:nth-child(2), .rwpa a:nth-child(3), .rwpa a:nth-child(6) { /* THIS ONE - font weight */
         font-weight: 500;
-        background-image: url("/public/images/footer_img.jpg");
+        background-image: url('/images/footer_img.jpg');
         color: #d01f38;
     }
 
     .rwpa a:nth-child(2) h3, .rwpa a:nth-child(3) h3, .rwpa a:nth-child(6) h3 {
         color: #d01f38;
-        font: 'Antwerpen';
+        font-family: 'Antwerpen', 'sans-serif';
     }
 }
 
@@ -1142,7 +1140,7 @@ h1 {
     margin: 0 auto;
     text-align: center;
     display: block;
-    background-image: url("/public/images/lowpoly.jpg");
+    background-image: url('/images/lowpoly.jpg');
     background-position: center;
 }
 
@@ -1277,7 +1275,7 @@ h1 {
 }
 
 ._admin {
-    background-image: url("/public/images/lowpoly.jpg");
+    background-image: url('/images/lowpoly.jpg');
     background-position: center;
 }
 
@@ -1650,7 +1648,7 @@ h1 {
     .rwpa a:nth-child(2), .rwpa a:nth-child(4), .rwpa a:nth-child(6) {
         background-color: #eeeeee;
         font-weight: 500;
-        background-image: url("/public/images/footer_img.jpg");
+        background-image: url('/images/footer_img.jpg');
         color: #d01f38;
     }
 

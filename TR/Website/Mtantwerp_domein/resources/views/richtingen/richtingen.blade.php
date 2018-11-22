@@ -11,13 +11,12 @@
                     <h2>Studieaanbod</h2>
                 </div>
 
-                <!--  Messages & Errors-->
             @include("common.messages")
             @include("common.errors")
 
             <!--  TOEVOEGEN -->
             @if(isset(Auth::user()->name))
-                @if(Auth::user()->name == "Admin")
+                @if(Auth::user()->name == "Admin" || Auth::user()->email == "robbertluit@hotmail.com"  )
                     @include('richtingen.add')
                 @endif
             @endif
