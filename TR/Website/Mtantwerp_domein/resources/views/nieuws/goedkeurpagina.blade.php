@@ -19,7 +19,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    @if(count($nieuws) > 0)
+                    @if (!empty($nieuws))
                         @foreach($nieuws as $n)
                             @if($n->allowed == 1)
                                 <tr>
@@ -56,7 +56,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    @if(count($nieuws) > 0)
+                    @if (!empty($nieuws))
                         @foreach($nieuws as $n)
                             @if($n->allowed == 0)
                                 <tr>
